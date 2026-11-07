@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Watch history after relaunch",
+    "file": "watch-history-after-relaunch.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "sourceResult": "TestResults/WatchVerifiedFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Totals",
+    "file": "watch-totals.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "sourceResult": "TestResults/WatchVerifiedFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Study active",
+    "file": "watch-study-active.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "sourceResult": "TestResults/WatchVerifiedFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch workload wheel",
+    "file": "watch-workload-wheel.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "sourceResult": "TestResults/WatchVerifiedFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch OUT",
+    "file": "watch-out.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "sourceResult": "TestResults/WatchVerifiedFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "sessions": [
+    {
+      "colorHex": "43D10D",
+      "end": 815735266.633208,
+      "id": "5F218A43-A3A5-4B52-A194-3804B0CFFF8D",
+      "modifiedAt": 815735266.633283,
+      "source": "iPhone",
+      "start": 815735265.374272,
+      "timerBoundaries": [
+        {
+          "id": "5F218A43-A3A5-4B52-A194-3804B0CFFF8D",
+          "start": 815735265.374272,
+          "timestamp": 815735265.374271
+        }
+      ],
+      "workloadID": "00000000-0000-0000-0000-000000000001",
+      "workloadName": "Work"
+    },
+    {
+      "colorHex": "2699F5",
+      "end": 815735269.040116,
+      "id": "C2D6D863-7DEB-4CA6-B6AC-159F8B764E8B",
+      "modifiedAt": 815735269.040124,
+      "source": "watch",
+      "start": 815735266.944572,
+      "timerBoundaries": [
+        {
+          "id": "C2D6D863-7DEB-4CA6-B6AC-159F8B764E8B",
+          "start": 815735266.944572,
+          "timestamp": 815735266.944572
+        }
+      ],
+      "workloadID": "00000000-0000-0000-0000-000000000002",
+      "workloadName": "Study"
+    }
+  ],
+  "settings": {
+    "dailyLimitHours": 8,
+    "focus": "balance",
+    "modifiedAt": -63114076800,
+    "themeHex": "43D10D",
+    "weekStartsMonday": true,
+    "weeklyGoalHours": 40
+  },
+  "workloads": [
+    {
+      "colorHex": "43D10D",
+      "id": "00000000-0000-0000-0000-000000000001",
+      "isArchived": false,
+      "modifiedAt": -63114076800,
+      "name": "Work"
+    },
+    {
+      "colorHex": "2699F5",
+      "id": "00000000-0000-0000-0000-000000000002",
+      "isArchived": false,
+      "modifiedAt": -63114076800,
+      "name": "Study"
+    },
+    {
+      "colorHex": "7955EB",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "isArchived": false,
+      "modifiedAt": -63114076800,
+      "name": "Personal"
+    }
+  ]
+}

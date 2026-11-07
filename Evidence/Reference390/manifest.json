@@ -1,0 +1,62 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "7E33F8C2-3C46-4470-8993-18DAEFE65DB7.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Statistics W_0_B4522F41-1D47-4350-BD1E-88F28B6AA247.png",
+        "timestamp" : 1794039237.399
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "5D7877E2-0745-4CA3-B641-7AA48BE5517D.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Idle Track_0_2648706F-74D4-4345-9259-E97647D847FE.png",
+        "timestamp" : 1794039232.495
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "23ACCC27-D058-451A-AA99-6C7BA42399BA.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings accessibility_0_5F5C34EB-C549-4A00-AA14-CCC0FC2099EC.txt",
+        "timestamp" : 1794039227.19
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "083D1A70-1C22-49DC-9BA0-CEBCE3D77913.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings goals_0_EE2B3CD9-9762-4D35-8BDF-D5FD7FDA73B1.png",
+        "timestamp" : 1794039226.475
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "8B78A269-3161-4998-A475-6176F6281856.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings top_0_B0F43CE4-4B6C-45EB-8E14-89C2FCC3DFD4.png",
+        "timestamp" : 1794039226.233
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1B529799-EF59-49CC-8D1F-CB3954354FC8",
+        "deviceName" : "Punchino Reference 390",
+        "exportedFileName" : "9F3B9413-F3CB-4802-9309-99700B372CF5.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Home_0_E3562095-79D4-4338-B058-115B4B84962D.png",
+        "timestamp" : 1794039223.729
+      }
+    ],
+    "testIdentifier" : "PunchinoUITests/testReferenceAppearance()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testReferenceAppearance"
+  }
+]

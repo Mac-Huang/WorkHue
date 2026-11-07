@@ -1,0 +1,589 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project Punchino.xcodeproj -scheme PunchinoWatch -configuration Debug -destination "platform=watchOS Simulator,id=5E68B1C0-177E-4CF8-A502-E65CAB51A8AC" -derivedDataPath /tmp/punchino-watch-build -resultBundlePath TestResults/WatchActiveFinal.xcresult -parallel-testing-enabled NO "-only-testing:PunchinoWatchUITests/PunchinoWatchUITests" CODE_SIGN_IDENTITY=- CODE_SIGNING_ALLOWED=YES CODE_SIGNING_REQUIRED=NO test
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = -
+    CODE_SIGNING_ALLOWED = YES
+    CODE_SIGNING_REQUIRED = NO
+
+Writing result bundle at path:
+	/Users/xuming/Documents/ChatGPT/IOS App/TestResults/WatchActiveFinal.xcresult
+
+note: Using codesigning identity override: -
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (3 targets)
+    Target 'PunchinoWatchUITests' in project 'Punchino'
+        ➜ Explicit dependency on target 'PunchinoWatch' in project 'Punchino'
+    Target 'PunchinoWatch' in project 'Punchino'
+        ➜ Explicit dependency on target 'PunchinoWatchWidgets' in project 'Punchino'
+    Target 'PunchinoWatchWidgets' in project 'Punchino' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/xuming/Documents/ChatGPT/IOS App/Watch/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: f32a188957c1e07b8f130a89b61513be
+Build description path: /tmp/punchino-watch-build/Build/Intermediates.noindex/XCBuildData/f32a188957c1e07b8f130a89b61513be.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App/Punchino.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -o /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache
+
+ProcessInfoPlistFile /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchWidgets.appex/Info.plist /Users/xuming/Documents/ChatGPT/IOS\ App/Config/Widget-Info.plist (in target 'PunchinoWatchWidgets' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-infoPlistUtility /Users/xuming/Documents/ChatGPT/IOS\ App/Config/Widget-Info.plist -producttype com.apple.product-type.app-extension -expandbuildsettings -format binary -platform watchsimulator -o /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchWidgets.appex/Info.plist
+
+SwiftDriver PunchinoWatch normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target arm64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver PunchinoWatch normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target x86_64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ PunchinoWatch (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftCompile normal x86_64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PunchinoWatch (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftCompile normal arm64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    
+
+SwiftCompile normal x86_64 Compiling\ PunchinoWatchApp.swift /Users/xuming/Documents/ChatGPT/IOS\ App/Watch/PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftCompile normal x86_64 /Users/xuming/Documents/ChatGPT/IOS\ App/Watch/PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-SwiftPerFileCompile PunchinoWatchApp.swift
+
+SwiftCompile normal arm64 Compiling\ PunchinoWatchApp.swift /Users/xuming/Documents/ChatGPT/IOS\ App/Watch/PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftCompile normal arm64 /Users/xuming/Documents/ChatGPT/IOS\ App/Watch/PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-SwiftPerFileCompile PunchinoWatchApp.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PunchinoWatch (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftDriver\ Compilation\ Requirements PunchinoWatch normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target arm64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for PunchinoWatch (in target 'PunchinoWatch' from project 'Punchino')
+
+Copy /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftsourceinfo (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftsourceinfo /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/Project/arm64-apple-watchos-simulator.swiftsourceinfo
+
+Copy /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/arm64-apple-watchos-simulator.abi.json /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.abi.json (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.abi.json /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/arm64-apple-watchos-simulator.abi.json
+
+SwiftDriver\ Compilation\ Requirements PunchinoWatch normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target x86_64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+Copy /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/x86_64-apple-watchos-simulator.abi.json /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.abi.json (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.abi.json /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/x86_64-apple-watchos-simulator.abi.json
+
+Copy /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftsourceinfo (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftsourceinfo /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.swiftmodule/Project/x86_64-apple-watchos-simulator.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftDriver\ Compilation PunchinoWatch normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target arm64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/arm64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch.debug.dylib normal arm64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-watchos26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/punchino-watch-build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator -L/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -filelist /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.LinkFileList -install_name @rpath/PunchinoWatch.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -Xlinker -no_adhoc_codesign -o /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch.debug.dylib
+
+SwiftDriverJobDiscovery normal x86_64 Compiling PunchinoWatchApp.swift (in target 'PunchinoWatch' from project 'Punchino')
+
+SwiftDriver\ Compilation PunchinoWatch normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PunchinoWatch -Onone @/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.SwiftFileList -DDEBUG -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -target x86_64-apple-watchos26.0-simulator -g -module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /tmp/punchino-watch-build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -emit-localized-strings -emit-localized-strings-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64 -c -j15 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /tmp/punchino-watch-build/SDKStatCaches.noindex/watchsimulator27.2-24S118-b9fa32cfc2bdb801fba35bd912eef9f2.sdkstatcache -output-file-map /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /tmp/punchino-watch-build/ModuleCache.noindex -sdk-module-cache-path /tmp/punchino-watch-build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file /tmp/punchino-watch-build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_const_extract_protocols.json -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-generated-files.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-own-target-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-all-target-headers.hmap -Xcc -iquote -Xcc /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-project-headers.hmap -Xcc -I/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/include -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources-normal/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources/x86_64 -Xcc -I/tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch-Swift.h -working-directory /Users/xuming/Documents/ChatGPT/IOS\ App -experimental-emit-module-separately -disable-cmo
+
+Ld /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch.debug.dylib normal x86_64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-watchos26.0-simulator -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/punchino-watch-build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator -L/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -filelist /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.LinkFileList -install_name @rpath/PunchinoWatch.debug.dylib -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -Xlinker -no_adhoc_codesign -o /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch.debug.dylib
+
+ConstructStubExecutorLinkFileList /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-arm64.txt (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    construct-stub-executor-link-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'PunchinoWatch' from project 'Punchino')
+
+ConstructStubExecutorLinkFileList /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-x86_64.txt (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    construct-stub-executor-link-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'PunchinoWatch' from project 'Punchino')
+
+CreateUniversalBinary /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch.debug.dylib normal arm64\ x86_64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch.debug.dylib /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch.debug.dylib -output /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch.debug.dylib
+
+Ld /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch normal x86_64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-watchos26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.app-Simulated.xcent.der /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch.debug.dylib -Xlinker -no_adhoc_codesign -o /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch
+
+Ld /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch normal arm64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-watchos26.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -F/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch-ExecutorLinkFileList-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.app-Simulated.xcent -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __ents_der -Xlinker /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.app-Simulated.xcent.der /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch.debug.dylib -Xlinker -no_adhoc_codesign -o /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch
+
+CreateUniversalBinary /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch normal arm64\ x86_64 (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/Binary/PunchinoWatch /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/Binary/PunchinoWatch -output /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch
+
+CopySwiftLibs /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch.debug.dylib --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/Frameworks --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PlugIns --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/SystemExtensions --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/Extensions --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework --platform watchsimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+ProcessInfoPlistFile /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/Info.plist /Users/xuming/Documents/ChatGPT/IOS\ App/Config/Watch-Info.plist (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-infoPlistUtility /Users/xuming/Documents/ChatGPT/IOS\ App/Config/Watch-Info.plist -producttype com.apple.product-type.application -genpkginfo /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PkgInfo -expandbuildsettings -format binary -platform watchsimulator -additionalcontentfile /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/assetcatalog_generated_info.plist -scanforprivacyfile /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PlugIns/PunchinoWatchWidgets.appex -o /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/Info.plist
+
+ExtractAppIntentsMetadata (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name PunchinoWatch --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/SDKs/WatchSimulator27.2.sdk --xcode-version 27B52 --platform-family watchOS --deployment-target 26.0 --bundle-identifier com.xuming.PunchinoColor.watchkitapp --output /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app --target-triple arm64-apple-watchos26.0-simulator --target-triple x86_64-apple-watchos26.0-simulator --binary-file /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch --dependency-file /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch_dependency_info.dat --dependency-file /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch_dependency_info.dat --stringsdata-file /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.SwiftFileList --source-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.SwiftFileList --metadata-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.DependencyMetadataFileList --static-metadata-file-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.DependencyStaticMetadataFileList --swift-const-vals-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/arm64/PunchinoWatch.SwiftConstValuesFileList --swift-const-vals-list /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/Objects-normal/x86_64/PunchinoWatch.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-11-07 12:47:51.951 appintentsmetadataprocessor[99380:73389639] Starting App Intents metadata extraction
+2026-11-07 12:47:52.020 appintentsmetadataprocessor[99380:73389639] Extracted no relevant App Intents symbols, skipping writing output
+
+CodeSign /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch.debug.dylib (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der --strip-disallowed-xattrs /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/PunchinoWatch.debug.dylib
+
+CodeSign /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/__preview.dylib (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der --strip-disallowed-xattrs /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/__preview.dylib
+/tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app/__preview.dylib: replacing existing signature
+
+CodeSign /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatch.build/PunchinoWatch.app.xcent --timestamp\=none --generate-entitlement-der --strip-disallowed-xattrs /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app
+
+Validate /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app (in target 'PunchinoWatch' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-validationUtility /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatch.app -shallow-bundle -infoplist-subpath Info.plist
+
+ProcessInfoPlistFile /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/Info.plist /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatchUITests.build/empty-PunchinoWatchUITests.plist (in target 'PunchinoWatchUITests' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-infoPlistUtility /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatchUITests.build/empty-PunchinoWatchUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform watchsimulator -additionalcontentfile /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatchUITests.build/ProductTypeInfoPlistAdditions.plist -o /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/Info.plist
+
+CopySwiftLibs /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest (in target 'PunchinoWatchUITests' from project 'Punchino')
+    cd /Users/xuming/Documents/ChatGPT/IOS\ App
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/PunchinoWatchUITests --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/Frameworks --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/PlugIns --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/SystemExtensions --scan-folder /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/Extensions --scan-folder /Applications/Xcode.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework --platform watchsimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /tmp/punchino-watch-build/Build/Products/Debug-watchsimulator/PunchinoWatchUITests-Runner.app/PlugIns/PunchinoWatchUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/WatchSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /tmp/punchino-watch-build/Build/Intermediates.noindex/Punchino.build/Debug-watchsimulator/PunchinoWatchUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
+
+PruneExplicitPrecompiledModules /tmp/punchino-watch-build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/punchino-watch-build/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules /tmp/punchino-watch-build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+2026-11-07 12:47:54.367363-0600 PunchinoWatchUITests-Runner[99395:73389933] [Default] Running tests...
+Test Suite 'Selected tests' started at 2026-11-07 12:47:54.543.
+Test Suite 'PunchinoWatchUITests.xctest' started at 2026-11-07 12:47:54.543.
+Test Suite 'PunchinoWatchUITests' started at 2026-11-07 12:47:54.544.
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testBlackAndWhiteWorkloadsRemainReadable]' started.
+    t =     0.00s Start Test at 2026-11-07 12:47:54.544
+    t =     0.03s Set Up
+    t =     0.03s Open com.xuming.PunchinoColor.watchkitapp
+    t =     0.03s     Launch com.xuming.PunchinoColor.watchkitapp
+    t =     0.03s         Waiting for system app quiescence
+2026-11-07 12:47:54.787 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:47:54.788 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+objc[99395]: Class UIAccessibilityLoaderWebShared is implemented in both /private/var/run/com.apple.security.cryptexd/mnt/watchOS_23T570/Library/Developer/CoreSimulator/Profiles/Runtimes/watchOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x10ac24310) and /private/var/run/com.apple.security.cryptexd/mnt/watchOS_23T570/Library/Developer/CoreSimulator/Profiles/Runtimes/watchOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x106660758). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.67s         Setting up automation session
+    t =     2.22s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     3.36s Waiting 10.0s for "watchPunchButton" Button to exist
+    t =     4.40s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =     4.40s         Checking existence of `"watchPunchButton" Button`
+    t =     4.44s Tap "watchPunchButton" Button
+    t =     4.44s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.44s     Find the "watchPunchButton" Button
+    t =     4.44s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =     4.45s     Synthesize event
+    t =     4.74s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     5.47s Waiting 5.0s for "watchWorkloadPicker" Any to exist
+    t =     6.51s     Checking `Expect predicate `existsNoRetry == 1` for object "watchWorkloadPicker" Any`
+    t =     6.51s         Checking existence of `"watchWorkloadPicker" Any`
+    t =     6.53s Find the "watchWorkloadPicker" Any
+    t =     6.54s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     6.57s Added attachment named 'Watch Black workload wheel and confirmation'
+    t =     6.57s Tap "watchConfirmPunchIn" Button
+    t =     6.57s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     6.57s     Find the "watchConfirmPunchIn" Button
+    t =     6.58s     Check for interrupting elements affecting "watchConfirmPunchIn" Button
+    t =     6.59s     Synthesize event
+    t =     6.88s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     7.22s Waiting 5.0s for "watchActiveWorkload" Any to exist
+    t =     8.26s     Checking `Expect predicate `existsNoRetry == 1` for object "watchActiveWorkload" Any`
+    t =     8.26s         Checking existence of `"watchActiveWorkload" Any`
+    t =     8.28s Find the "watchActiveWorkload" Any
+    t =     8.28s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     8.30s Added attachment named 'Watch Black active light ink and outline'
+    t =     8.30s Tap "watchPunchButton" Button
+    t =     8.30s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     8.30s     Find the "watchPunchButton" Button
+    t =     8.30s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =     8.31s     Synthesize event
+    t =     8.60s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     8.60s Tap "watchPunchButton" Button
+    t =     8.60s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     8.60s     Find the "watchPunchButton" Button
+    t =     8.61s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =     8.62s     Synthesize event
+    t =     8.90s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     9.51s Waiting 5.0s for "watchWorkloadPicker" Other to exist
+    t =    10.55s     Checking `Expect predicate `existsNoRetry == 1` for object "watchWorkloadPicker" Other`
+    t =    10.55s         Checking existence of `"watchWorkloadPicker" Other`
+    t =    10.58s Tap "watchWorkloadPicker" Other
+    t =    10.58s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    10.59s     Find the "watchWorkloadPicker" Other
+    t =    10.61s     Check for interrupting elements affecting "watchWorkloadPicker" Other
+    t =    10.63s     Synthesize event
+    t =    10.92s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    10.93s Find the "watchWorkloadPicker" Other
+    t =    10.94s Scrolling digital crown with rotation 0.08 and velocity 0.5
+    t =    16.29s Find the "watchWorkloadPicker" Other
+    t =    16.31s Find the "watchWorkloadPicker" Other
+    t =    16.32s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    16.35s Added attachment named 'Watch White workload wheel and confirmation'
+    t =    16.35s Tap "watchConfirmPunchIn" Button
+    t =    16.35s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    16.35s     Find the "watchConfirmPunchIn" Button
+    t =    16.36s     Check for interrupting elements affecting "watchConfirmPunchIn" Button
+    t =    16.38s     Synthesize event
+    t =    16.67s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    17.01s Waiting 5.0s for "watchActiveWorkload" StaticText to exist
+    t =    18.05s     Checking `Expect predicate `existsNoRetry == 1` for object "watchActiveWorkload" StaticText`
+    t =    18.05s         Checking existence of `"watchActiveWorkload" StaticText`
+    t =    18.07s Find the "watchActiveWorkload" StaticText
+    t =    18.08s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    18.11s Added attachment named 'Watch White active dark ink'
+    t =    18.11s Tap "watchPunchButton" Button
+    t =    18.12s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    18.12s     Find the "watchPunchButton" Button
+    t =    18.13s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =    18.18s     Synthesize event
+    t =    18.48s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    18.48s Terminate com.xuming.PunchinoColor.watchkitapp:99406
+    t =    19.54s Open com.xuming.PunchinoColor.watchkitapp
+    t =    19.54s     Launch com.xuming.PunchinoColor.watchkitapp
+2026-11-07 12:48:14.085 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:48:14.085 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    19.75s         Setting up automation session
+    t =    20.26s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    21.37s Waiting 5.0s for "watchPunchButton" Button to exist
+    t =    22.40s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =    22.40s         Checking existence of `"watchPunchButton" Button`
+    t =    22.44s Find the "watchPunchButton" Button
+    t =    22.44s Tap "watchPunchButton" Button
+    t =    22.44s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    22.44s     Find the "watchPunchButton" Button
+    t =    22.45s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =    22.46s     Synthesize event
+    t =    22.75s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    23.40s Waiting 5.0s for "watchWorkloadPicker" Other to exist
+    t =    24.44s     Checking `Expect predicate `existsNoRetry == 1` for object "watchWorkloadPicker" Other`
+    t =    24.44s         Checking existence of `"watchWorkloadPicker" Other`
+    t =    24.47s Find the "watchWorkloadPicker" Other
+    t =    24.48s Tap "watchWorkloadPicker" Other
+    t =    24.48s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    24.48s     Find the "watchWorkloadPicker" Other
+    t =    24.49s     Check for interrupting elements affecting "watchWorkloadPicker" Other
+    t =    24.50s     Synthesize event
+    t =    24.79s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    24.80s Find the "watchWorkloadPicker" Other
+    t =    24.81s Scrolling digital crown with rotation 0.08 and velocity 0.5
+    t =    30.17s Find the "watchWorkloadPicker" Other
+    t =    30.19s Find the "watchWorkloadPicker" Other
+    t =    30.20s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    30.26s Added attachment named 'Watch Black and White workload definitions after relaunch'
+    t =    30.26s Tear Down
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testBlackAndWhiteWorkloadsRemainReadable]' passed (30.558 seconds).
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testCrownWorkloadSelectionPunchOutAndPersistentTotals]' started.
+    t =     0.00s Start Test at 2026-11-07 12:48:25.104
+    t =     0.03s Set Up
+    t =     0.03s Open com.xuming.PunchinoColor.watchkitapp
+    t =     0.03s     Launch com.xuming.PunchinoColor.watchkitapp
+    t =     0.03s         Terminate com.xuming.PunchinoColor.watchkitapp:99458
+2026-11-07 12:48:26.201 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:48:26.201 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.31s         Setting up automation session
+    t =     2.02s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     3.26s Waiting 10.0s for "watchPunchButton" Button to exist
+    t =     4.29s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =     4.30s         Checking existence of `"watchPunchButton" Button`
+    t =     4.34s Find the "watchPunchButton" Button
+    t =     4.35s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     4.37s Added attachment named 'Watch OUT'
+    t =     4.38s Tap "watchPunchButton" Button
+    t =     4.38s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.38s     Find the "watchPunchButton" Button
+    t =     4.39s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =     4.41s     Synthesize event
+    t =     4.71s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.72s Waiting 5.0s for "watchWorkloadPicker" Any to exist
+    t =     5.76s     Checking `Expect predicate `existsNoRetry == 1` for object "watchWorkloadPicker" Any`
+    t =     5.76s         Checking existence of `"watchWorkloadPicker" Any`
+    t =     5.78s Tap "watchWorkloadPicker" Any
+    t =     5.78s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     5.79s     Find the "watchWorkloadPicker" Any
+    t =     5.81s     Check for interrupting elements affecting "watchWorkloadPicker" Other
+    t =     5.83s     Synthesize event
+    t =     6.12s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     6.13s Find the "watchWorkloadPicker" Other
+Workload picker value: Work
+    t =     6.14s Scrolling digital crown with rotation 0.1 and velocity 0.5
+    t =    11.53s Find the "watchWorkloadPicker" Other
+Workload picker value: Study
+    t =    11.54s Find the "watchWorkloadPicker" Other
+    t =    11.55s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    11.58s Added attachment named 'Watch workload wheel'
+    t =    11.58s Tap "watchConfirmPunchIn" Button
+    t =    11.58s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    11.58s     Find the "watchConfirmPunchIn" Button
+    t =    11.60s     Check for interrupting elements affecting "watchConfirmPunchIn" Button
+    t =    11.61s     Synthesize event
+    t =    11.90s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    12.28s Waiting 5.0s for "watchActiveWorkload" Any to exist
+    t =    13.32s     Checking `Expect predicate `existsNoRetry == 1` for object "watchActiveWorkload" Any`
+    t =    13.32s         Checking existence of `"watchActiveWorkload" Any`
+    t =    13.34s Find the "watchActiveWorkload" Any
+    t =    13.34s Find the "watchPunchButton" Button
+    t =    13.35s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    13.37s Added attachment named 'Watch Study active'
+Waiting 61 seconds for an observable isolated one-minute session.
+    t =    74.46s Tap "watchPunchButton" Button
+    t =    74.46s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    74.46s     Find the "watchPunchButton" Button
+    t =    74.48s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =    74.49s     Synthesize event
+    t =    74.78s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    74.78s Find the "watchPunchButton" Button
+    t =    74.79s Terminate com.xuming.PunchinoColor.watchkitapp:99610
+    t =    75.87s Open com.xuming.PunchinoColor.watchkitapp
+    t =    75.87s     Launch com.xuming.PunchinoColor.watchkitapp
+2026-11-07 12:49:40.976 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:49:40.976 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =    76.08s         Setting up automation session
+    t =    76.59s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    77.69s Waiting 5.0s for "watchPunchButton" Button to exist
+    t =    78.73s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =    78.73s         Checking existence of `"watchPunchButton" Button`
+    t =    78.77s Find the "watchPunchButton" Button
+    t =    78.77s Swipe left Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    78.77s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    78.78s     Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    78.78s     Check for interrupting elements affecting "Punchino" Application
+    t =    78.79s     Synthesize event
+    t =    79.19s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    79.26s Waiting 5.0s for "watchPeriod-Today" Any to exist
+    t =    80.30s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPeriod-Today" Any`
+    t =    80.30s         Checking existence of `"watchPeriod-Today" Any`
+    t =    80.31s Checking existence of `"watchPeriod-Today" Any`
+    t =    80.32s Find the "watchPeriod-Today" Any
+    t =    80.33s Checking existence of `"watchPeriod-This Week" Any`
+    t =    80.33s Find the "watchPeriod-This Week" Any
+    t =    80.34s Checking existence of `"watchPeriod-This Month" Any`
+    t =    80.34s Find the "watchPeriod-This Month" Any
+    t =    80.35s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    80.36s Added attachment named 'Watch persisted one-minute totals after relaunch'
+    t =    80.36s Tap "watchPeriod-Today" Any
+    t =    80.36s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    80.37s     Find the "watchPeriod-Today" Any
+    t =    80.37s     Check for interrupting elements affecting "watchPeriod-Today" StaticText
+    t =    80.38s     Synthesize event
+    t =    80.67s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    80.68s Find the "watchPeriod-This Week" Any
+    t =    80.69s Find the "watchPeriod-This Month" Any
+    t =    80.70s Tear Down
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testCrownWorkloadSelectionPunchOutAndPersistentTotals]' passed (80.915 seconds).
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testWatchReferenceActiveAppearance]' started.
+    t =     0.00s Start Test at 2026-11-07 12:49:46.020
+    t =     0.02s Set Up
+    t =     0.02s Open com.xuming.PunchinoColor.watchkitapp
+    t =     0.02s     Launch com.xuming.PunchinoColor.watchkitapp
+    t =     0.02s         Terminate com.xuming.PunchinoColor.watchkitapp:99918
+2026-11-07 12:49:47.095 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:49:47.095 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.29s         Setting up automation session
+    t =     1.70s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     2.81s Waiting 10.0s for "watchPunchButton" Button to exist
+    t =     3.85s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =     3.85s         Checking existence of `"watchPunchButton" Button`
+    t =     3.87s Find the "watchPunchButton" Button
+    t =     3.88s Tap "watchPunchButton" Button
+    t =     3.88s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     3.88s     Find the "watchPunchButton" Button
+    t =     3.89s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =     3.90s     Synthesize event
+    t =     4.19s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.83s Waiting 5.0s for "watchWorkloadPicker" Any to exist
+    t =     5.86s     Checking `Expect predicate `existsNoRetry == 1` for object "watchWorkloadPicker" Any`
+    t =     5.86s         Checking existence of `"watchWorkloadPicker" Any`
+    t =     5.89s Tap "watchWorkloadPicker" Any
+    t =     5.89s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     5.89s     Find the "watchWorkloadPicker" Any
+    t =     5.90s     Check for interrupting elements affecting "watchWorkloadPicker" Other
+    t =     5.91s     Synthesize event
+    t =     6.20s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     6.20s Find the "watchWorkloadPicker" Other
+    t =     6.22s Scrolling digital crown with rotation 0.1 and velocity 0.5
+    t =    11.60s Find the "watchWorkloadPicker" Other
+    t =    11.61s Find the "watchWorkloadPicker" Other
+    t =    11.63s Tap "watchConfirmPunchIn" Button
+    t =    11.63s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    11.63s     Find the "watchConfirmPunchIn" Button
+    t =    11.65s     Check for interrupting elements affecting "watchConfirmPunchIn" Button
+    t =    11.66s     Synthesize event
+    t =    11.95s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    12.32s Waiting 5.0s for "watchActiveWorkload" Any to exist
+    t =    13.35s     Checking `Expect predicate `existsNoRetry == 1` for object "watchActiveWorkload" Any`
+    t =    13.35s         Checking existence of `"watchActiveWorkload" Any`
+    t =    13.36s Find the "watchActiveWorkload" Any
+    t =    13.37s Find the "watchPunchButton" Button
+    t =    13.38s Find the "watchPunchButton" Button
+    t =    13.40s Find the "watchActiveWorkload" StaticText
+Watch reference active frames: punch=(58.0, 63.0, 82.0, 82.0), started=(54.5, 156.5, 90.75, 13.5)
+    t =    13.41s Find the "watchPunchButton" Button
+Watch reference active environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=IN=28.00,OUT=28.00,timer=13.00;timerInkOpacity=0.70)
+    t =    13.41s Find the "watchPunchButton" Button
+    t =    13.42s Find the "watchPunchButton" Button
+    t =    13.43s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    13.44s Added attachment named 'Watch reference bold Study active'
+    t =    13.44s Tap "watchPunchButton" Button
+    t =    13.44s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    13.44s     Find the "watchPunchButton" Button
+    t =    13.45s     Check for interrupting elements affecting "watchPunchButton" Button
+    t =    13.46s     Synthesize event
+    t =    13.75s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    13.75s Find the "watchPunchButton" Button
+    t =    13.76s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    13.77s Added attachment named 'Watch reference idle after synthetic stop'
+    t =    13.77s Swipe left Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    13.77s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    13.78s     Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    13.78s     Check for interrupting elements affecting "Punchino" Application
+    t =    13.79s     Synthesize event
+    t =    14.20s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    14.26s Waiting 5.0s for "watchPeriod-Today" Any to exist
+    t =    15.30s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPeriod-Today" Any`
+    t =    15.30s         Checking existence of `"watchPeriod-Today" Any`
+    t =    15.31s Tap "watchPeriod-Today" Any
+    t =    15.31s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    15.31s     Find the "watchPeriod-Today" Any
+    t =    15.32s     Check for interrupting elements affecting "watchPeriod-Today" StaticText
+    t =    15.34s     Synthesize event
+    t =    15.64s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =    15.64s Find the "watchPeriod-This Week" Any
+    t =    15.65s Find the "watchPeriod-This Month" Any
+    t =    15.67s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =    15.68s Added attachment named 'Watch reference read-only Totals after synthetic stop'
+    t =    15.68s Tear Down
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testWatchReferenceActiveAppearance]' passed (15.898 seconds).
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testWatchReferenceAppearance]' started.
+    t =     0.00s Start Test at 2026-11-07 12:50:01.918
+    t =     0.02s Set Up
+    t =     0.02s Open com.xuming.PunchinoColor.watchkitapp
+    t =     0.02s     Launch com.xuming.PunchinoColor.watchkitapp
+    t =     0.02s         Terminate com.xuming.PunchinoColor.watchkitapp:99929
+2026-11-07 12:50:02.989 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: debugger version lookup failed for path '<nil>': noURL
+2026-11-07 12:50:02.989 xcodebuild[99321:73389275] [MT] IDELaunchParametersSnapshot: no debugger version
+    t =     1.28s         Setting up automation session
+    t =     1.81s         Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     2.96s Waiting 10.0s for "watchPunchButton" Button to exist
+    t =     3.99s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPunchButton" Button`
+    t =     4.00s         Checking existence of `"watchPunchButton" Button`
+    t =     4.04s Find the "watchPunchButton" Button
+    t =     4.05s Checking existence of `"watchTodayTotal" Any`
+    t =     4.05s Find the "watchPunchButton" Button
+    t =     4.06s Find the "watchTodayTotal" Any
+Watch reference Track frames: punch=(56.5, 73.0, 85.0, 85.0), today=(10.0, 180.0, 178.0, 29.0)
+    t =     4.07s Find the "watchPunchButton" Button
+Watch reference Track environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=IN=28.00,OUT=28.00,timer=13.00)
+    t =     4.07s Find the "watchTodayTotal" StaticText
+Watch reference Today environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=label=12.00,value=14.00)
+    t =     4.08s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     4.10s Added attachment named 'Watch reference bold Track'
+    t =     4.10s Swipe left Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     4.10s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.10s     Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     4.11s     Check for interrupting elements affecting "Punchino" Application
+    t =     4.11s     Synthesize event
+    t =     4.51s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     4.58s Waiting 5.0s for "watchPeriod-Today" Any to exist
+    t =     5.62s     Checking `Expect predicate `existsNoRetry == 1` for object "watchPeriod-Today" Any`
+    t =     5.62s         Checking existence of `"watchPeriod-Today" Any`
+    t =     5.64s Checking existence of `"watchPeriod-This Week" Any`
+    t =     5.64s Checking existence of `"watchPeriod-This Month" Any`
+    t =     5.65s Find the "watchPeriod-Today" Any
+    t =     5.66s Find the "watchPeriod-This Week" Any
+    t =     5.66s Find the "watchPeriod-This Month" Any
+Watch reference totals card frames: (2.0, 42.0, 194.0, 50.0), (2.0, 97.0, 194.0, 50.0), (2.0, 152.0, 194.0, 50.0)
+    t =     5.67s Find the "watchPeriod-Today" StaticText
+Watch reference Totals environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=body=16.00)
+    t =     5.68s Tap "watchPeriod-Today" StaticText
+    t =     5.68s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     5.68s     Find the "watchPeriod-Today" StaticText
+    t =     5.69s     Check for interrupting elements affecting "watchPeriod-Today" StaticText
+    t =     5.71s     Synthesize event
+    t =     6.00s     Wait for com.xuming.PunchinoColor.watchkitapp to idle
+    t =     6.00s Find the "watchPeriod-Today" StaticText
+    t =     6.02s Find the "watchPeriod-This Week" StaticText
+    t =     6.03s Find the "watchPeriod-This Month" StaticText
+    t =     6.04s Checking existence of `"watchSettingsButton" Button`
+    t =     6.04s Find the Target Application 'com.xuming.PunchinoColor.watchkitapp'
+    t =     6.06s Added attachment named 'Watch reference bold Totals'
+    t =     6.06s Tear Down
+Test Case '-[PunchinoWatchUITests.PunchinoWatchUITests testWatchReferenceAppearance]' passed (6.275 seconds).
+Test Suite 'PunchinoWatchUITests' passed at 2026-11-07 12:50:08.193.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 133.646 (133.649) seconds
+Test Suite 'PunchinoWatchUITests.xctest' passed at 2026-11-07 12:50:08.195.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 133.646 (133.652) seconds
+Test Suite 'Selected tests' passed at 2026-11-07 12:50:08.196.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 133.646 (133.653) seconds
+2026-11-07 12:50:08.501 xcodebuild[99321:73389275] [MT] IDETestOperationsObserverDebug: 136.410 elapsed -- Testing started completed.
+2026-11-07 12:50:08.501 xcodebuild[99321:73389275] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-11-07 12:50:08.501 xcodebuild[99321:73389275] [MT] IDETestOperationsObserverDebug: 136.410 sec, +136.410 sec -- end
+
+Test session results, code coverage, and logs:
+	/Users/xuming/Documents/ChatGPT/IOS App/TestResults/WatchActiveFinal.xcresult
+
+** TEST SUCCEEDED **
+
+Testing started

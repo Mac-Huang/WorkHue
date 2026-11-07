@@ -1,0 +1,37 @@
+{
+  "devicesAndConfigurations": [
+    {
+      "device": {
+        "architecture": "arm64",
+        "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC",
+        "deviceName": "Punchino Series9 Companion 26.5",
+        "modelName": "Apple Watch Series 9",
+        "osBuildNumber": "23T570",
+        "osVersion": "26.5",
+        "platform": "watchOS Simulator"
+      },
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "passedTests": 4,
+      "skippedTests": 0,
+      "testPlanConfiguration": {
+        "configurationId": "1",
+        "configurationName": "Test Scheme Action"
+      }
+    }
+  ],
+  "environmentDescription": "PunchinoWatch \u00b7 Built with macOS 26.6.2",
+  "expectedFailures": 0,
+  "failedTests": 0,
+  "finishTime": 1794077408.503,
+  "passedTests": 4,
+  "result": "Passed",
+  "runtimeWarnings": [],
+  "skippedTests": 0,
+  "startTime": 1794077269.131,
+  "statistics": [],
+  "testFailures": [],
+  "title": "Test - PunchinoWatch",
+  "topInsights": [],
+  "totalTestCount": 4
+}

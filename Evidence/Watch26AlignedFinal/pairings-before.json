@@ -1,0 +1,82 @@
+{
+  "pairs" : {
+    "838527E3-BD3F-4397-8A11-DCF0522A6F99" : {
+      "watch" : {
+        "name" : "Apple Watch Ultra 4 (49mm)",
+        "udid" : "182D8B4B-E3B9-4F53-834D-0565AD90F85A",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone 17",
+        "udid" : "9C849CF4-DACA-4E8A-9659-42E1C1E6C1E1",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "833E656F-1A3F-47DD-AE8F-2EFCD9F01BF9" : {
+      "watch" : {
+        "name" : "Punchino Widget Capture",
+        "udid" : "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Punchino Reference Plus",
+        "udid" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "A142B2D5-2FE2-44FB-8677-5017DE5C29FC" : {
+      "watch" : {
+        "name" : "Apple Watch Series 12 (46mm)",
+        "udid" : "D6848CAF-A8A3-45A3-837A-68E066285466",
+        "state" : "Booted"
+      },
+      "phone" : {
+        "name" : "iPhone 18 Pro Max",
+        "udid" : "DBF5B1EA-EDE1-4356-BE82-692E333876E1",
+        "state" : "Booted"
+      },
+      "state" : "(active, connected)"
+    },
+    "B023E0F0-173F-4E0A-A3A6-BE11D6509E1C" : {
+      "watch" : {
+        "name" : "Apple Watch Series 12 (42mm)",
+        "udid" : "211C2259-8A96-483E-931D-4939DCF7AB66",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "iPhone Air",
+        "udid" : "71E5025F-BC08-4DD1-B3A8-3A55E589C123",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    },
+    "EFBCAF8B-D42D-44E2-96C5-517DAEAD1DC2" : {
+      "watch" : {
+        "name" : "Punchino Series9 Reference 26.5",
+        "udid" : "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC",
+        "state" : "Booted"
+      },
+      "phone" : {
+        "name" : "Punchino Series9 Companion 26.5",
+        "udid" : "B7A8C734-C0A8-47B7-B52D-1B43A3A42062",
+        "state" : "Booted"
+      },
+      "state" : "(active, connected)"
+    },
+    "42166362-F575-4F1B-A790-07516AE77B28" : {
+      "watch" : {
+        "name" : "Punchino 45mm Adaptation",
+        "udid" : "9954D43E-73EF-46CC-9621-55A1EFB75F1F",
+        "state" : "Shutdown"
+      },
+      "phone" : {
+        "name" : "Punchino 45mm Companion",
+        "udid" : "79338D0C-A218-485B-ACA4-F151303135C1",
+        "state" : "Shutdown"
+      },
+      "state" : "(active, disconnected)"
+    }
+  }
+}

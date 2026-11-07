@@ -1,0 +1,31 @@
+{
+  "reviewed": true,
+  "scope": "The attached four-file diff changes display helpers and their text callers only. It does not change stored model fields, serialization, timer boundaries, synchronization, widget intent execution, or session mutation. TrackView also changes its two text fallback callers and uses the separately verified active layout.",
+  "sourceSHA256": {
+    "Shared/Models.swift": {
+      "beforeSHA256": "9123d44709bff66a65c202a5e53642dd131c1934d6126dc7ba5a1328cf69746c",
+      "afterSHA256": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d"
+    },
+    "Phone/DayDetailView.swift": {
+      "beforeSHA256": "9f822b4587cc5bd588511f8ef068718f782250ce2794523f0584ec18d7796f19",
+      "afterSHA256": "167738f16c98cb4ed364c51f495c1f3c8d765108e42c1998214db29505ee527e"
+    },
+    "Watch/PunchinoWatchApp.swift": {
+      "beforeSHA256": "b059d235a3b1c528549aa88de71c2a5e758c712c776cc1df1c0f55060d71cb0e",
+      "afterSHA256": "c21c8da3efc09b7dcdc68b7525aefca71c852d26385f277d7f461b249bf68199"
+    },
+    "Widgets/PunchinoWidgets.swift": {
+      "beforeSHA256": "37d8acb5189e5d182dacd26ccf5df2bfcaf91a70077bf97fbc2bcdc98ffdd180",
+      "afterSHA256": "6e0e3d27052e41d9df4540c6f5c2c91ae06de91189aa79d8ee3e1a4a893be8e9"
+    }
+  },
+  "diff": "display-contrast-review.patch",
+  "preserved": "The original three preset RGB styles, stored custom hex values, and outline thresholds remain unchanged.",
+  "historicalEvidence": "NativeBlackWidget and NativeWidgetBarrier retain their original source hashes. Their native-host execution results predate this display-only correction. Do not relabel them as current-source runtime runs.",
+  "packageTests": {
+    "count": 66,
+    "failed": 0,
+    "includes": "Preset preservation, measured opaque-base ink contrast, measured neutral-surface label contrast, and unchanged encoded workload data."
+  },
+  "limits": "The contrast tests use opaque base colors and representative neutral surfaces. They do not establish contrast at every gradient pixel or system-composited surface."
+}

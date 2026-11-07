@@ -1,0 +1,71 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "09476B4D-66AD-4465-82AC-CDE857F40DEA.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom White active dark_0_2883CAAE-E96D-44D7-930E-41ED8F54839E.png",
+        "timestamp" : 1794042585.86
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "F3BDD6A7-0011-4CD0-A7BD-E4AC5202D913.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom Black active dark_0_3180BF5D-3B68-4DE8-B9A4-CAC3790BA92D.png",
+        "timestamp" : 1794042581.559
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "7B59E6E8-C7B5-4BD5-8B07-26838B318CAA.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom Black active light_0_900E2E4C-21CD-4856-AEA8-E753B7DA8512.png",
+        "timestamp" : 1794042568.886
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "64CAC439-1F1E-41C7-A88B-F452CAFB1121.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom White active light_0_459595A9-2670-4B13-8A95-9D6EA5E577CD.png",
+        "timestamp" : 1794042564.52
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "91C0E374-E6E1-4E2F-A3B0-207FD3F837B0.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom white and black punch buttons light_0_4DE45E3C-9970-4966-BD45-BDEED223B574.png",
+        "timestamp" : 1794042563.029
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "49D5663E-0526-4FA3-BDA8-866BDD49E3B1.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom Black workload preview_0_E96C0410-4BEA-4F29-93E2-2A41EBC4B207.png",
+        "timestamp" : 1794042552.42
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+        "deviceName" : "Punchino Reference iOS26",
+        "exportedFileName" : "39954564-C422-443A-BC4B-311EB934266C.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Custom White workload preview_0_F413E533-C2F9-4A15-A1B9-3D875A7031C8.png",
+        "timestamp" : 1794042535.92
+      }
+    ],
+    "testIdentifier" : "PunchinoUITests/testCustomWhiteAndBlackWorkloadsRemainUsable()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testCustomWhiteAndBlackWorkloadsRemainUsable"
+  }
+]

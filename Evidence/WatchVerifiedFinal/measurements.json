@@ -1,0 +1,49 @@
+{
+  "canvasPixels": [
+    416,
+    496
+  ],
+  "idleRingBefore": [
+    111,
+    132,
+    304,
+    325
+  ],
+  "idleRingAfter": [
+    111,
+    132,
+    304,
+    325
+  ],
+  "idleStripNative": [
+    22,
+    350,
+    393,
+    413
+  ],
+  "idleStripReference": [
+    22,
+    349,
+    393,
+    413
+  ],
+  "activeStripNative": [
+    22,
+    371,
+    393,
+    434
+  ],
+  "activeStripReference": [
+    22,
+    370,
+    393,
+    434
+  ],
+  "stripPaintedHeightPoints": 32,
+  "stripLayoutHeightPoints": 35,
+  "horizontalTrackInsetPoints": 9,
+  "activeStripVisualOffsetPoints": -2,
+  "note": "Reference JPEG edge pixels span one additional row. Ring bounds are unchanged.",
+  "result": "TestResults/WatchVerifiedFinal.xcresult",
+  "watchSourceSHA256": "c314efc42741ae8bd2a2f8fb759f782ffcfed308c54cdc9e5ef8afe9fb433018"
+}

@@ -1,0 +1,11 @@
+--- Watch/PunchinoWatchApp.swift (full 3-case run)
++++ Watch/PunchinoWatchApp.swift (final alignment)
+@@ -248,7 +248,7 @@
+                         }
+                         .font(.system(size: fontSize))
+                         .padding(.leading, 10.5)
+-                        .padding(.trailing, 10)
++                        .padding(.trailing, 10.5)
+                         .frame(maxWidth: .infinity, maxHeight: .infinity)
+                         .background(Color(hex: "222223"), in: RoundedRectangle(cornerRadius: 12))
+                         .accessibilityElement(children: .combine)

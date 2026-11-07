@@ -1,0 +1,32 @@
+{
+  "watch": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+  "phone": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+  "group": "group.com.xuming.PunchinoColor",
+  "sharedSnapshotPath": "/Users/xuming/Library/Developer/CoreSimulator/Devices/F0B67AC3-174C-4ED3-8F0C-B882CF29B587/data/Containers/Shared/AppGroup/E5352BE7-1262-4313-96AD-276FEFE3D65D/tracking.json",
+  "activeSnapshotSHA256": "4070b3aed945b4227e226ed192bd5fb615ef770cb2929b164f62023171a994a1",
+  "activeSession": {
+    "colorHex": "43D10D",
+    "id": "280B8EE1-16BC-43B0-94F5-BDFA39CB561C",
+    "modifiedAt": 815734363.77492,
+    "source": "watch",
+    "start": 815734363.77492,
+    "timerBoundaries": [
+      {
+        "id": "280B8EE1-16BC-43B0-94F5-BDFA39CB561C",
+        "start": 815734363.77492,
+        "timestamp": 815734363.77492
+      }
+    ],
+    "workloadID": "00000000-0000-0000-0000-000000000001",
+    "workloadName": "Work"
+  },
+  "source": "Normal Watch UI punch-in, without launch arguments or file seeding",
+  "result": "TestResults/WatchNativeWidgetsMatched.xcresult",
+  "normalTestTargetContainsDiagnostic": false,
+  "localInteractiveStopVerified": true,
+  "stopResult": "TestResults/WatchNativeWidgetStopFinal.xcresult",
+  "activeCountAfterWidgetStop": 0,
+  "pairedDeliveryVerifiedByThisTest": false,
+  "latestNativeIntentRuntimeProof": "Evidence/NativeWidgetBarrier/validation.json",
+  "pairedStopVerifiedWithWatchAppTerminated": true
+}

@@ -1,0 +1,44 @@
+{
+  "createdAtUTC": "2026-11-07T17:50:12.532559+00:00",
+  "pairCommand": [
+    "xcrun",
+    "simctl",
+    "pair",
+    "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC",
+    "B7A8C734-C0A8-47B7-B52D-1B43A3A42062"
+  ],
+  "pairCommandOutput": "EFBCAF8B-D42D-44E2-96C5-517DAEAD1DC2",
+  "pairID": "EFBCAF8B-D42D-44E2-96C5-517DAEAD1DC2",
+  "phone": {
+    "createCommand": [
+      "xcrun",
+      "simctl",
+      "create",
+      "Punchino Series9 Companion 26.5",
+      "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+      "com.apple.CoreSimulator.SimRuntime.iOS-26-5"
+    ],
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+    "name": "Punchino Series9 Companion 26.5",
+    "runtimeBuild": "23F73",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+    "runtimeVersion": "26.5",
+    "udid": "B7A8C734-C0A8-47B7-B52D-1B43A3A42062"
+  },
+  "watch": {
+    "createCommand": [
+      "xcrun",
+      "simctl",
+      "create",
+      "Punchino Series9 Reference 26.5",
+      "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
+      "com.apple.CoreSimulator.SimRuntime.watchOS-26-5"
+    ],
+    "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
+    "name": "Punchino Series9 Reference 26.5",
+    "runtimeBuild": "23T570",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-26-5",
+    "runtimeVersion": "26.5",
+    "udid": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  }
+}

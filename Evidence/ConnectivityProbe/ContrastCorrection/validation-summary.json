@@ -1,0 +1,94 @@
+{
+  "contrastScope": "Opaque base RGB for fill ink; F2F2F7 and 2C2C2E neutral references for label text; exact preset RGB styles remain unchanged.",
+  "currentSourceHashesMatchAllEvidence": true,
+  "lifetimeCases": [
+    {
+      "barrierElapsedSeconds": 0.000415917,
+      "mode": "short-lived",
+      "phoneEnded": true,
+      "phoneObservedStop": true,
+      "queueAccepted": true,
+      "syncStatus": "Saved locally \u00b7 Queued for paired device",
+      "watchEnded": true,
+      "watchStoreReleased": true
+    },
+    {
+      "barrierElapsedSeconds": 0.051856334,
+      "mode": "retained",
+      "phoneEnded": true,
+      "phoneObservedStop": true,
+      "queueAccepted": true,
+      "syncStatus": "Saved locally \u00b7 Queued for paired device",
+      "watchEnded": true,
+      "watchStoreReleased": false
+    },
+    {
+      "barrierElapsedSeconds": 0.004942542,
+      "mode": "zero-timeout",
+      "phoneEnded": false,
+      "phoneObservedStop": false,
+      "queueAccepted": false,
+      "syncStatus": "Saved locally \u00b7 Paired sync pending",
+      "watchEnded": true,
+      "watchStoreReleased": true
+    }
+  ],
+  "outlineThresholdsUnchanged": {
+    "dark": 0.08,
+    "light": 0.75
+  },
+  "packageTests": {
+    "count": 66,
+    "failures": 0,
+    "log": "Evidence/ConnectivityProbe/ContrastCorrection/ValidationLogs/package-tests.log",
+    "logSHA256": "64f100cc3cbe0f1c69821367eba02bdaa78bb749aea073da478d1756f5f36b86"
+  },
+  "passed": true,
+  "platformTypechecks": {
+    "ios-widget": {
+      "exitCode": 0,
+      "log": "Evidence/ConnectivityProbe/ContrastCorrection/ValidationLogs/ios-widget-typecheck.log",
+      "logSHA256": "8b4d6441f5386e2318ec5734a2e3b92b2001f90d34c530259ca0e28d58f30a42"
+    },
+    "phone": {
+      "exitCode": 0,
+      "log": "Evidence/ConnectivityProbe/ContrastCorrection/ValidationLogs/phone-typecheck.log",
+      "logSHA256": "4a9678ed2572af1c2b06ab5430904db30ecb13e031302b8dff824bc4ef6f464b"
+    },
+    "watch": {
+      "exitCode": 0,
+      "log": "Evidence/ConnectivityProbe/ContrastCorrection/ValidationLogs/watch-typecheck.log",
+      "logSHA256": "70db9f51799040ff50860a8f661622b2cb616b1746acb46da038deb652da7844"
+    },
+    "watchos-widget": {
+      "exitCode": 0,
+      "log": "Evidence/ConnectivityProbe/ContrastCorrection/ValidationLogs/watchos-widget-typecheck.log",
+      "logSHA256": "243aff3689d1344706572639ec227e22b7cd2e0810ad55bc36d3492b567bd776"
+    }
+  },
+  "presetRGBExceptions": [
+    "43D10D",
+    "2699F5",
+    "7955EB"
+  ],
+  "probeAppsRemoved": true,
+  "sharedSequence": {
+    "activeSessions": 0,
+    "endedSessions": 2,
+    "exactStoredSessionEquality": true,
+    "passed": true,
+    "validation": "SharedSequence/validation.json"
+  },
+  "sharedSourceSHA256": {
+    "Shared/CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "Shared/CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "Shared/CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d",
+    "Shared/SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "Shared/StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Shared/Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "Shared/TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e"
+  }
+}

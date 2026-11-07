@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Watch reference read-only Totals after synthetic stop",
+    "file": "watch-reference-read-only-totals-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActive46mmFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reference idle after synthetic stop",
+    "file": "watch-reference-idle-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActive46mmFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reference bold Study active",
+    "file": "watch-reference-bold-study-active.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActive46mmFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reference bold Totals",
+    "file": "watch-reference-bold-totals.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/WatchActive46mmFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reference bold Track",
+    "file": "watch-reference-bold-track.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/WatchActive46mmFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

@@ -1,0 +1,38 @@
+Attributes: Application, 0x106fe5400, pid: 32966, identifier: 'Carousel'
+Element subtree:
+ →Application, 0x106fe5400, pid: 32966, identifier: 'Carousel'
+    Window, 0x106fe5900, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x106fe5680, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x106fe5540, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x106fe5a40, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x106fe5b80, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x106fe5e00, {{0.0, 0.0}, {208.0, 248.0}}
+                Other, 0x106fe5cc0, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x106fe5f40, {{0.0, 0.0}, {208.0, 38.0}}
+                StatusBar, 0x106fe6080, {{0.0, 0.0}, {208.0, 38.0}}
+                  Other, 0x106fe61c0, {{0.0, 0.0}, {208.0, 38.0}}
+                  Other, 0x106fe6300, {{0.0, 0.0}, {208.0, 38.0}}
+          Other, 0x106fe7ac0, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x106fe7c00, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x106fe7d40, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x106fe7e80, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x106f9e440, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x106fdd540, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x106fdfe80, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x106fde1c0, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x106fde300, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x106fde440, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x106fde580, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x106fde6c0, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x106fde800, {{0.0, 0.0}, {416.0, 496.0}}
+        Other, 0x106fde940, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x106fdea80, {{200.0, 45.0}, {6.0, 46.0}}
+    Window (Main), 0x106fdebc0, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x106fded00, {{0.0, 0.0}, {208.0, 248.0}}
+Path to element:
+ →Application, 0x106fe5400, pid: 32966, identifier: 'Carousel'
+Query chain:
+ →Find: Application 'com.apple.Carousel'
+  Output: {
+    Application, 0x106fdf0c0, pid: 32966, identifier: 'Carousel'
+  }

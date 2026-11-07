@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "recordedAtUTC": "2026-11-07T18:50:35.579766+00:00",
+  "scope": "Independent static-image geometry and invariant glyph audit. No private session values or images are copied.",
+  "coordinateConvention": "Pixel bounds are inclusive. Rectangles used for mask tests have exclusive upper bounds.",
+  "canvasPixels": [
+    396,
+    484
+  ],
+  "images": {
+    "reference": {
+      "storage": "Ignored private original. Image content is excluded from this record.",
+      "sha256": "716046fa5a949bc951fb7b8aeb0576a35eb5cc7d7734695e3013ac331e33140a"
+    },
+    "replica": {
+      "path": "Evidence/WatchActiveMatchTrial3/watch-reference-bold-study-active.png",
+      "sha256": "3c88f424cff4c37595de17fd3fcd109ba464e2398b086f41795995f4d4cec813",
+      "fixture": "Real isolated synthetic Study punch. No private records were seeded."
+    }
+  },
+  "sourceProvenance": {
+    "sourcePath": "Watch/PunchinoWatchApp.swift",
+    "captureManifest": "Evidence/WatchActiveMatchTrial3/source-sha256.json",
+    "captureSourceSHA256": "71a187b7ab2de0e509f4a73adf26d8cb79058bf07bc7e879df984d775732d408",
+    "currentSourceSHA256": "dfb7d0a78bef42957a9da6db837f8e3ce092f9a66a8343e50e51d05b3f7e525e",
+    "sourceHashesDiffer": true,
+    "status": "The historical Trial3 image keeps its original source attribution. Independent inspection verifies equivalent executable Swift code in the current source.",
+    "writerReportedDifference": "Independently verified: six modifier-line indentation changes and two added comments only.",
+    "equivalenceVerification": {
+      "verifiedAtUTC": "2026-11-07T18:51:44.821560+00:00",
+      "historicalReconstructionPath": "Evidence/WatchActiveFinalValidation/PunchinoWatchApp-Trial3-reconstructed.txt",
+      "historicalReconstructionSHA256": "71a187b7ab2de0e509f4a73adf26d8cb79058bf07bc7e879df984d775732d408",
+      "exactDiffPath": "Evidence/WatchActiveFinalValidation/trial3-to-final-source.diff",
+      "exactDiffSHA256": "bcf94ff6665929b4a116761d98b12b76e40929054c123b397a1d334f55ac221b",
+      "independentlyGeneratedDiffMatches": true,
+      "comparison": "The complete source texts match after deleting only the two recorded comments and ignoring leading indentation.",
+      "diffInspection": "The six indentation changes affect modifier lines outside string literals. No declarations or expressions changed.",
+      "executableSwiftCodeEquivalent": true,
+      "captureAttributedToCurrentSource": false,
+      "otherManifestFilesChecked": 13,
+      "otherManifestHashesMatchCurrent": true,
+      "testSourceHashMatchesTrial3": true,
+      "scope": "Source-code equivalence. This check does not assert byte-identical compiled binaries or historical image capture from the current source."
+    }
+  },
+  "geometryBoundsInclusive": {
+    "haloThreshold": {
+      "reference": [
+        94,
+        104,
+        301,
+        311
+      ],
+      "replica": [
+        94,
+        104,
+        301,
+        311
+      ],
+      "sizePixels": [
+        208,
+        208
+      ],
+      "centerPixels": [
+        197.5,
+        207.5
+      ]
+    },
+    "flatCoreInterior": {
+      "reference": [
+        117,
+        127,
+        278,
+        288
+      ],
+      "replica": [
+        117,
+        127,
+        278,
+        288
+      ],
+      "sizePixels": [
+        162,
+        162
+      ]
+    },
+    "brightCore": {
+      "reference": [
+        116,
+        126,
+        279,
+        289
+      ],
+      "replica": [
+        116,
+        126,
+        279,
+        289
+      ],
+      "sizePixels": [
+        164,
+        164
+      ]
+    },
+    "inInk": {
+      "reference": [
+        175,
+        171,
+        222,
+        207
+      ],
+      "replica": [
+        175,
+        171,
+        222,
+        207
+      ],
+      "sizePixels": [
+        48,
+        37
+      ]
+    },
+    "timerInk": {
+      "reference": [
+        159,
+        236,
+        236,
+        254
+      ],
+      "replica": [
+        159,
+        236,
+        236,
+        254
+      ],
+      "sizePixels": [
+        78,
+        19
+      ]
+    },
+    "timerColon": {
+      "reference": [
+        195,
+        240,
+        200,
+        254
+      ],
+      "replica": [
+        195,
+        240,
+        200,
+        254
+      ],
+      "sizePixels": [
+        6,
+        15
+      ]
+    },
+    "startedIcon": {
+      "reference": [
+        109,
+        318,
+        127,
+        336
+      ],
+      "replica": [
+        109,
+        318,
+        127,
+        336
+      ],
+      "sizePixels": [
+        19,
+        19
+      ]
+    },
+    "startedPrefix": {
+      "reference": [
+        140,
+        318,
+        221,
+        333
+      ],
+      "replica": [
+        140,
+        318,
+        221,
+        333
+      ],
+      "sizePixels": [
+        82,
+        16
+      ]
+    },
+    "todayStrip": {
+      "reference": [
+        20,
+        360,
+        375,
+        417
+      ],
+      "replica": [
+        20,
+        360,
+        375,
+        417
+      ],
+      "sizePixels": [
+        356,
+        58
+      ]
+    },
+    "todayLabel": {
+      "reference": [
+        44,
+        381,
+        113,
+        402
+      ],
+      "replica": [
+        44,
+        381,
+        113,
+        402
+      ],
+      "sizePixels": [
+        70,
+        22
+      ]
+    }
+  },
+  "maskMethods": {
+    "haloBoundsPredicate": "B > 35 and B > R + 30 and G > R + 15.",
+    "flatCore": "Bounds of pixels equal to each image core color within the active control region.",
+    "coreRGB": {
+      "reference": [
+        0,
+        145,
+        255
+      ],
+      "replica": [
+        38,
+        153,
+        245
+      ]
+    },
+    "normalizedBlackCoverage": "1 - mean(G / coreG, B / coreB). Each image uses its own core color.",
+    "grayPredicate": "min(R,G,B) > 80 and max(R,G,B) < 230 and max(R,G,B) - min(R,G,B) < 35.",
+    "todayLabelCoverage": "mean((R-18)/65, (G-18)/65, (B-19)/67). The binary threshold is 0.5.",
+    "note": "Mask areas depend on the recorded threshold. They do not establish the original font declaration.",
+    "brightCore": "mean(G / coreG, B / coreB) > 0.70 within the active control region."
+  },
+  "inMask": {
+    "roiExclusive": [
+      174,
+      170,
+      224,
+      209
+    ],
+    "normalizedCoverageThreshold": 0.9,
+    "referencePixels": 1198,
+    "replicaPixels": 1198,
+    "differentPixels": 0
+  },
+  "grayMasks": {
+    "startedIcon": {
+      "roiExclusive": [
+        108,
+        317,
+        129,
+        338
+      ],
+      "referencePixels": 265,
+      "replicaPixels": 265,
+      "differentPixels": 0,
+      "maximumRGBChannelDifference": 1
+    },
+    "startedPrefix": {
+      "roiExclusive": [
+        138,
+        316,
+        224,
+        336
+      ],
+      "referencePixels": 519,
+      "replicaPixels": 519,
+      "differentPixels": 0,
+      "maximumRGBChannelDifference": 3
+    },
+    "todayLabel": {
+      "roiExclusive": [
+        42,
+        379,
+        116,
+        405
+      ],
+      "referencePixels": 519,
+      "replicaPixels": 519,
+      "differentPixels": 0,
+      "maximumRGBChannelDifference": 2
+    }
+  },
+  "timerColonNormalized": {
+    "roiExclusive": [
+      193,
+      238,
+      204,
+      258
+    ],
+    "thresholdChecks": [
+      {
+        "coverageThreshold": 0.1,
+        "referencePixels": 59,
+        "replicaPixels": 59,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.2,
+        "referencePixels": 56,
+        "replicaPixels": 56,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.3,
+        "referencePixels": 53,
+        "replicaPixels": 53,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.4,
+        "referencePixels": 45,
+        "replicaPixels": 45,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.5,
+        "referencePixels": 39,
+        "replicaPixels": 39,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.6,
+        "referencePixels": 35,
+        "replicaPixels": 35,
+        "differentPixels": 0
+      },
+      {
+        "coverageThreshold": 0.65,
+        "referencePixels": 33,
+        "replicaPixels": 33,
+        "differentPixels": 0
+      }
+    ],
+    "maximumCoverageDifference": 0.006203400900590128,
+    "rawThresholdInterpretation": "The earlier raw 44-versus-46 pixel count changes with hue. Normalized masks do not support a punctuation-size defect."
+  },
+  "haloNormalizedSamples": {
+    "sampleRow": 210,
+    "normalization": "mean(G / coreG, B / coreB). Each image uses its own core color.",
+    "interiorSampleXInclusive": [
+      95,
+      115
+    ],
+    "interiorMaximumAbsoluteDifference": 0.007560725439601068,
+    "edgeSampleX": 94,
+    "edgeAbsoluteDifference": 0.013080634552671638,
+    "faintOuterGlowSample": {
+      "point": [
+        90,
+        210
+      ],
+      "referenceRGB": [
+        0,
+        2,
+        4
+      ],
+      "replicaRGB": [
+        0,
+        0,
+        0
+      ]
+    },
+    "limit": "These samples do not establish an identical gradient or complete glow raster."
+  },
+  "invariantColors": {
+    "startedInkRGB": [
+      141,
+      141,
+      147
+    ],
+    "todayStripRGB": [
+      18,
+      18,
+      19
+    ],
+    "todayLabelRGB": [
+      83,
+      83,
+      86
+    ]
+  },
+  "intentionalAddition": "The selected Study workload hue differs from the original app accent. Stored workload colors remain unchanged.",
+  "residuals": [
+    "Small antialias and normalized halo differences remain.",
+    "The faint outer glow below the main mask threshold differs.",
+    "Private timer digits and total strings are excluded from glyph comparisons.",
+    "The physical Watch uses watchOS 26.6. The synthetic capture uses the closest official available runtime, 26.5.",
+    "The exact physical Dynamic Type category and native clock rendering remain outside this audit."
+  ],
+  "motionObserved": false,
+  "motionLimitation": "One still image cannot establish pulse, animation timing, or ring motion.",
+  "originalSessionActionsByAgent": false,
+  "userReportedOriginalTestStopped": true,
+  "privateValuesSeededOrExported": false,
+  "productionSourceEditedByAuditor": false,
+  "conclusion": "Measured static geometry and invariant masks match at the recorded thresholds. No further source correction is supported by this comparison."
+}

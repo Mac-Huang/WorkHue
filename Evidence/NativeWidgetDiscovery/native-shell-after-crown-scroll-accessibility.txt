@@ -1,0 +1,84 @@
+Attributes: Application, 0x108b87700, pid: 32966, identifier: 'Carousel'
+Element subtree:
+ →Application, 0x108b87700, pid: 32966, identifier: 'Carousel'
+    Window, 0x108b86800, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x108b85b80, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x108b857c0, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x108b86580, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x108b87ac0, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x108b87d40, {{0.0, 0.0}, {208.0, 248.0}}
+                Other, 0x108b87e80, {{0.0, 0.0}, {208.0, 248.0}}
+                  Other, 0x108b86d00, {{0.0, 0.0}, {208.0, 248.0}}
+                    Other, 0x108b87340, {{0.0, 0.0}, {208.0, 248.0}}
+                      Other, 0x108b87980, {{0.0, 0.0}, {208.0, 248.0}}
+                        Other, 0x108b87840, {{0.0, 0.0}, {208.0, 248.0}}
+                          ScrollView, 0x108b87480, {{-10.0, 0.0}, {228.0, 248.0}}
+                            ScrollView, 0x108b87200, {{0.0, 0.0}, {208.0, 248.0}}, label: 'numerals duo'
+                              Other, 0x108b86f80, {{-10.5, -10.5}, {229.0, 269.0}}
+                              Other, 0x108b870c0, {{0.0, 0.0}, {208.0, 248.0}}
+                                Other, 0x108b85f40, {{0.0, 0.0}, {208.0, 248.0}}, identifier: 'Watch Face'
+                                  Other, 0x108b86300, {{0.0, 0.0}, {208.0, 248.0}}
+                                    Other, 0x108b86440, {{0.0, 0.0}, {208.0, 248.0}}
+                                      Other, 0x108b875c0, {{0.0, 0.0}, {208.0, 248.0}}, label: '2:33 AM'
+                                    Other, 0x108b86bc0, {{0.0, 0.0}, {208.0, 248.0}}
+                                Other, 0x108b85cc0, {{0.0, 0.0}, {208.0, 248.0}}
+                                  Other, 0x108b866c0, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x108b86a80, {{0.0, 0.0}, {208.0, 38.0}}
+                StatusBar, 0x108b85180, {{0.0, 0.0}, {208.0, 38.0}}
+          Other, 0x108b87c00, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x108b86940, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x108b861c0, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x108b86e40, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x108b8fe80, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x108b897c0, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x108b8be80, {{79.2, -148.8}, {49.6, 49.6}}, identifier: 'Messages', label: 'Messages'
+              Other, 0x108b89040, {{101.2, -124.2}, {5.5, 5.5}}, identifier: 'Maps', label: 'Maps'
+                Image, 0x108b89900, {{101.2, -124.2}, {5.5, 5.5}}
+              Other, 0x108b8a6c0, {{36.5, -91.0}, {11.0, 11.0}}, identifier: 'Translate', label: 'Translate'
+                Image, 0x108b8b200, {{36.5, -91.0}, {11.0, 11.0}}
+              Other, 0x108b8b480, {{160.5, -91.0}, {11.0, 11.0}}, identifier: 'Punchino', label: 'Punchino'
+                Image, 0x108b8b5c0, {{160.5, -91.0}, {11.0, 11.0}}
+              Other, 0x108b8b980, {{28.2, -27.2}, {27.5, 27.5}}, identifier: 'Settings', label: 'Settings'
+                Image, 0x108b8bc00, {{28.2, -27.2}, {27.5, 27.5}}
+              Other, 0x108b89f40, {{152.2, -27.2}, {27.5, 27.5}}, identifier: 'Medications', label: 'Medications'
+                Image, 0x108b8a080, {{152.2, -27.2}, {27.5, 27.5}}
+              Other, 0x108b89b80, {{-14.2, 5.8}, {236.5, 236.5}}, identifier: 'All Apps', label: 'All Apps'
+                Image, 0x108b88f00, {{37.3, 63.8}, {133.3, 122.5}}, identifier: 'apps.hexagongrid.watchos', label: 'apps.hexagongrid.watchos'
+          Other, 0x108b89e00, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x108b8a300, {{0.0, 0.0}, {208.0, 248.0}}, identifier: 'CSLLauncherView'
+              Icon, 0x108b8bd40, {{34.2, 16.8}, {34.5, 34.5}}, identifier: 'Messages', label: 'Messages'
+              Icon, 0x108b8bac0, {{84.5, 12.5}, {39.0, 39.0}}, identifier: 'Maps', label: 'Maps'
+              Icon, 0x108b8b700, {{139.3, 16.8}, {34.5, 34.5}}, identifier: 'Now Playing', label: 'Now Playing'
+              Icon, 0x108b8b840, {{10.0, 59.5}, {38.0, 38.0}}, identifier: 'Settings', label: 'Settings'
+              Icon, 0x108b89cc0, {{55.0, 52.0}, {44.0, 44.0}}, identifier: 'Medications', label: 'Medications'
+              Icon, 0x108b89a40, {{109.0, 52.0}, {44.0, 44.0}}, identifier: 'News', label: 'News'
+              Icon, 0x108b8a800, {{160.0, 59.5}, {38.0, 38.0}}, identifier: 'Music Recognition', label: 'Music Recognition'
+              Icon, 0x108b8b340, {{26.0, 101.5}, {45.0, 45.0}}, identifier: 'Translate', label: 'Translate'
+              Icon, 0x108b8a940, {{78.5, 98.5}, {51.0, 51.0}}, identifier: 'Calculator', label: 'Calculator'
+              Icon, 0x108b8a580, {{137.0, 101.5}, {45.0, 45.0}}, identifier: 'Contacts', label: 'Contacts'
+              Icon, 0x108b883c0, {{10.0, 150.5}, {38.0, 38.0}}, identifier: 'Shortcuts', label: 'Shortcuts'
+              Icon, 0x108b88140, {{55.0, 152.0}, {44.0, 44.0}}, identifier: 'Siren', label: 'Siren'
+              Icon, 0x108b89680, {{109.0, 152.0}, {44.0, 44.0}}, identifier: 'Punchino', label: 'Punchino'
+              Icon, 0x108b89540, {{160.0, 150.5}, {38.0, 38.0}}, identifier: 'PunchinoWatchUITests-Runner', label: 'PunchinoWatchUITests-Runner'
+              Other, 0x108b89400, {{0.0, 119.0}, {208.0, 248.0}}
+                Button, 0x108b8abc0, {{32.5, 228.7}, {143.0, 28.5}}, label: 'List View'
+                  StaticText, 0x108b8aa80, {{82.5, 233.2}, {66.0, 19.5}}, label: 'List View'
+    Window, 0x108b8a440, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x108b88c80, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x108b88000, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x108b892c0, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x108b888c0, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x108b88780, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x108b88a00, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x108b88b40, {{0.0, 0.0}, {416.0, 496.0}}
+        Other, 0x108b88640, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x108b89180, {{200.0, 45.0}, {6.0, 46.0}}
+    Window (Main), 0x108b88500, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x108b88280, {{0.0, 0.0}, {208.0, 248.0}}
+Path to element:
+ →Application, 0x108b87700, pid: 32966, identifier: 'Carousel'
+Query chain:
+ →Find: Application 'com.apple.Carousel'
+  Output: {
+    Application, 0x108b8c500, pid: 32966, identifier: 'Carousel'
+  }

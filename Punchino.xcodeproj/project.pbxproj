@@ -1,0 +1,1246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B1F2B3ACBE7E868954492C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927706A7AD4507864DA9A1EA /* Foundation.framework */; };
+		06D3E929F76AED34313401EC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD843D90F18C85AC1EBEDD3 /* Models.swift */; };
+		0D0DB432CFF7804DE4C27D29 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7E10D6815377E2D9A7C9 /* TimeMath.swift */; };
+		0D506CD2E04F1D55C0842522 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02164818A98B0D7CFBA42A81 /* StatisticsView.swift */; };
+		18700151C49A4AE272B9BF2E /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437FD95156BA2D72AD2055A /* CSVImporter.swift */; };
+		188B952C3FA102D7088EA96C /* StatisticsMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */; };
+		2506F90AA1049F5E60D52484 /* SnapshotRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */; };
+		29457170BAF1680075849F45 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */; };
+		29F4F91AFDDA029219E8D32E /* PunchinoWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0F74FF54C40B41F65A3383D6 /* PunchinoWatch.app */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		336C75AE261ABD2AB57EA28C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B140B88F692FEF38784A6EF /* Foundation.framework */; };
+		33C1751D30727E92B3EACA7D /* SnapshotRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */; };
+		3BCD9766819DBD0257EF6B23 /* PunchinoWatchWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = BE2ACD7FAC64ED1479CFB0D2 /* PunchinoWatchWidgets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3E0BE4F6DBC6C297A95A51FE /* TimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC107915101F6B4D7446C99 /* TimeStore.swift */; };
+		3F8A41D7D13879056346D569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927706A7AD4507864DA9A1EA /* Foundation.framework */; };
+		43B3D7701459594025719CCB /* TimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC107915101F6B4D7446C99 /* TimeStore.swift */; };
+		45A40DD627FD82672BA8DCE6 /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A22EA906ACB025D5D7A611 /* WatchSync.swift */; };
+		45EB9F7B92377B622D589549 /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437FD95156BA2D72AD2055A /* CSVImporter.swift */; };
+		4719D374557DE5390A28D443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B140B88F692FEF38784A6EF /* Foundation.framework */; };
+		4775311DF508809A59DDF9D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30AD30501945906523D48762 /* Assets.xcassets */; };
+		48653C13AF96AE39266D8904 /* StatisticsMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */; };
+		4A6C3EB266AC3AF4AA4D1413 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9828219290AC90601DB10 /* CSVExporter.swift */; };
+		4C7837C87FADB8AD29069183 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F5A017D913BC445B19778 /* Theme.swift */; };
+		4DC46D5E20AEEA8686403058 /* PunchinoWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6D0ABD842419CF50A620A8 /* PunchinoWatchApp.swift */; };
+		5743383E4BEE58F6B7FA6A46 /* TimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC107915101F6B4D7446C99 /* TimeStore.swift */; };
+		5BB7036E44F0780EAC767B80 /* StatisticsMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */; };
+		5BE71EDCD0F3E9BADAAAC633 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A453D4F44078E859B34F4D3E /* SettingsView.swift */; };
+		5C9FFE31ECC4F967BCF4089A /* SnapshotRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */; };
+		5DD2E1E632AB49892C5E2D56 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */; };
+		5E82570E15F424E0556BF302 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */; };
+		60F8FEBA75C231C65E4FB0E5 /* DebugInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE73419992E2EAF84EA1DCF /* DebugInfoView.swift */; };
+		69E32E6BC4F52DFC526F863A /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A22EA906ACB025D5D7A611 /* WatchSync.swift */; };
+		6B56DC9C19099290704F7D4A /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A22EA906ACB025D5D7A611 /* WatchSync.swift */; };
+		6BF498B15B2CEF48C2EF58A7 /* WatchCloudNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0573248A2135AA6C59DF3 /* WatchCloudNotificationDelegate.swift */; };
+		6C9F2932CC3CBC078EDAE446 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A78CEB031C6CE4A84CB47D /* OverviewView.swift */; };
+		6D1C6D0B113531B4DE6A6916 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7E10D6815377E2D9A7C9 /* TimeMath.swift */; };
+		74C6CBB0977A7F03D0780502 /* PunchinoWidgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E4AA98BD807BF709CAFC51BD /* PunchinoWidgets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75C33185A1F186D10B9BA033 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F5A017D913BC445B19778 /* Theme.swift */; };
+		769CE35852302B8B8CB3F327 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9828219290AC90601DB10 /* CSVExporter.swift */; };
+		7C3E9D2F38FA9D566F5E8686 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD843D90F18C85AC1EBEDD3 /* Models.swift */; };
+		7C44F6591107E5DB107B24AB /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9828219290AC90601DB10 /* CSVExporter.swift */; };
+		80C8EEAF4DFE54B483EA4716 /* TimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC107915101F6B4D7446C99 /* TimeStore.swift */; };
+		8A56AA7E7338CDCC568E8A6D /* SnapshotRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */; };
+		929A64FC91F38E9953E62EC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927706A7AD4507864DA9A1EA /* Foundation.framework */; };
+		934B576C93F5902200364D2E /* DayDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CB5E8989C4E58AEBC9D218B /* DayDetailView.swift */; };
+		953DC103926F55312C2D9E74 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7E10D6815377E2D9A7C9 /* TimeMath.swift */; };
+		9583EC1BA22F74D11D22C639 /* WatchSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A22EA906ACB025D5D7A611 /* WatchSync.swift */; };
+		9A0FC6233FBE04E7E9EB9E93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28991644A9E49876B6F36157 /* Assets.xcassets */; };
+		A155635B6F004E0135DF2CCA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F5A017D913BC445B19778 /* Theme.swift */; };
+		A18958614BBDEE3CB0EB60BE /* PunchinoWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398C7D7A617FEDCF0433365 /* PunchinoWatchUITests.swift */; };
+		A46E75A1F0868E693D0D9A47 /* CloudSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */; };
+		ABF71633CD57B5CCCBF4C7E0 /* StatisticsMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */; };
+		AC736183ECD8116D070D98E7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD843D90F18C85AC1EBEDD3 /* Models.swift */; };
+		B067D9CCF66347C3399E6925 /* PunchinoWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A7BC08BC7802B5B3EB5BE /* PunchinoWidgets.swift */; };
+		B1ACD348C958F17186D9B894 /* TimeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062B7E10D6815377E2D9A7C9 /* TimeMath.swift */; };
+		BA9D6F1BBCF014DD906B31B1 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD843D90F18C85AC1EBEDD3 /* Models.swift */; };
+		BE9DE3FCEC49D5788786BADC /* PunchinoWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91A7BC08BC7802B5B3EB5BE /* PunchinoWidgets.swift */; };
+		BEC1D4A2BC26473F494B4CA7 /* CSVExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E9828219290AC90601DB10 /* CSVExporter.swift */; };
+		C0A406458E3D98A8846C5F28 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1F5BEE3B49D1D1A70EBAFF /* TrackView.swift */; };
+		C40E7F4FD01087A3BDB9E308 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9722E1508D3E7939F410D8BD /* RootView.swift */; };
+		C4B73F82E25D090237053A50 /* PunchinoIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A433EEE183A57D982A9954 /* PunchinoIntents.swift */; };
+		D3DEC675AC24593867B38DE6 /* CloudNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A09F856086402E50295568E /* CloudNotificationDelegate.swift */; };
+		D5138BC58CA3033E8331F8FE /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437FD95156BA2D72AD2055A /* CSVImporter.swift */; };
+		D902A4AE9C9A1EE493E54767 /* PunchinoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4CAD9C6E7F3F0B0E60AB04 /* PunchinoUITests.swift */; };
+		E333806383BE165F8E6E9A7C /* PunchinoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA46BDF411E2D920CCA9F3E /* PunchinoApp.swift */; };
+		EFFEE45423B69D0E5F7F4780 /* CSVImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8437FD95156BA2D72AD2055A /* CSVImporter.swift */; };
+		F1C5F6F23001F14E9C086133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B140B88F692FEF38784A6EF /* Foundation.framework */; };
+		F975549735399AF891BD61E4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081F5A017D913BC445B19778 /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7ED4D91B17351787F3DF19C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E13B2B45ED80AD784A564F47;
+			remoteInfo = PunchinoWidgets;
+		};
+		C1140AA42A494DBC3B911ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C7DCD5076AA9CB8168A25CE;
+			remoteInfo = Punchino;
+		};
+		C434B23A9419BC14B2FBCEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56FA01C523EAE396FB1F0B;
+			remoteInfo = PunchinoWatch;
+		};
+		D03771F4E0F9D8FC51213424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56FA01C523EAE396FB1F0B;
+			remoteInfo = PunchinoWatch;
+		};
+		FD7987F6B32F52993E7883FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480CEC76C0E834E45D0B9092;
+			remoteInfo = PunchinoWatchWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83460581E88AF9B34A73C2AE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				29F4F91AFDDA029219E8D32E /* PunchinoWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D17BDD3EC2F35CC63FCD85 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3BCD9766819DBD0257EF6B23 /* PunchinoWatchWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98573A5E3282547582C5EBE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				74C6CBB0977A7F03D0780502 /* PunchinoWidgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01A22EA906ACB025D5D7A611 /* WatchSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchSync.swift; sourceTree = "<group>"; };
+		02164818A98B0D7CFBA42A81 /* StatisticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		02B64E5DC7B3A58EBE9288B5 /* Base.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		062B7E10D6815377E2D9A7C9 /* TimeMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeMath.swift; sourceTree = "<group>"; };
+		081F5A017D913BC445B19778 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0A09F856086402E50295568E /* CloudNotificationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudNotificationDelegate.swift; sourceTree = "<group>"; };
+		0AE73419992E2EAF84EA1DCF /* DebugInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DebugInfoView.swift; sourceTree = "<group>"; };
+		0F74FF54C40B41F65A3383D6 /* PunchinoWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PunchinoWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C4CAD9C6E7F3F0B0E60AB04 /* PunchinoUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoUITests.swift; sourceTree = "<group>"; };
+		28991644A9E49876B6F36157 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C6D0ABD842419CF50A620A8 /* PunchinoWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoWatchApp.swift; sourceTree = "<group>"; };
+		2FCDF967A4CA0A991AAD1518 /* Local.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Local.entitlements; sourceTree = "<group>"; };
+		30AD30501945906523D48762 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudSync.swift; sourceTree = "<group>"; };
+		3BA0B0177DB84519BE7F2BC5 /* Punchino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Punchino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2463EB947A0E6C8FF171BD /* Widget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Widget-Info.plist"; sourceTree = "<group>"; };
+		4CB5E8989C4E58AEBC9D218B /* DayDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DayDetailView.swift; sourceTree = "<group>"; };
+		5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StatisticsMath.swift; sourceTree = "<group>"; };
+		67E9828219290AC90601DB10 /* CSVExporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSVExporter.swift; sourceTree = "<group>"; };
+		8398C7D7A617FEDCF0433365 /* PunchinoWatchUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoWatchUITests.swift; sourceTree = "<group>"; };
+		8437FD95156BA2D72AD2055A /* CSVImporter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CSVImporter.swift; sourceTree = "<group>"; };
+		927706A7AD4507864DA9A1EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92A78CEB031C6CE4A84CB47D /* OverviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		9722E1508D3E7939F410D8BD /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		9B140B88F692FEF38784A6EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A453D4F44078E859B34F4D3E /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A4A433EEE183A57D982A9954 /* PunchinoIntents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoIntents.swift; sourceTree = "<group>"; };
+		A515D3523B8E6A86A8BB3214 /* Cloud.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = Cloud.entitlements; sourceTree = "<group>"; };
+		AFC107915101F6B4D7446C99 /* TimeStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeStore.swift; sourceTree = "<group>"; };
+		B6F0573248A2135AA6C59DF3 /* WatchCloudNotificationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCloudNotificationDelegate.swift; sourceTree = "<group>"; };
+		BE2ACD7FAC64ED1479CFB0D2 /* PunchinoWatchWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PunchinoWatchWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5F85F4A1BEF23C771B111B /* PunchinoWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunchinoWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapshotRepository.swift; sourceTree = "<group>"; };
+		C8ECA8218F6BE28ED51A35CB /* Watch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Watch-Info.plist"; sourceTree = "<group>"; };
+		C91A7BC08BC7802B5B3EB5BE /* PunchinoWidgets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoWidgets.swift; sourceTree = "<group>"; };
+		CCD843D90F18C85AC1EBEDD3 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D82B218AED49C2C7F287E255 /* PunchinoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PunchinoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA46BDF411E2D920CCA9F3E /* PunchinoApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PunchinoApp.swift; sourceTree = "<group>"; };
+		E4AA98BD807BF709CAFC51BD /* PunchinoWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PunchinoWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D555B53B298BC7A4A0F52 /* CloudSync.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CloudSync.xcconfig; sourceTree = "<group>"; };
+		F89E22D914D6292B4597FC83 /* Phone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Phone-Info.plist"; sourceTree = "<group>"; };
+		FC1F5BEE3B49D1D1A70EBAFF /* TrackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		076973BC9510160DA96D44BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C5F6F23001F14E9C086133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540DB133BE5984E5E844EF91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B1F2B3ACBE7E868954492C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF9D735E3C480E8617971B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929A64FC91F38E9953E62EC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6E3FBFE5B57DB6D14650D06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4719D374557DE5390A28D443 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC194E817BD26E0469505D38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8A41D7D13879056346D569 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5757D4053BDD2E784182AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336C75AE261ABD2AB57EA28C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31B701546208A32E05393EAD /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				2C6D0ABD842419CF50A620A8 /* PunchinoWatchApp.swift */,
+				B6F0573248A2135AA6C59DF3 /* WatchCloudNotificationDelegate.swift */,
+				30AD30501945906523D48762 /* Assets.xcassets */,
+			);
+			name = Watch;
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		330DE84680B3CD9FB07700A7 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				67E9828219290AC90601DB10 /* CSVExporter.swift */,
+				8437FD95156BA2D72AD2055A /* CSVImporter.swift */,
+				3AF22FC294CD2C3C1F60D153 /* CloudSync.swift */,
+				CCD843D90F18C85AC1EBEDD3 /* Models.swift */,
+				C03E7D9921A157BFC7D67C39 /* SnapshotRepository.swift */,
+				5EF8F46231E3CAEC06BB7EDD /* StatisticsMath.swift */,
+				081F5A017D913BC445B19778 /* Theme.swift */,
+				062B7E10D6815377E2D9A7C9 /* TimeMath.swift */,
+				AFC107915101F6B4D7446C99 /* TimeStore.swift */,
+				01A22EA906ACB025D5D7A611 /* WatchSync.swift */,
+			);
+			name = Shared;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		49E0152573FF3FA2E65E4D97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EF29459C4205B68F9E9729B /* iOS */,
+				CC85537D3AEE4A7C877068E3 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EF29459C4205B68F9E9729B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				927706A7AD4507864DA9A1EA /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		749BE5D5039C3B2852CAC560 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				02B64E5DC7B3A58EBE9288B5 /* Base.xcconfig */,
+				A515D3523B8E6A86A8BB3214 /* Cloud.entitlements */,
+				EB9D555B53B298BC7A4A0F52 /* CloudSync.xcconfig */,
+				2FCDF967A4CA0A991AAD1518 /* Local.entitlements */,
+				F89E22D914D6292B4597FC83 /* Phone-Info.plist */,
+				C8ECA8218F6BE28ED51A35CB /* Watch-Info.plist */,
+				4A2463EB947A0E6C8FF171BD /* Widget-Info.plist */,
+			);
+			name = Config;
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A539C9B33D75903F4895F5B7 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C91A7BC08BC7802B5B3EB5BE /* PunchinoWidgets.swift */,
+			);
+			name = Widgets;
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		AB4FC0B11FC8A494DB5D0509 /* Tests/UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C4CAD9C6E7F3F0B0E60AB04 /* PunchinoUITests.swift */,
+			);
+			name = Tests/UITests;
+			path = Tests/UITests;
+			sourceTree = "<group>";
+		};
+		AEDCE7EEA48F9442DA3D5391 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				0A09F856086402E50295568E /* CloudNotificationDelegate.swift */,
+				4CB5E8989C4E58AEBC9D218B /* DayDetailView.swift */,
+				0AE73419992E2EAF84EA1DCF /* DebugInfoView.swift */,
+				92A78CEB031C6CE4A84CB47D /* OverviewView.swift */,
+				DFA46BDF411E2D920CCA9F3E /* PunchinoApp.swift */,
+				A4A433EEE183A57D982A9954 /* PunchinoIntents.swift */,
+				9722E1508D3E7939F410D8BD /* RootView.swift */,
+				A453D4F44078E859B34F4D3E /* SettingsView.swift */,
+				02164818A98B0D7CFBA42A81 /* StatisticsView.swift */,
+				FC1F5BEE3B49D1D1A70EBAFF /* TrackView.swift */,
+				28991644A9E49876B6F36157 /* Assets.xcassets */,
+			);
+			name = Phone;
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		C4736CABC2FCC1B88D989EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0B0177DB84519BE7F2BC5 /* Punchino.app */,
+				0F74FF54C40B41F65A3383D6 /* PunchinoWatch.app */,
+				E4AA98BD807BF709CAFC51BD /* PunchinoWidgets.appex */,
+				BE2ACD7FAC64ED1479CFB0D2 /* PunchinoWatchWidgets.appex */,
+				D82B218AED49C2C7F287E255 /* PunchinoUITests.xctest */,
+				BE5F85F4A1BEF23C771B111B /* PunchinoWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC85537D3AEE4A7C877068E3 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B140B88F692FEF38784A6EF /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		E5C4FE432764858C16ECEAC8 /* Tests/WatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8398C7D7A617FEDCF0433365 /* PunchinoWatchUITests.swift */,
+			);
+			name = Tests/WatchUITests;
+			path = Tests/WatchUITests;
+			sourceTree = "<group>";
+		};
+		F9E9F111C96CCBDC7BFD7559 = {
+			isa = PBXGroup;
+			children = (
+				C4736CABC2FCC1B88D989EE6 /* Products */,
+				49E0152573FF3FA2E65E4D97 /* Frameworks */,
+				749BE5D5039C3B2852CAC560 /* Config */,
+				AEDCE7EEA48F9442DA3D5391 /* Phone */,
+				330DE84680B3CD9FB07700A7 /* Shared */,
+				31B701546208A32E05393EAD /* Watch */,
+				A539C9B33D75903F4895F5B7 /* Widgets */,
+				AB4FC0B11FC8A494DB5D0509 /* Tests/UITests */,
+				E5C4FE432764858C16ECEAC8 /* Tests/WatchUITests */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05AF5CA901B14BFBF0E4D9BF /* PunchinoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FA96273FBCABE37C36010CB /* Build configuration list for PBXNativeTarget "PunchinoUITests" */;
+			buildPhases = (
+				7D1853D796AD3EBEF266EC58 /* Sources */,
+				540DB133BE5984E5E844EF91 /* Frameworks */,
+				86C53B4477562BBFFFAD7363 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABB7B36BDCA6D179DF944E0 /* PBXTargetDependency */,
+			);
+			name = PunchinoUITests;
+			productName = PunchinoUITests;
+			productReference = D82B218AED49C2C7F287E255 /* PunchinoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		480CEC76C0E834E45D0B9092 /* PunchinoWatchWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9BEB004672BA278A7E1D649 /* Build configuration list for PBXNativeTarget "PunchinoWatchWidgets" */;
+			buildPhases = (
+				96C3F79ABAB49A7858FF7F4B /* Sources */,
+				076973BC9510160DA96D44BE /* Frameworks */,
+				D046A2CA4154DF615B598B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunchinoWatchWidgets;
+			productName = PunchinoWatchWidgets;
+			productReference = BE2ACD7FAC64ED1479CFB0D2 /* PunchinoWatchWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C7DCD5076AA9CB8168A25CE /* Punchino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0ABAF926EC9A8091E47ADE6 /* Build configuration list for PBXNativeTarget "Punchino" */;
+			buildPhases = (
+				374766C7F46D4ED01E80C311 /* Sources */,
+				9DF9D735E3C480E8617971B5 /* Frameworks */,
+				1C40E7B901AC40917D3BC569 /* Resources */,
+				F98573A5E3282547582C5EBE /* Embed App Extensions */,
+				83460581E88AF9B34A73C2AE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96D1599FE2C425F60FDEAABB /* PBXTargetDependency */,
+				BBC3AF71BC5A3843CC752334 /* PBXTargetDependency */,
+			);
+			name = Punchino;
+			productName = Punchino;
+			productReference = 3BA0B0177DB84519BE7F2BC5 /* Punchino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDEF686D69DF9E318E5DDB07 /* PunchinoWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52BC8B221ACF003D606803B /* Build configuration list for PBXNativeTarget "PunchinoWatchUITests" */;
+			buildPhases = (
+				55BBB0344EC6B57DEC32756D /* Sources */,
+				D6E3FBFE5B57DB6D14650D06 /* Frameworks */,
+				2FCD265835504851B70BE1CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0207563508E1AAE89BC6A9C /* PBXTargetDependency */,
+			);
+			name = PunchinoWatchUITests;
+			productName = PunchinoWatchUITests;
+			productReference = BE5F85F4A1BEF23C771B111B /* PunchinoWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E13B2B45ED80AD784A564F47 /* PunchinoWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C98A7462FE9BF254173518 /* Build configuration list for PBXNativeTarget "PunchinoWidgets" */;
+			buildPhases = (
+				2C065B196FB680DD4C93A6D7 /* Sources */,
+				EC194E817BD26E0469505D38 /* Frameworks */,
+				F128C1CD2C125E4AB86D0995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PunchinoWidgets;
+			productName = PunchinoWidgets;
+			productReference = E4AA98BD807BF709CAFC51BD /* PunchinoWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EF56FA01C523EAE396FB1F0B /* PunchinoWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2A8DBDEDF58107114C6309 /* Build configuration list for PBXNativeTarget "PunchinoWatch" */;
+			buildPhases = (
+				A09FFDD5EC515B2D9E239539 /* Sources */,
+				F5757D4053BDD2E784182AC0 /* Frameworks */,
+				37184E651E9C53FE86901511 /* Resources */,
+				E5D17BDD3EC2F35CC63FCD85 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76034CDF24951656BD3DA8D /* PBXTargetDependency */,
+			);
+			name = PunchinoWatch;
+			productName = PunchinoWatch;
+			productReference = 0F74FF54C40B41F65A3383D6 /* PunchinoWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDEAC0DDA80A9A59C2C69B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					05AF5CA901B14BFBF0E4D9BF = {
+						TestTargetID = 5C7DCD5076AA9CB8168A25CE;
+					};
+					DDEF686D69DF9E318E5DDB07 = {
+						TestTargetID = EF56FA01C523EAE396FB1F0B;
+					};
+				};
+			};
+			buildConfigurationList = AB4069FCA9C1F709CA8C8FC1 /* Build configuration list for PBXProject "Punchino" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9E9F111C96CCBDC7BFD7559;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C4736CABC2FCC1B88D989EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C7DCD5076AA9CB8168A25CE /* Punchino */,
+				EF56FA01C523EAE396FB1F0B /* PunchinoWatch */,
+				E13B2B45ED80AD784A564F47 /* PunchinoWidgets */,
+				480CEC76C0E834E45D0B9092 /* PunchinoWatchWidgets */,
+				05AF5CA901B14BFBF0E4D9BF /* PunchinoUITests */,
+				DDEF686D69DF9E318E5DDB07 /* PunchinoWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C40E7B901AC40917D3BC569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A0FC6233FBE04E7E9EB9E93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FCD265835504851B70BE1CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37184E651E9C53FE86901511 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4775311DF508809A59DDF9D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86C53B4477562BBFFFAD7363 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D046A2CA4154DF615B598B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F128C1CD2C125E4AB86D0995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C065B196FB680DD4C93A6D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B067D9CCF66347C3399E6925 /* PunchinoWidgets.swift in Sources */,
+				769CE35852302B8B8CB3F327 /* CSVExporter.swift in Sources */,
+				EFFEE45423B69D0E5F7F4780 /* CSVImporter.swift in Sources */,
+				5E82570E15F424E0556BF302 /* CloudSync.swift in Sources */,
+				06D3E929F76AED34313401EC /* Models.swift in Sources */,
+				33C1751D30727E92B3EACA7D /* SnapshotRepository.swift in Sources */,
+				5BB7036E44F0780EAC767B80 /* StatisticsMath.swift in Sources */,
+				F975549735399AF891BD61E4 /* Theme.swift in Sources */,
+				B1ACD348C958F17186D9B894 /* TimeMath.swift in Sources */,
+				80C8EEAF4DFE54B483EA4716 /* TimeStore.swift in Sources */,
+				69E32E6BC4F52DFC526F863A /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		374766C7F46D4ED01E80C311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DEC675AC24593867B38DE6 /* CloudNotificationDelegate.swift in Sources */,
+				934B576C93F5902200364D2E /* DayDetailView.swift in Sources */,
+				60F8FEBA75C231C65E4FB0E5 /* DebugInfoView.swift in Sources */,
+				6C9F2932CC3CBC078EDAE446 /* OverviewView.swift in Sources */,
+				E333806383BE165F8E6E9A7C /* PunchinoApp.swift in Sources */,
+				C4B73F82E25D090237053A50 /* PunchinoIntents.swift in Sources */,
+				C40E7F4FD01087A3BDB9E308 /* RootView.swift in Sources */,
+				5BE71EDCD0F3E9BADAAAC633 /* SettingsView.swift in Sources */,
+				0D506CD2E04F1D55C0842522 /* StatisticsView.swift in Sources */,
+				C0A406458E3D98A8846C5F28 /* TrackView.swift in Sources */,
+				4A6C3EB266AC3AF4AA4D1413 /* CSVExporter.swift in Sources */,
+				18700151C49A4AE272B9BF2E /* CSVImporter.swift in Sources */,
+				29457170BAF1680075849F45 /* CloudSync.swift in Sources */,
+				7C3E9D2F38FA9D566F5E8686 /* Models.swift in Sources */,
+				8A56AA7E7338CDCC568E8A6D /* SnapshotRepository.swift in Sources */,
+				ABF71633CD57B5CCCBF4C7E0 /* StatisticsMath.swift in Sources */,
+				75C33185A1F186D10B9BA033 /* Theme.swift in Sources */,
+				6D1C6D0B113531B4DE6A6916 /* TimeMath.swift in Sources */,
+				3E0BE4F6DBC6C297A95A51FE /* TimeStore.swift in Sources */,
+				45A40DD627FD82672BA8DCE6 /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55BBB0344EC6B57DEC32756D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18958614BBDEE3CB0EB60BE /* PunchinoWatchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1853D796AD3EBEF266EC58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D902A4AE9C9A1EE493E54767 /* PunchinoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96C3F79ABAB49A7858FF7F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9DE3FCEC49D5788786BADC /* PunchinoWidgets.swift in Sources */,
+				BEC1D4A2BC26473F494B4CA7 /* CSVExporter.swift in Sources */,
+				45EB9F7B92377B622D589549 /* CSVImporter.swift in Sources */,
+				5DD2E1E632AB49892C5E2D56 /* CloudSync.swift in Sources */,
+				AC736183ECD8116D070D98E7 /* Models.swift in Sources */,
+				5C9FFE31ECC4F967BCF4089A /* SnapshotRepository.swift in Sources */,
+				48653C13AF96AE39266D8904 /* StatisticsMath.swift in Sources */,
+				A155635B6F004E0135DF2CCA /* Theme.swift in Sources */,
+				0D0DB432CFF7804DE4C27D29 /* TimeMath.swift in Sources */,
+				43B3D7701459594025719CCB /* TimeStore.swift in Sources */,
+				6B56DC9C19099290704F7D4A /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09FFDD5EC515B2D9E239539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC46D5E20AEEA8686403058 /* PunchinoWatchApp.swift in Sources */,
+				6BF498B15B2CEF48C2EF58A7 /* WatchCloudNotificationDelegate.swift in Sources */,
+				7C44F6591107E5DB107B24AB /* CSVExporter.swift in Sources */,
+				D5138BC58CA3033E8331F8FE /* CSVImporter.swift in Sources */,
+				A46E75A1F0868E693D0D9A47 /* CloudSync.swift in Sources */,
+				BA9D6F1BBCF014DD906B31B1 /* Models.swift in Sources */,
+				2506F90AA1049F5E60D52484 /* SnapshotRepository.swift in Sources */,
+				188B952C3FA102D7088EA96C /* StatisticsMath.swift in Sources */,
+				4C7837C87FADB8AD29069183 /* Theme.swift in Sources */,
+				953DC103926F55312C2D9E74 /* TimeMath.swift in Sources */,
+				5743383E4BEE58F6B7FA6A46 /* TimeStore.swift in Sources */,
+				9583EC1BA22F74D11D22C639 /* WatchSync.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABB7B36BDCA6D179DF944E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Punchino;
+			target = 5C7DCD5076AA9CB8168A25CE /* Punchino */;
+			targetProxy = C1140AA42A494DBC3B911ECB /* PBXContainerItemProxy */;
+		};
+		96D1599FE2C425F60FDEAABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PunchinoWidgets;
+			target = E13B2B45ED80AD784A564F47 /* PunchinoWidgets */;
+			targetProxy = 7ED4D91B17351787F3DF19C3 /* PBXContainerItemProxy */;
+		};
+		BBC3AF71BC5A3843CC752334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PunchinoWatch;
+			target = EF56FA01C523EAE396FB1F0B /* PunchinoWatch */;
+			targetProxy = D03771F4E0F9D8FC51213424 /* PBXContainerItemProxy */;
+		};
+		C76034CDF24951656BD3DA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PunchinoWatchWidgets;
+			target = 480CEC76C0E834E45D0B9092 /* PunchinoWatchWidgets */;
+			targetProxy = FD7987F6B32F52993E7883FB /* PBXContainerItemProxy */;
+		};
+		E0207563508E1AAE89BC6A9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PunchinoWatch;
+			target = EF56FA01C523EAE396FB1F0B /* PunchinoWatch */;
+			targetProxy = C434B23A9419BC14B2FBCEDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1534EB350D61DF174809891B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Watch-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		2BE888D2D687692818EA1B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Watch-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		3144DFC1230FAD20096A4698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B64E5DC7B3A58EBE9288B5 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		33165AFCAAD3D61A6EFA92E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG PUNCHINO_WIDGET";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		3B3C38A6B03A887E69152761 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) PUNCHINO_WIDGET";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		72C2B2EBDBD229BE65DE1707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Phone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0B5035B6AEBD98173F4497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = PunchinoWatch;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		989481C731BA69394D2E172E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.watchkitapp.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = PunchinoWatch;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		A2FA11916B7A8F83400FBDB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B64E5DC7B3A58EBE9288B5 /* Base.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BB0BA97C83726EBE6BDCC8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Punchino;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C17CB5615D57897B9D923B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) PUNCHINO_WIDGET";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0E8AAEB445C9CECED239FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Punchino;
+			};
+			name = Debug;
+		};
+		D188A5E0BF22493395320A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Phone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F280C2FB13F6BF44876304F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = "$(PUNCHINO_ENTITLEMENTS)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuming.PunchinoColor.widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG PUNCHINO_WIDGET";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FA96273FBCABE37C36010CB /* Build configuration list for PBXNativeTarget "PunchinoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0BA97C83726EBE6BDCC8E5 /* Release */,
+				CF0E8AAEB445C9CECED239FD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2A8DBDEDF58107114C6309 /* Build configuration list for PBXNativeTarget "PunchinoWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE888D2D687692818EA1B58 /* Release */,
+				1534EB350D61DF174809891B /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C98A7462FE9BF254173518 /* Build configuration list for PBXNativeTarget "PunchinoWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C17CB5615D57897B9D923B00 /* Release */,
+				F280C2FB13F6BF44876304F6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A52BC8B221ACF003D606803B /* Build configuration list for PBXNativeTarget "PunchinoWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989481C731BA69394D2E172E /* Release */,
+				8A0B5035B6AEBD98173F4497 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB4069FCA9C1F709CA8C8FC1 /* Build configuration list for PBXProject "Punchino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FA11916B7A8F83400FBDB7 /* Debug */,
+				3144DFC1230FAD20096A4698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9BEB004672BA278A7E1D649 /* Build configuration list for PBXNativeTarget "PunchinoWatchWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B3C38A6B03A887E69152761 /* Release */,
+				33165AFCAAD3D61A6EFA92E9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0ABAF926EC9A8091E47ADE6 /* Build configuration list for PBXNativeTarget "Punchino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C2B2EBDBD229BE65DE1707 /* Release */,
+				D188A5E0BF22493395320A84 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDEAC0DDA80A9A59C2C69B6 /* Project object */;
+}

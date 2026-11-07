@@ -1,0 +1,26 @@
+[
+  {
+    "file": "watch-history-after-relaunch.png",
+    "title": "Watch history after relaunch",
+    "sourceResult": "TestResults/WatchModelFinal.xcresult",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()"
+  },
+  {
+    "file": "watch-study-active.png",
+    "title": "Watch Study active",
+    "sourceResult": "TestResults/WatchModelFinal.xcresult",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()"
+  },
+  {
+    "file": "watch-workload-wheel.png",
+    "title": "Watch workload wheel",
+    "sourceResult": "TestResults/WatchModelFinal.xcresult",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()"
+  },
+  {
+    "file": "watch-out.png",
+    "title": "Watch OUT",
+    "sourceResult": "TestResults/WatchModelFinal.xcresult",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D6848CAF-A8A3-45A3-837A-68E066285466",
+        "deviceName" : "iPhone 18 Pro Max",
+        "exportedFileName" : "33A63AD8-80A9-4158-843C-84CA44F96575.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Watch history after relaunch_0_782D9640-D34A-4879-938C-A09CF23BEFC8.png",
+        "timestamp" : 1794034246.512
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D6848CAF-A8A3-45A3-837A-68E066285466",
+        "deviceName" : "iPhone 18 Pro Max",
+        "exportedFileName" : "609E7304-7AF0-42F0-97DF-32C96C22AF09.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Watch Study active_0_52272B5F-A582-4C07-B11A-AD74C4C38255.png",
+        "timestamp" : 1794034234.329
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D6848CAF-A8A3-45A3-837A-68E066285466",
+        "deviceName" : "iPhone 18 Pro Max",
+        "exportedFileName" : "634F5145-1269-4588-BF82-6E1023F6BDE4.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Watch workload wheel_0_289A2148-FCF5-47AA-9102-86A0067F277B.png",
+        "timestamp" : 1794034232.489
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "D6848CAF-A8A3-45A3-837A-68E066285466",
+        "deviceName" : "iPhone 18 Pro Max",
+        "exportedFileName" : "AF2A1FE1-F91F-4AB4-ABD6-EF404316FB2A.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Watch OUT_0_268C5048-613C-4569-99B9-1124A86B6C94.png",
+        "timestamp" : 1794034225.219
+      }
+    ],
+    "testIdentifier" : "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoWatchUITests/PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentHistory"
+  }
+]

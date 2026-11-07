@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Watch existing Black workload editor",
+    "file": "watch-existing-black-workload-editor.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Black and White settings swatches",
+    "file": "watch-black-and-white-settings-swatches.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Black and White persistent history",
+    "file": "watch-black-and-white-persistent-history.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch White active dark ink",
+    "file": "watch-white-active-dark-ink.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch White workload wheel and confirmation",
+    "file": "watch-white-workload-wheel-and-confirmation.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Black active light ink and outline",
+    "file": "watch-black-active-light-ink-and-outline.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch Black workload wheel and confirmation",
+    "file": "watch-black-workload-wheel-and-confirmation.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchColorExtremesVerified.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

@@ -1,0 +1,171 @@
+{
+  "activationAfterWait": 2,
+  "activationAtReturn": 0,
+  "converged": false,
+  "delegateAfterWait": false,
+  "delegateAtReturn": false,
+  "finalSnapshot": {
+    "schemaVersion": 1,
+    "sessions": [
+      {
+        "colorHex": "43D10D",
+        "end": 815734372.906366,
+        "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+        "modifiedAt": 815734372.906397,
+        "source": "iPhone",
+        "start": 815734369.827885,
+        "timerBoundaries": [
+          {
+            "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+            "start": 815734369.827885,
+            "timestamp": 815734369.827885
+          }
+        ],
+        "workloadID": "00000000-0000-0000-0000-000000000001",
+        "workloadName": "Work"
+      }
+    ],
+    "settings": {
+      "dailyLimitHours": 8,
+      "focus": "balance",
+      "modifiedAt": -63114076800,
+      "themeHex": "43D10D",
+      "weekStartsMonday": true,
+      "weeklyGoalHours": 40
+    },
+    "workloads": [
+      {
+        "colorHex": "43D10D",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Work"
+      },
+      {
+        "colorHex": "2699F5",
+        "id": "00000000-0000-0000-0000-000000000002",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Study"
+      },
+      {
+        "colorHex": "7955EB",
+        "id": "00000000-0000-0000-0000-000000000003",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Personal"
+      }
+    ]
+  },
+  "finished": true,
+  "initialSnapshot": {
+    "schemaVersion": 1,
+    "sessions": [
+      {
+        "colorHex": "43D10D",
+        "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+        "modifiedAt": 815734369.827885,
+        "source": "iPhone",
+        "start": 815734369.827885,
+        "timerBoundaries": [
+          {
+            "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+            "start": 815734369.827885,
+            "timestamp": 815734369.827885
+          }
+        ],
+        "workloadID": "00000000-0000-0000-0000-000000000001",
+        "workloadName": "Work"
+      }
+    ],
+    "settings": {
+      "dailyLimitHours": 8,
+      "focus": "balance",
+      "modifiedAt": -63114076800,
+      "themeHex": "43D10D",
+      "weekStartsMonday": true,
+      "weeklyGoalHours": 40
+    },
+    "workloads": [
+      {
+        "colorHex": "43D10D",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Work"
+      },
+      {
+        "colorHex": "2699F5",
+        "id": "00000000-0000-0000-0000-000000000002",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Study"
+      },
+      {
+        "colorHex": "7955EB",
+        "id": "00000000-0000-0000-0000-000000000003",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Personal"
+      }
+    ]
+  },
+  "mode": "short-lived",
+  "processID": 39189,
+  "sessionID": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+  "side": "watch",
+  "stoppedSnapshot": {
+    "schemaVersion": 1,
+    "sessions": [
+      {
+        "colorHex": "43D10D",
+        "end": 815734372.906366,
+        "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+        "modifiedAt": 815734372.906397,
+        "source": "iPhone",
+        "start": 815734369.827885,
+        "timerBoundaries": [
+          {
+            "id": "439D8501-9BC3-498D-BE46-5A9F9F6CCE66",
+            "start": 815734369.827885,
+            "timestamp": 815734369.827885
+          }
+        ],
+        "workloadID": "00000000-0000-0000-0000-000000000001",
+        "workloadName": "Work"
+      }
+    ],
+    "settings": {
+      "dailyLimitHours": 8,
+      "focus": "balance",
+      "modifiedAt": -63114076800,
+      "themeHex": "43D10D",
+      "weekStartsMonday": true,
+      "weeklyGoalHours": 40
+    },
+    "workloads": [
+      {
+        "colorHex": "43D10D",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Work"
+      },
+      {
+        "colorHex": "2699F5",
+        "id": "00000000-0000-0000-0000-000000000002",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Study"
+      },
+      {
+        "colorHex": "7955EB",
+        "id": "00000000-0000-0000-0000-000000000003",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Personal"
+      }
+    ]
+  },
+  "storeReleased": true
+}

@@ -1,0 +1,8894 @@
+[
+  {
+    "hex": "000000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.0
+  },
+  {
+    "hex": "000000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.959768248837664
+  },
+  {
+    "hex": "000020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.016579537427802
+  },
+  {
+    "hex": "000020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.834780852141815
+  },
+  {
+    "hex": "000040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.0638828965021454
+  },
+  {
+    "hex": "000040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.427595903331955
+  },
+  {
+    "hex": "000060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.148751487321443
+  },
+  {
+    "hex": "000060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.740491309132837
+  },
+  {
+    "hex": "000080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2753458107355546
+  },
+  {
+    "hex": "000080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.862897841491648
+  },
+  {
+    "hex": "0000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4459018817040954
+  },
+  {
+    "hex": "0000A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.909311793015714
+  },
+  {
+    "hex": "0000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6610173404092352
+  },
+  {
+    "hex": "0000C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.976342952876017
+  },
+  {
+    "hex": "0000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9198382754457217
+  },
+  {
+    "hex": "0000E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.124321634081122
+  },
+  {
+    "hex": "0000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.210250429732304
+  },
+  {
+    "hex": "0000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.4013391903729895
+  },
+  {
+    "hex": "002000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.1583259008855116
+  },
+  {
+    "hex": "002000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.912262592185161
+  },
+  {
+    "hex": "002020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.1736077781369143
+  },
+  {
+    "hex": "002020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.826112025832229
+  },
+  {
+    "hex": "002040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2182389635983328
+  },
+  {
+    "hex": "002040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.526501208380402
+  },
+  {
+    "hex": "002060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.298601684079168
+  },
+  {
+    "hex": "002060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.004752118748518
+  },
+  {
+    "hex": "002080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.418730565095683
+  },
+  {
+    "hex": "002080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.315774129510391
+  },
+  {
+    "hex": "0020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5808568712080906
+  },
+  {
+    "hex": "0020A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.5396466749942626
+  },
+  {
+    "hex": "0020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7856797723316926
+  },
+  {
+    "hex": "0020C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.75226533419914
+  },
+  {
+    "hex": "0020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0325386139284776
+  },
+  {
+    "hex": "0020E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.008288883735912
+  },
+  {
+    "hex": "0020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3100222393215977
+  },
+  {
+    "hex": "0020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.357753851604829
+  },
+  {
+    "hex": "004000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5836864122128347
+  },
+  {
+    "hex": "004000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.69334902239643
+  },
+  {
+    "hex": "004020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5966045541759588
+  },
+  {
+    "hex": "004020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.659449627485734
+  },
+  {
+    "hex": "004040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6370568566703319
+  },
+  {
+    "hex": "004040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.510905101866368
+  },
+  {
+    "hex": "004060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7105875757431293
+  },
+  {
+    "hex": "004060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.23415773057394
+  },
+  {
+    "hex": "004080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.821043537593243
+  },
+  {
+    "hex": "004080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.846274469111747
+  },
+  {
+    "hex": "0040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.970624179374241
+  },
+  {
+    "hex": "0040A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.381047168918297
+  },
+  {
+    "hex": "0040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.1601344603739983
+  },
+  {
+    "hex": "0040C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.877692707814223
+  },
+  {
+    "hex": "0040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.38914001587386
+  },
+  {
+    "hex": "0040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.371307667301585
+  },
+  {
+    "hex": "0040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6472126696754508
+  },
+  {
+    "hex": "0040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.90232253823554
+  },
+  {
+    "hex": "006000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.2773619803098435
+  },
+  {
+    "hex": "006000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.6783683900766
+  },
+  {
+    "hex": "006020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.2869329996337937
+  },
+  {
+    "hex": "006020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.67189454795254
+  },
+  {
+    "hex": "006040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3215637982677366
+  },
+  {
+    "hex": "006040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.612638361621891
+  },
+  {
+    "hex": "006060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.385602383252971
+  },
+  {
+    "hex": "006060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.4907711674922
+  },
+  {
+    "hex": "006080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.482619547915827
+  },
+  {
+    "hex": "006080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.308418794484726
+  },
+  {
+    "hex": "0060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6147435302874515
+  },
+  {
+    "hex": "0060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.075368003326686
+  },
+  {
+    "hex": "0060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.782889205857924
+  },
+  {
+    "hex": "0060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.806148688670155
+  },
+  {
+    "hex": "0060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.9868923483595604
+  },
+  {
+    "hex": "0060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.51676693032258
+  },
+  {
+    "hex": "0060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2176567313845954
+  },
+  {
+    "hex": "0060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.231138754856611
+  },
+  {
+    "hex": "008000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.1875424165545194
+  },
+  {
+    "hex": "008000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.294439303639639
+  },
+  {
+    "hex": "008020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.1933289764154935
+  },
+  {
+    "hex": "008020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2972198436019906
+  },
+  {
+    "hex": "008040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2213071623269425
+  },
+  {
+    "hex": "008040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.275669154224042
+  },
+  {
+    "hex": "008060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.274456208768308
+  },
+  {
+    "hex": "008060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2240991661481826
+  },
+  {
+    "hex": "008080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3560028412904055
+  },
+  {
+    "hex": "008080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.141492404610838
+  },
+  {
+    "hex": "0080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.467956937804397
+  },
+  {
+    "hex": "0080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0299288756541602
+  },
+  {
+    "hex": "0080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6113146600899584
+  },
+  {
+    "hex": "0080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8939126141673612
+  },
+  {
+    "hex": "0080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.7861714660141685
+  },
+  {
+    "hex": "0080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7394800030121935
+  },
+  {
+    "hex": "0080FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9849333631855486
+  },
+  {
+    "hex": "0080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.578549413456684
+  },
+  {
+    "hex": "00A000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.236999561835851
+  },
+  {
+    "hex": "00A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4027830893821225
+  },
+  {
+    "hex": "00A020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.239122394545265
+  },
+  {
+    "hex": "00A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.407745930097932
+  },
+  {
+    "hex": "00A040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.26046433353791
+  },
+  {
+    "hex": "00A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4007996436499255
+  },
+  {
+    "hex": "00A060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.30265835449295
+  },
+  {
+    "hex": "00A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3787719910196796
+  },
+  {
+    "hex": "00A080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.368549479209892
+  },
+  {
+    "hex": "00A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3404901713281854
+  },
+  {
+    "hex": "00A0A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.459985798880102
+  },
+  {
+    "hex": "00A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2860616830411216
+  },
+  {
+    "hex": "00A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.577995799986155
+  },
+  {
+    "hex": "00A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.216701726524617
+  },
+  {
+    "hex": "00A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.722882262952454
+  },
+  {
+    "hex": "00A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1344979913114037
+  },
+  {
+    "hex": "00A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.888542021308784
+  },
+  {
+    "hex": "00A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.045128007043135
+  },
+  {
+    "hex": "00C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.346809840675114
+  },
+  {
+    "hex": "00C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8222140573532841
+  },
+  {
+    "hex": "00C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.345785487525248
+  },
+  {
+    "hex": "00C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8271353758918212
+  },
+  {
+    "hex": "00C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.361137545741101
+  },
+  {
+    "hex": "00C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8257986911122557
+  },
+  {
+    "hex": "00C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.393318548572507
+  },
+  {
+    "hex": "00C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8163876410672555
+  },
+  {
+    "hex": "00C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.444785881574314
+  },
+  {
+    "hex": "00C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7980404812397395
+  },
+  {
+    "hex": "00C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.517196135711499
+  },
+  {
+    "hex": "00C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7704670772231659
+  },
+  {
+    "hex": "00C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.611558496154071
+  },
+  {
+    "hex": "00C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7338911165464248
+  },
+  {
+    "hex": "00C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.728312709860431
+  },
+  {
+    "hex": "00C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6889831033299072
+  },
+  {
+    "hex": "00C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.862703002619756
+  },
+  {
+    "hex": "00C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.638500210264625
+  },
+  {
+    "hex": "00E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.4516992979969885
+  },
+  {
+    "hex": "00E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.431761460276245
+  },
+  {
+    "hex": "00E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.448228041676069
+  },
+  {
+    "hex": "00E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4360645598990704
+  },
+  {
+    "hex": "00E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.458566738287889
+  },
+  {
+    "hex": "00E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4368554059378666
+  },
+  {
+    "hex": "00E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.4822249037962845
+  },
+  {
+    "hex": "00E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4330469449142635
+  },
+  {
+    "hex": "00E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.52129205031295
+  },
+  {
+    "hex": "00E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4240556815717946
+  },
+  {
+    "hex": "00E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.577221264223062
+  },
+  {
+    "hex": "00E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4095771487941051
+  },
+  {
+    "hex": "00E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.650961244328028
+  },
+  {
+    "hex": "00E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3895590728952179
+  },
+  {
+    "hex": "00E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.743021482937636
+  },
+  {
+    "hex": "00E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.364178897050185
+  },
+  {
+    "hex": "00E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.849783283262871
+  },
+  {
+    "hex": "00E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.334833836343144
+  },
+  {
+    "hex": "00FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.474079445797633
+  },
+  {
+    "hex": "00FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1667369313427187
+  },
+  {
+    "hex": "00FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.468917622722643
+  },
+  {
+    "hex": "00FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1703781540234632
+  },
+  {
+    "hex": "00FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.475404118243012
+  },
+  {
+    "hex": "00FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1719004418472863
+  },
+  {
+    "hex": "00FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.4923722164010425
+  },
+  {
+    "hex": "00FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1706129274998178
+  },
+  {
+    "hex": "00FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.521589396215261
+  },
+  {
+    "hex": "00FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1661183299734517
+  },
+  {
+    "hex": "00FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.56431517351575
+  },
+  {
+    "hex": "00FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.158170418942795
+  },
+  {
+    "hex": "00FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.6214150681598944
+  },
+  {
+    "hex": "00FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1466578665677505
+  },
+  {
+    "hex": "00FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.69341589832179
+  },
+  {
+    "hex": "00FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1315944768078083
+  },
+  {
+    "hex": "00FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.777587099541913
+  },
+  {
+    "hex": "00FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1137357732089137
+  },
+  {
+    "hex": "200000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.0484255153291948
+  },
+  {
+    "hex": "200000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.605793855705832
+  },
+  {
+    "hex": "200020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.0646025612740853
+  },
+  {
+    "hex": "200020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.49472064980325
+  },
+  {
+    "hex": "200040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.1110818061390357
+  },
+  {
+    "hex": "200040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.12548587344239
+  },
+  {
+    "hex": "200060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.1945626730999144
+  },
+  {
+    "hex": "200060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.495976522532258
+  },
+  {
+    "hex": "200080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.3191676588542247
+  },
+  {
+    "hex": "200080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.683063271961229
+  },
+  {
+    "hex": "2000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4871322259962398
+  },
+  {
+    "hex": "2000A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.789257013622753
+  },
+  {
+    "hex": "2000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6990863012297697
+  },
+  {
+    "hex": "2000C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.904427528401131
+  },
+  {
+    "hex": "2000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9542365306327374
+  },
+  {
+    "hex": "2000E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.087487246134226
+  },
+  {
+    "hex": "2000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.240685449968282
+  },
+  {
+    "hex": "2000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.38763222112284
+  },
+  {
+    "hex": "202000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2029755907974315
+  },
+  {
+    "hex": "202000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.666697833479619
+  },
+  {
+    "hex": "202020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2179010331651838
+  },
+  {
+    "hex": "202020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.58862614461875
+  },
+  {
+    "hex": "202040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2617902281873568
+  },
+  {
+    "hex": "202040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.312136066499608
+  },
+  {
+    "hex": "202060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.340898538891454
+  },
+  {
+    "hex": "202060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.826840293110703
+  },
+  {
+    "hex": "202080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4592242564002371
+  },
+  {
+    "hex": "202080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.180729957000084
+  },
+  {
+    "hex": "2020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6189957808404225
+  },
+  {
+    "hex": "2020A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.446346833720455
+  },
+  {
+    "hex": "2020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8209388216580864
+  },
+  {
+    "hex": "2020C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.694454092773988
+  },
+  {
+    "hex": "2020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0644447590696147
+  },
+  {
+    "hex": "2020E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.977740299904568
+  },
+  {
+    "hex": "2020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.33829773642832
+  },
+  {
+    "hex": "2020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.346078109328668
+  },
+  {
+    "hex": "204000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6214439718156
+  },
+  {
+    "hex": "204000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.5957846562607445
+  },
+  {
+    "hex": "204020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6340750831260193
+  },
+  {
+    "hex": "204020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.564152699682557
+  },
+  {
+    "hex": "204040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6738994720940936
+  },
+  {
+    "hex": "204040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.423201480978951
+  },
+  {
+    "hex": "204060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7463577465922049
+  },
+  {
+    "hex": "204060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.159346830327899
+  },
+  {
+    "hex": "204080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8552630145924531
+  },
+  {
+    "hex": "204080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.787843865172455
+  },
+  {
+    "hex": "2040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.002809653221057
+  },
+  {
+    "hex": "2040A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.339998184282695
+  },
+  {
+    "hex": "2040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.1898227701520834
+  },
+  {
+    "hex": "2040C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.8528105468316465
+  },
+  {
+    "hex": "2040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4159101735915454
+  },
+  {
+    "hex": "2040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.3599890663137115
+  },
+  {
+    "hex": "2040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6708112762915515
+  },
+  {
+    "hex": "2040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9011818501325624
+  },
+  {
+    "hex": "206000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3053503867654284
+  },
+  {
+    "hex": "206000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.659588260602157
+  },
+  {
+    "hex": "206020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3147228603151606
+  },
+  {
+    "hex": "206020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.653400867646957
+  },
+  {
+    "hex": "206040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.348870877596502
+  },
+  {
+    "hex": "206040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.595790576302025
+  },
+  {
+    "hex": "206060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.412068757770378
+  },
+  {
+    "hex": "206060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.4770516719040705
+  },
+  {
+    "hex": "206080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5078574872965653
+  },
+  {
+    "hex": "206080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.299018787869859
+  },
+  {
+    "hex": "2060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6383582841492226
+  },
+  {
+    "hex": "2060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.070950583338191
+  },
+  {
+    "hex": "2060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8044990539844057
+  },
+  {
+    "hex": "2060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.806781493724134
+  },
+  {
+    "hex": "2060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.0061462796200646
+  },
+  {
+    "hex": "2060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.522010943502931
+  },
+  {
+    "hex": "2060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.234336573862206
+  },
+  {
+    "hex": "2060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.240119465538425
+  },
+  {
+    "hex": "208000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.204473835658181
+  },
+  {
+    "hex": "208000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3025468414519983
+  },
+  {
+    "hex": "208020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2101503598880066
+  },
+  {
+    "hex": "208020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.305245877697211
+  },
+  {
+    "hex": "208040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2377940017264994
+  },
+  {
+    "hex": "208040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2839075306520997
+  },
+  {
+    "hex": "208060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2903407133419975
+  },
+  {
+    "hex": "208060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2328900188127787
+  },
+  {
+    "hex": "208080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3709922392462026
+  },
+  {
+    "hex": "208080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.1511391615237225
+  },
+  {
+    "hex": "2080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.481750395053948
+  },
+  {
+    "hex": "2080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.040641151333224
+  },
+  {
+    "hex": "2080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6236181396016214
+  },
+  {
+    "hex": "2080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.9057729942915076
+  },
+  {
+    "hex": "2080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.7967109493501674
+  },
+  {
+    "hex": "2080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.75244000369728
+  },
+  {
+    "hex": "2080FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.993532202344594
+  },
+  {
+    "hex": "2080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5924246553987733
+  },
+  {
+    "hex": "20A000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.243214814275382
+  },
+  {
+    "hex": "20A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4172993339264526
+  },
+  {
+    "hex": "20A020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.2453012057693185
+  },
+  {
+    "hex": "20A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.42216274765792
+  },
+  {
+    "hex": "20A040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.2664373091506675
+  },
+  {
+    "hex": "20A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.415161296330023
+  },
+  {
+    "hex": "20A060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.308238563273204
+  },
+  {
+    "hex": "20A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.393132094903736
+  },
+  {
+    "hex": "20A080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.373530137568627
+  },
+  {
+    "hex": "20A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3548972190111765
+  },
+  {
+    "hex": "20A0A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.464152125637264
+  },
+  {
+    "hex": "20A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3005475874795995
+  },
+  {
+    "hex": "20A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.581135373180075
+  },
+  {
+    "hex": "20A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.231273310913389
+  },
+  {
+    "hex": "20A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.724794302908019
+  },
+  {
+    "hex": "20A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1491331332472856
+  },
+  {
+    "hex": "20A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.889092023638751
+  },
+  {
+    "hex": "20A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0597775200352846
+  },
+  {
+    "hex": "20C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.343808865184796
+  },
+  {
+    "hex": "20C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8366370316310836
+  },
+  {
+    "hex": "20C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.342800200872641
+  },
+  {
+    "hex": "20C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8414884065743096
+  },
+  {
+    "hex": "20C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.358044615871664
+  },
+  {
+    "hex": "20C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8400732061908254
+  },
+  {
+    "hex": "20C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.389995790045977
+  },
+  {
+    "hex": "20C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8305736427693893
+  },
+  {
+    "hex": "20C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.4410960850973975
+  },
+  {
+    "hex": "20C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8121256274299051
+  },
+  {
+    "hex": "20C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.51299500887969
+  },
+  {
+    "hex": "20C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7844351946368369
+  },
+  {
+    "hex": "20C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.606701532794601
+  },
+  {
+    "hex": "20C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7477208967099904
+  },
+  {
+    "hex": "20C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.722661372501555
+  },
+  {
+    "hex": "20C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7026474255280821
+  },
+  {
+    "hex": "20C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.856160790837656
+  },
+  {
+    "hex": "20C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.651973090817378
+  },
+  {
+    "hex": "20E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.441523794270465
+  },
+  {
+    "hex": "20E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4443885250226298
+  },
+  {
+    "hex": "20E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.438099583988562
+  },
+  {
+    "hex": "20E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4486466984372197
+  },
+  {
+    "hex": "20E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.448397791252558
+  },
+  {
+    "hex": "20E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.449376715710203
+  },
+  {
+    "hex": "20E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.471940733795755
+  },
+  {
+    "hex": "20E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4454880340075054
+  },
+  {
+    "hex": "20E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.510807024687402
+  },
+  {
+    "hex": "20E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.436395041531766
+  },
+  {
+    "hex": "20E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.566444002723604
+  },
+  {
+    "hex": "20E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4217915662509588
+  },
+  {
+    "hex": "20E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.639799007893931
+  },
+  {
+    "hex": "20E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.401623913395028
+  },
+  {
+    "hex": "20E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.731384122459781
+  },
+  {
+    "hex": "20E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3760684082308487
+  },
+  {
+    "hex": "20E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.837605455812505
+  },
+  {
+    "hex": "20E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3465282650730075
+  },
+  {
+    "hex": "20FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.4589403210503695
+  },
+  {
+    "hex": "20FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1774305681338515
+  },
+  {
+    "hex": "20FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.453840339222144
+  },
+  {
+    "hex": "20FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1810427608636946
+  },
+  {
+    "hex": "20FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.460326855399073
+  },
+  {
+    "hex": "20FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1825222625226302
+  },
+  {
+    "hex": "20FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.477251846688973
+  },
+  {
+    "hex": "20FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1811749678859835
+  },
+  {
+    "hex": "20FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.50637506999861
+  },
+  {
+    "hex": "20FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1766017723595419
+  },
+  {
+    "hex": "20FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.548951641187307
+  },
+  {
+    "hex": "20FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1685552226946605
+  },
+  {
+    "hex": "20FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.605845452609658
+  },
+  {
+    "hex": "20FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1569232444675022
+  },
+  {
+    "hex": "20FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.67758417608237
+  },
+  {
+    "hex": "20FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1417193210972985
+  },
+  {
+    "hex": "20FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.761450952294781
+  },
+  {
+    "hex": "20FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1237044273983166
+  },
+  {
+    "hex": "400000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.1847148696496856
+  },
+  {
+    "hex": "400000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.5779543751655
+  },
+  {
+    "hex": "400020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.200090313769222
+  },
+  {
+    "hex": "400020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.498224376158397
+  },
+  {
+    "hex": "400040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.2451697664205252
+  },
+  {
+    "hex": "400040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 8.214750387766392
+  },
+  {
+    "hex": "400060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.3263705246004178
+  },
+  {
+    "hex": "400060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.71861294571004
+  },
+  {
+    "hex": "400080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4477559583600994
+  },
+  {
+    "hex": "400080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.061477348755878
+  },
+  {
+    "hex": "4000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6115551893600066
+  },
+  {
+    "hex": "4000A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.319344715510691
+  },
+  {
+    "hex": "4000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8184383011718475
+  },
+  {
+    "hex": "4000C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.564717933735313
+  },
+  {
+    "hex": "4000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0676925200337046
+  },
+  {
+    "hex": "4000E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.850201895406601
+  },
+  {
+    "hex": "4000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3477499506159107
+  },
+  {
+    "hex": "4000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.224283737436833
+  },
+  {
+    "hex": "402000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.331686192556268
+  },
+  {
+    "hex": "402000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.891141027993604
+  },
+  {
+    "hex": "402020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.345889135120788
+  },
+  {
+    "hex": "402020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.832717334920889
+  },
+  {
+    "hex": "402040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.3885073356803261
+  },
+  {
+    "hex": "402040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.611937839001679
+  },
+  {
+    "hex": "402060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4655403484632306
+  },
+  {
+    "hex": "402060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.216016207639236
+  },
+  {
+    "hex": "402080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.580930011704839
+  },
+  {
+    "hex": "402080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.678408337080649
+  },
+  {
+    "hex": "4020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7368956011110253
+  },
+  {
+    "hex": "4020A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.054469227807996
+  },
+  {
+    "hex": "4020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.934195459198478
+  },
+  {
+    "hex": "4020C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.401896946359911
+  },
+  {
+    "hex": "4020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.172290136356413
+  },
+  {
+    "hex": "4020E0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.766928210536439
+  },
+  {
+    "hex": "4020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4402621405092244
+  },
+  {
+    "hex": "4020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.196762667319878
+  },
+  {
+    "hex": "404000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7382436961646823
+  },
+  {
+    "hex": "404000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.195759583569442
+  },
+  {
+    "hex": "404020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7502626323314476
+  },
+  {
+    "hex": "404020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.1708694436314655
+  },
+  {
+    "hex": "404040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7889873052276608
+  },
+  {
+    "hex": "404040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.051140714476871
+  },
+  {
+    "hex": "404060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.859639671314413
+  },
+  {
+    "hex": "404060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.823419988404378
+  },
+  {
+    "hex": "404080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.965980338192121
+  },
+  {
+    "hex": "404080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.498818232276496
+  },
+  {
+    "hex": "4040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.1101919801377824
+  },
+  {
+    "hex": "4040A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.102517713123394
+  },
+  {
+    "hex": "4040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.293124034811778
+  },
+  {
+    "hex": "4040C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.6656510423862265
+  },
+  {
+    "hex": "4040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5144403898721426
+  },
+  {
+    "hex": "4040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.217801250053441
+  },
+  {
+    "hex": "4040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.7641394539814104
+  },
+  {
+    "hex": "4040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.795548253973177
+  },
+  {
+    "hex": "406000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4055094226549683
+  },
+  {
+    "hex": "406000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.494457607760874
+  },
+  {
+    "hex": "406020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4144104447392714
+  },
+  {
+    "hex": "406020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.489785650268704
+  },
+  {
+    "hex": "406040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4476769397846594
+  },
+  {
+    "hex": "406040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.438151792783795
+  },
+  {
+    "hex": "406060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.509412445872481
+  },
+  {
+    "hex": "406060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.330376110910211
+  },
+  {
+    "hex": "406080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6031112518932247
+  },
+  {
+    "hex": "406080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.167586424014253
+  },
+  {
+    "hex": "4060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.730880679983434
+  },
+  {
+    "hex": "4060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.95760142870338
+  },
+  {
+    "hex": "4060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.893663716492563
+  },
+  {
+    "hex": "4060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.71262652613579
+  },
+  {
+    "hex": "4060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.091367674132923
+  },
+  {
+    "hex": "4060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.446575179109274
+  },
+  {
+    "hex": "4060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.315238680782614
+  },
+  {
+    "hex": "4060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.181262658447431
+  },
+  {
+    "hex": "408000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.285558463703629
+  },
+  {
+    "hex": "408000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.241016783876898
+  },
+  {
+    "hex": "408020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.290907674322961
+  },
+  {
+    "hex": "408020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2439147569944877
+  },
+  {
+    "hex": "408040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3178961774650806
+  },
+  {
+    "hex": "408040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.224083948839247
+  },
+  {
+    "hex": "408060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.369338771299096
+  },
+  {
+    "hex": "408060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.176120151607446
+  },
+  {
+    "hex": "408080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.448397610114566
+  },
+  {
+    "hex": "408080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.098897266267787
+  },
+  {
+    "hex": "4080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.5570596601878397
+  },
+  {
+    "hex": "4080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.99412026047794
+  },
+  {
+    "hex": "4080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6963348489339927
+  },
+  {
+    "hex": "4080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8657478842953843
+  },
+  {
+    "hex": "4080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.8663651744650065
+  },
+  {
+    "hex": "4080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.719220050394675
+  },
+  {
+    "hex": "4080FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.059812471049994
+  },
+  {
+    "hex": "4080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5656865507475177
+  },
+  {
+    "hex": "40A000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.30521035555853
+  },
+  {
+    "hex": "40A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3970772485807275
+  },
+  {
+    "hex": "40A020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.3070949594283405
+  },
+  {
+    "hex": "40A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4018864504502355
+  },
+  {
+    "hex": "40A040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.3277781298024145
+  },
+  {
+    "hex": "40A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3952290496825315
+  },
+  {
+    "hex": "40A060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.368798004073177
+  },
+  {
+    "hex": "40A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.374032307003312
+  },
+  {
+    "hex": "40A080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.4329477234656895
+  },
+  {
+    "hex": "40A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3371262316295263
+  },
+  {
+    "hex": "40A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.522053047305458
+  },
+  {
+    "hex": "40A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.284552117410289
+  },
+  {
+    "hex": "40A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.637146017160385
+  },
+  {
+    "hex": "40A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.217404520150349
+  },
+  {
+    "hex": "40A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.778556267024109
+  },
+  {
+    "hex": "40A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.137617754144927
+  },
+  {
+    "hex": "40A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.940359774453678
+  },
+  {
+    "hex": "40A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.050632003055377
+  },
+  {
+    "hex": "40C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.388517578709996
+  },
+  {
+    "hex": "40C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8325958521442853
+  },
+  {
+    "hex": "40C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.38740318976099
+  },
+  {
+    "hex": "40C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8373702961929463
+  },
+  {
+    "hex": "40C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.402355665762264
+  },
+  {
+    "hex": "40C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8360049810848138
+  },
+  {
+    "hex": "40C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.433785537925184
+  },
+  {
+    "hex": "40C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8267152842653922
+  },
+  {
+    "hex": "40C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.484110318557716
+  },
+  {
+    "hex": "40C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8086465155705027
+  },
+  {
+    "hex": "40C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.5549668213952605
+  },
+  {
+    "hex": "40C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7814976024807045
+  },
+  {
+    "hex": "40C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.6473619020427
+  },
+  {
+    "hex": "40C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7454654784188446
+  },
+  {
+    "hex": "40C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.761748747056251
+  },
+  {
+    "hex": "40C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.701181968167901
+  },
+  {
+    "hex": "40C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.893490026103082
+  },
+  {
+    "hex": "40C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.651338214970041
+  },
+  {
+    "hex": "40E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.471716777439459
+  },
+  {
+    "hex": "40E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4465793191992897
+  },
+  {
+    "hex": "40E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.468252746500025
+  },
+  {
+    "hex": "40E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4507776285920349
+  },
+  {
+    "hex": "40E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.4783761647792035
+  },
+  {
+    "hex": "40E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4514886047817386
+  },
+  {
+    "hex": "40E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.501590146084496
+  },
+  {
+    "hex": "40E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4476338291013147
+  },
+  {
+    "hex": "40E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.539954676556176
+  },
+  {
+    "hex": "40E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4386324864097335
+  },
+  {
+    "hex": "40E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.594906595439539
+  },
+  {
+    "hex": "40E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4241782143019581
+  },
+  {
+    "hex": "40E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.667389726186305
+  },
+  {
+    "hex": "40E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.404212499954991
+  },
+  {
+    "hex": "40E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.757918966250278
+  },
+  {
+    "hex": "40E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3789028611926863
+  },
+  {
+    "hex": "40E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.862950004734297
+  },
+  {
+    "hex": "40E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3496316577089018
+  },
+  {
+    "hex": "40FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.477945209857243
+  },
+  {
+    "hex": "40FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1818003762359202
+  },
+  {
+    "hex": "40FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.472845287688656
+  },
+  {
+    "hex": "40FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1853703150215105
+  },
+  {
+    "hex": "40FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.479234348374901
+  },
+  {
+    "hex": "40FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1868202074211087
+  },
+  {
+    "hex": "40FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.495960071820133
+  },
+  {
+    "hex": "40FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.18546037085552
+  },
+  {
+    "hex": "40FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.524768476862252
+  },
+  {
+    "hex": "40FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1808937524471645
+  },
+  {
+    "hex": "40FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.566906364584517
+  },
+  {
+    "hex": "40FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1728733484552143
+  },
+  {
+    "hex": "40FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.623233895459788
+  },
+  {
+    "hex": "40FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.161285989460669
+  },
+  {
+    "hex": "40FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.6942791504228
+  },
+  {
+    "hex": "40FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1461426437659368
+  },
+  {
+    "hex": "40FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.7773567802543955
+  },
+  {
+    "hex": "40FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1281981640378649
+  },
+  {
+    "hex": "600000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4238038435642564
+  },
+  {
+    "hex": "600000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.15703439053357
+  },
+  {
+    "hex": "600020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4378833342976747
+  },
+  {
+    "hex": "600020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 7.1114955010037955
+  },
+  {
+    "hex": "600040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.4807666067053074
+  },
+  {
+    "hex": "600040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.925344554156066
+  },
+  {
+    "hex": "600060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5584139282284846
+  },
+  {
+    "hex": "600060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.585803420425862
+  },
+  {
+    "hex": "600080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.674795834673183
+  },
+  {
+    "hex": "600080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.1195624157694315
+  },
+  {
+    "hex": "6000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.832127128327827
+  },
+  {
+    "hex": "6000A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.572871057690379
+  },
+  {
+    "hex": "6000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0311328642739133
+  },
+  {
+    "hex": "6000C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.995385347197573
+  },
+  {
+    "hex": "6000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.271215797943674
+  },
+  {
+    "hex": "6000E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.428152957020264
+  },
+  {
+    "hex": "6000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.541310573499519
+  },
+  {
+    "hex": "6000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9144339389027243
+  },
+  {
+    "hex": "602000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5584926693539636
+  },
+  {
+    "hex": "602000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.755108536911927
+  },
+  {
+    "hex": "602020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.5715211367172506
+  },
+  {
+    "hex": "602020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.719884620665479
+  },
+  {
+    "hex": "602040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6121375552938928
+  },
+  {
+    "hex": "602040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.5670768333261265
+  },
+  {
+    "hex": "602060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.6859250909133698
+  },
+  {
+    "hex": "602060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 6.283140518388023
+  },
+  {
+    "hex": "602080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.796737011568937
+  },
+  {
+    "hex": "602080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.886130671270272
+  },
+  {
+    "hex": "6020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9467746212807115
+  },
+  {
+    "hex": "6020A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.411189359028252
+  },
+  {
+    "hex": "6020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.136840679075904
+  },
+  {
+    "hex": "6020C0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.8987326792715775
+  },
+  {
+    "hex": "6020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3664950023027043
+  },
+  {
+    "hex": "6020E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.384608680969718
+  },
+  {
+    "hex": "6020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6252764482053452
+  },
+  {
+    "hex": "6020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9096910088388777
+  },
+  {
+    "hex": "604000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9462366430671894
+  },
+  {
+    "hex": "604000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.540304986670095
+  },
+  {
+    "hex": "604020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9572485951160683
+  },
+  {
+    "hex": "604020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.524574705895571
+  },
+  {
+    "hex": "604040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9942284310568714
+  },
+  {
+    "hex": "604040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.434270023539404
+  },
+  {
+    "hex": "604060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0620383500465818
+  },
+  {
+    "hex": "604060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.257449165250864
+  },
+  {
+    "hex": "604080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.164356559200698
+  },
+  {
+    "hex": "604080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.000302874649794
+  },
+  {
+    "hex": "6040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.30334444973611
+  },
+  {
+    "hex": "6040A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.680098176959876
+  },
+  {
+    "hex": "6040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4798842285087748
+  },
+  {
+    "hex": "6040C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.319820511588748
+  },
+  {
+    "hex": "6040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6937203830230168
+  },
+  {
+    "hex": "6040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.942764580994625
+  },
+  {
+    "hex": "6040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.935249518506378
+  },
+  {
+    "hex": "6040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5801283339095527
+  },
+  {
+    "hex": "606000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.587213146928358
+  },
+  {
+    "hex": "606000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.183196491500886
+  },
+  {
+    "hex": "606020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5953218242700506
+  },
+  {
+    "hex": "606020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.180967724089525
+  },
+  {
+    "hex": "606040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6271722539659494
+  },
+  {
+    "hex": "606040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.1388409974744045
+  },
+  {
+    "hex": "606060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6865814595477717
+  },
+  {
+    "hex": "606060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.048584787373235
+  },
+  {
+    "hex": "606080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.77697030547424
+  },
+  {
+    "hex": "606080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9104105325672394
+  },
+  {
+    "hex": "6060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.90042214414445
+  },
+  {
+    "hex": "6060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.7300725224911564
+  },
+  {
+    "hex": "6060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.0578997264901377
+  },
+  {
+    "hex": "6060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5171768049427192
+  },
+  {
+    "hex": "6060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.249369135475573
+  },
+  {
+    "hex": "6060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2831330462701307
+  },
+  {
+    "hex": "6060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4664012948877168
+  },
+  {
+    "hex": "6060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.046903883542474
+  },
+  {
+    "hex": "608000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4369236025167917
+  },
+  {
+    "hex": "608000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.1021533734216606
+  },
+  {
+    "hex": "608020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.441702703052014
+  },
+  {
+    "hex": "608020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.1055043929209902
+  },
+  {
+    "hex": "608040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4676192572996505
+  },
+  {
+    "hex": "608040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0884424046496632
+  },
+  {
+    "hex": "608060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.517278240791072
+  },
+  {
+    "hex": "608060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0460041157075146
+  },
+  {
+    "hex": "608080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.5937793258486224
+  },
+  {
+    "hex": "608080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.9769812474568798
+  },
+  {
+    "hex": "6080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.699084610014495
+  },
+  {
+    "hex": "6080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8826419096863427
+  },
+  {
+    "hex": "6080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.834212349924345
+  },
+  {
+    "hex": "6080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7662643841982018
+  },
+  {
+    "hex": "6080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.999342715274745
+  },
+  {
+    "hex": "6080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.6325059161103104
+  },
+  {
+    "hex": "6080FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.187386035675871
+  },
+  {
+    "hex": "6080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.491374187059691
+  },
+  {
+    "hex": "60A000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.425864707607958
+  },
+  {
+    "hex": "60A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3356387073026466
+  },
+  {
+    "hex": "60A020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.42737594217965
+  },
+  {
+    "hex": "60A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3404384250888906
+  },
+  {
+    "hex": "60A040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.447298373168154
+  },
+  {
+    "hex": "60A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3345579357070987
+  },
+  {
+    "hex": "60A060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.487029130836837
+  },
+  {
+    "hex": "60A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.315105524291906
+  },
+  {
+    "hex": "60A080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.549310509550376
+  },
+  {
+    "hex": "60A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.280938025644923
+  },
+  {
+    "hex": "60A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.635944590305253
+  },
+  {
+    "hex": "60A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2320172555645086
+  },
+  {
+    "hex": "60A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.747963601382582
+  },
+  {
+    "hex": "60A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.169271871738713
+  },
+  {
+    "hex": "60A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.885718955076219
+  },
+  {
+    "hex": "60A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0944128873670076
+  },
+  {
+    "hex": "60A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.043466322825904
+  },
+  {
+    "hex": "60A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0124692639278883
+  },
+  {
+    "hex": "60C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.480925642051753
+  },
+  {
+    "hex": "60C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8056811456029227
+  },
+  {
+    "hex": "60C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.479591929711363
+  },
+  {
+    "hex": "60C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8103703133889641
+  },
+  {
+    "hex": "60C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.49403544999156
+  },
+  {
+    "hex": "60C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8092044410861794
+  },
+  {
+    "hex": "60C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.524580473900123
+  },
+  {
+    "hex": "60C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8004728316783845
+  },
+  {
+    "hex": "60C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.57360474402278
+  },
+  {
+    "hex": "60C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7833448201658446
+  },
+  {
+    "hex": "60C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.642724179270265
+  },
+  {
+    "hex": "60C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7575098366187776
+  },
+  {
+    "hex": "60C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.732941182574931
+  },
+  {
+    "hex": "60C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7231257293961717
+  },
+  {
+    "hex": "60C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.844719420889001
+  },
+  {
+    "hex": "60C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6807616990741796
+  },
+  {
+    "hex": "60C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.973545557488703
+  },
+  {
+    "hex": "60C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6329627147650312
+  },
+  {
+    "hex": "60E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.539935598308091
+  },
+  {
+    "hex": "60E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.435444450050033
+  },
+  {
+    "hex": "60E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.536361344759797
+  },
+  {
+    "hex": "60E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4395655369215108
+  },
+  {
+    "hex": "60E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.546162734980652
+  },
+  {
+    "hex": "60E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.440309013366701
+  },
+  {
+    "hex": "60E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.568796141420084
+  },
+  {
+    "hex": "60E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4366276170713128
+  },
+  {
+    "hex": "60E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.606291436200356
+  },
+  {
+    "hex": "60E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4279539286244705
+  },
+  {
+    "hex": "60E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.660068120315879
+  },
+  {
+    "hex": "60E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.413983582951336
+  },
+  {
+    "hex": "60E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.73106367215588
+  },
+  {
+    "hex": "60E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3946495962894674
+  },
+  {
+    "hex": "60E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.819796632494935
+  },
+  {
+    "hex": "60E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3701018847562407
+  },
+  {
+    "hex": "60E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.922805113358531
+  },
+  {
+    "hex": "60E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3416696348918387
+  },
+  {
+    "hex": "60FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.527068909906103
+  },
+  {
+    "hex": "60FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1779129425785348
+  },
+  {
+    "hex": "60FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.521927865228626
+  },
+  {
+    "hex": "60FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1814249739420812
+  },
+  {
+    "hex": "60FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.528121395229157
+  },
+  {
+    "hex": "60FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.182862567686355
+  },
+  {
+    "hex": "60FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.544476060087451
+  },
+  {
+    "hex": "60FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1815500288583454
+  },
+  {
+    "hex": "60FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.572715409003523
+  },
+  {
+    "hex": "60FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1770972387443839
+  },
+  {
+    "hex": "60FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.614072406696501
+  },
+  {
+    "hex": "60FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1692598241711396
+  },
+  {
+    "hex": "60FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.669400690176756
+  },
+  {
+    "hex": "60FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1579232266109447
+  },
+  {
+    "hex": "60FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.739228439640036
+  },
+  {
+    "hex": "60FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1430933380695811
+  },
+  {
+    "hex": "60FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.8209242686642
+  },
+  {
+    "hex": "60FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1255045501518341
+  },
+  {
+    "hex": "800000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.769317478286564
+  },
+  {
+    "hex": "800000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.736769925949255
+  },
+  {
+    "hex": "800020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.7816432637658295
+  },
+  {
+    "hex": "800020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.7163873822376114
+  },
+  {
+    "hex": "800040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8215839731520111
+  },
+  {
+    "hex": "800040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.606777099176235
+  },
+  {
+    "hex": "800060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8944792007371702
+  },
+  {
+    "hex": "800060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.395601446763464
+  },
+  {
+    "hex": "800080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0041720356263606
+  },
+  {
+    "hex": "800080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.093520653691414
+  },
+  {
+    "hex": "8000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.1528517684769604
+  },
+  {
+    "hex": "8000A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.724480688528081
+  },
+  {
+    "hex": "8000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.341308025440693
+  },
+  {
+    "hex": "8000C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.317925925423863
+  },
+  {
+    "hex": "8000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.569087275305664
+  },
+  {
+    "hex": "8000E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9016690384372223
+  },
+  {
+    "hex": "8000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.825787522602828
+  },
+  {
+    "hex": "8000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5097770858652515
+  },
+  {
+    "hex": "802000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8873498201271872
+  },
+  {
+    "hex": "802000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.5525175285215544
+  },
+  {
+    "hex": "802020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.8987813374973204
+  },
+  {
+    "hex": "802020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.53588926810743
+  },
+  {
+    "hex": "802040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.9367052167994203
+  },
+  {
+    "hex": "802040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.440945597501797
+  },
+  {
+    "hex": "802060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.0061366845130397
+  },
+  {
+    "hex": "802060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 5.2556546845661885
+  },
+  {
+    "hex": "802080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.1108074878939878
+  },
+  {
+    "hex": "802080",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.987395872884645
+  },
+  {
+    "hex": "8020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.252889392814131
+  },
+  {
+    "hex": "8020A0",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.655223034183268
+  },
+  {
+    "hex": "8020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4332369919656127
+  },
+  {
+    "hex": "8020C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.283862297862563
+  },
+  {
+    "hex": "8020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.651533812380428
+  },
+  {
+    "hex": "8020E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.8978283559963494
+  },
+  {
+    "hex": "8020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.897923170260993
+  },
+  {
+    "hex": "8020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.529021736537794
+  },
+  {
+    "hex": "804000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.249729935940153
+  },
+  {
+    "hex": "804000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.769318694656588
+  },
+  {
+    "hex": "804020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.25936155354448
+  },
+  {
+    "hex": "804020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.762081749988064
+  },
+  {
+    "hex": "804040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.2939802923626607
+  },
+  {
+    "hex": "804040",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.700588483308634
+  },
+  {
+    "hex": "804060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.357953969756587
+  },
+  {
+    "hex": "804060",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.5748139176245175
+  },
+  {
+    "hex": "804080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4548477169247165
+  },
+  {
+    "hex": "804080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.387060110183407
+  },
+  {
+    "hex": "8040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5867898573430543
+  },
+  {
+    "hex": "8040A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.147512437124723
+  },
+  {
+    "hex": "8040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.754700341817858
+  },
+  {
+    "hex": "8040C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.8712008619759066
+  },
+  {
+    "hex": "8040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.958424318943229
+  },
+  {
+    "hex": "8040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.574614029851158
+  },
+  {
+    "hex": "8040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.188888435118289
+  },
+  {
+    "hex": "8040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.282261735890518
+  },
+  {
+    "hex": "806000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.855123740722879
+  },
+  {
+    "hex": "806000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.772891420577448
+  },
+  {
+    "hex": "806020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8621317141579126
+  },
+  {
+    "hex": "806020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.7732914617915574
+  },
+  {
+    "hex": "806040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8920479902903593
+  },
+  {
+    "hex": "806040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.7419128602052854
+  },
+  {
+    "hex": "806060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.94829098388636
+  },
+  {
+    "hex": "806060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.6717658598132568
+  },
+  {
+    "hex": "806080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.034180673195281
+  },
+  {
+    "hex": "806080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.56226619532978
+  },
+  {
+    "hex": "8060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.1517647054229916
+  },
+  {
+    "hex": "8060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.417070324337442
+  },
+  {
+    "hex": "8060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3020277889854697
+  },
+  {
+    "hex": "8060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2429778583063067
+  },
+  {
+    "hex": "8060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.485009564835428
+  },
+  {
+    "hex": "8060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.048537016935903
+  },
+  {
+    "hex": "8060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.692716486141711
+  },
+  {
+    "hex": "8060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8491650590218516
+  },
+  {
+    "hex": "808000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6634648227433084
+  },
+  {
+    "hex": "808000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.898608825815089
+  },
+  {
+    "hex": "808020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.667435865832921
+  },
+  {
+    "hex": "808020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.902524124963722
+  },
+  {
+    "hex": "808040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6918693726838994
+  },
+  {
+    "hex": "808040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8889994515627695
+  },
+  {
+    "hex": "808060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.7390730088373543
+  },
+  {
+    "hex": "808060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8536665277273126
+  },
+  {
+    "hex": "808080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.812060354206412
+  },
+  {
+    "hex": "808080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.795267261047235
+  },
+  {
+    "hex": "8080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9127574095627518
+  },
+  {
+    "hex": "8080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7145803445781795
+  },
+  {
+    "hex": "8080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.042190462341048
+  },
+  {
+    "hex": "8080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.614077670448906
+  },
+  {
+    "hex": "8080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.2005874831699535
+  },
+  {
+    "hex": "8080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4974542894258893
+  },
+  {
+    "hex": "8080FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.381195252091161
+  },
+  {
+    "hex": "8080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3732219736396885
+  },
+  {
+    "hex": "80A000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.610109419291968
+  },
+  {
+    "hex": "80A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.235361737422334
+  },
+  {
+    "hex": "80A020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.611075284725596
+  },
+  {
+    "hex": "80A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.240171973983358
+  },
+  {
+    "hex": "80A040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.629927444833669
+  },
+  {
+    "hex": "80A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2354031936202468
+  },
+  {
+    "hex": "80A060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.667857813292049
+  },
+  {
+    "hex": "80A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2184224953886633
+  },
+  {
+    "hex": "80A080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.7275383085968
+  },
+  {
+    "hex": "80A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1881366862723066
+  },
+  {
+    "hex": "80A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.81073710002167
+  },
+  {
+    "hex": "80A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1444147511624005
+  },
+  {
+    "hex": "80A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.918484527299264
+  },
+  {
+    "hex": "80A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.08797428553942
+  },
+  {
+    "hex": "80A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.05115914205877
+  },
+  {
+    "hex": "80A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0202330653317127
+  },
+  {
+    "hex": "80A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.203262802435315
+  },
+  {
+    "hex": "80A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.945646489643134
+  },
+  {
+    "hex": "80C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.625796615495059
+  },
+  {
+    "hex": "80C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7555945509175075
+  },
+  {
+    "hex": "80C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.624126764720411
+  },
+  {
+    "hex": "80C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7601859139142582
+  },
+  {
+    "hex": "80C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.63783857657266
+  },
+  {
+    "hex": "80C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7593514443706912
+  },
+  {
+    "hex": "80C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.667125563063807
+  },
+  {
+    "hex": "80C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7514925360974318
+  },
+  {
+    "hex": "80C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.714310088579314
+  },
+  {
+    "hex": "80C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7358176557582918
+  },
+  {
+    "hex": "80C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.780978292682657
+  },
+  {
+    "hex": "80C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.712007111040966
+  },
+  {
+    "hex": "80C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.86812509198737
+  },
+  {
+    "hex": "80C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6801667963375448
+  },
+  {
+    "hex": "80C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.976226941913315
+  },
+  {
+    "hex": "80C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6407792326700203
+  },
+  {
+    "hex": "80C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.100942758137366
+  },
+  {
+    "hex": "80C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5961721838863183
+  },
+  {
+    "hex": "80E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.65061642184784
+  },
+  {
+    "hex": "80E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.410164310460168
+  },
+  {
+    "hex": "80E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.646857378800854
+  },
+  {
+    "hex": "80E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4141897246641324
+  },
+  {
+    "hex": "80E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.65618236816676
+  },
+  {
+    "hex": "80E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4150151326206069
+  },
+  {
+    "hex": "80E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.677971820673982
+  },
+  {
+    "hex": "80E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4116433798143067
+  },
+  {
+    "hex": "80E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.714213366013256
+  },
+  {
+    "hex": "80E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.403529332304939
+  },
+  {
+    "hex": "80E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.766301777971793
+  },
+  {
+    "hex": "80E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.390373435990762
+  },
+  {
+    "hex": "80E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.8351648772938685
+  },
+  {
+    "hex": "80E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.372097497517095
+  },
+  {
+    "hex": "80E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.921325253539602
+  },
+  {
+    "hex": "80E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.348826137244876
+  },
+  {
+    "hex": "80E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.0214373829898005
+  },
+  {
+    "hex": "80E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3218040967156204
+  },
+  {
+    "hex": "80FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.610338841151485
+  },
+  {
+    "hex": "80FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1649834611601617
+  },
+  {
+    "hex": "80FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.60511145401533
+  },
+  {
+    "hex": "80FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1684211779879026
+  },
+  {
+    "hex": "80FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.611004407192037
+  },
+  {
+    "hex": "80FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1698641113359676
+  },
+  {
+    "hex": "80FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.626804735359687
+  },
+  {
+    "hex": "80FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1686604810698544
+  },
+  {
+    "hex": "80FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.654204211401046
+  },
+  {
+    "hex": "80FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1644322583891888
+  },
+  {
+    "hex": "80FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.69441598505212
+  },
+  {
+    "hex": "80FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1569401435600606
+  },
+  {
+    "hex": "80FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.7482840134521815
+  },
+  {
+    "hex": "80FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1460681492534868
+  },
+  {
+    "hex": "80FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.81633598419859
+  },
+  {
+    "hex": "80FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.131814765546125
+  },
+  {
+    "hex": "80FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.896018093322547
+  },
+  {
+    "hex": "80FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1148793368571426
+  },
+  {
+    "hex": "A00000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.2161948611470828
+  },
+  {
+    "hex": "A00000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.531521657298911
+  },
+  {
+    "hex": "A00020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.226401243814417
+  },
+  {
+    "hex": "A00020",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 4.525806143115182
+  },
+  {
+    "hex": "A00040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.262784233893617
+  },
+  {
+    "hex": "A00040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.465458077481274
+  },
+  {
+    "hex": "A00060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.329929597769158
+  },
+  {
+    "hex": "A00060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.340669441800077
+  },
+  {
+    "hex": "A00080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4315200525821496
+  },
+  {
+    "hex": "A00080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.154360638539552
+  },
+  {
+    "hex": "A000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5697051097894255
+  },
+  {
+    "hex": "A000A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9175121084472746
+  },
+  {
+    "hex": "A000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.7453412922243388
+  },
+  {
+    "hex": "A000C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.6458312944498825
+  },
+  {
+    "hex": "A000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.958136203906529
+  },
+  {
+    "hex": "A000E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.356141125839245
+  },
+  {
+    "hex": "A000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.198483013872391
+  },
+  {
+    "hex": "A000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0725660874494336
+  },
+  {
+    "hex": "A02000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3140520196399637
+  },
+  {
+    "hex": "A02000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.478797896774242
+  },
+  {
+    "hex": "A02020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.3235438480641695
+  },
+  {
+    "hex": "A02020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.473920133403168
+  },
+  {
+    "hex": "A02040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.358198131355208
+  },
+  {
+    "hex": "A02040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.41905868103124
+  },
+  {
+    "hex": "A02060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.4223371053383147
+  },
+  {
+    "hex": "A02060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.304786270168196
+  },
+  {
+    "hex": "A02080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.5195396538162864
+  },
+  {
+    "hex": "A02080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.1329533851851705
+  },
+  {
+    "hex": "A020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.651933966711762
+  },
+  {
+    "hex": "A020A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.9126611094763506
+  },
+  {
+    "hex": "A020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.82042780333272
+  },
+  {
+    "hex": "A020C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.6575466134239063
+  },
+  {
+    "hex": "A020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.0248437295882282
+  },
+  {
+    "hex": "A020E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3827223169193004
+  },
+  {
+    "hex": "A020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2560525345389144
+  },
+  {
+    "hex": "A020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.110923382547697
+  },
+  {
+    "hex": "A04000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6455635927018446
+  },
+  {
+    "hex": "A04000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.010770081532831
+  },
+  {
+    "hex": "A04020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6535066413049795
+  },
+  {
+    "hex": "A04020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.009687717395745
+  },
+  {
+    "hex": "A04040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.6852411934779816
+  },
+  {
+    "hex": "A04040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.971053649651669
+  },
+  {
+    "hex": "A04060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.74452778672185
+  },
+  {
+    "hex": "A04060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.887013022126706
+  },
+  {
+    "hex": "A04080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8347892684514697
+  },
+  {
+    "hex": "A04080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.7576037983973682
+  },
+  {
+    "hex": "A040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.958107261108896
+  },
+  {
+    "hex": "A040A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5880584470771435
+  },
+  {
+    "hex": "A040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.1154396329207916
+  },
+  {
+    "hex": "A040C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.387260864283858
+  },
+  {
+    "hex": "A040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.306744951691507
+  },
+  {
+    "hex": "A040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.1658607944319903
+  },
+  {
+    "hex": "A040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.5235911631347343
+  },
+  {
+    "hex": "A040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.941770263809254
+  },
+  {
+    "hex": "A06000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.207364337492175
+  },
+  {
+    "hex": "A06000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.32330031996526
+  },
+  {
+    "hex": "A06020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2130111164532087
+  },
+  {
+    "hex": "A06020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3258839165471876
+  },
+  {
+    "hex": "A06040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.240544085152055
+  },
+  {
+    "hex": "A06040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3043813289092943
+  },
+  {
+    "hex": "A06060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.292887008538371
+  },
+  {
+    "hex": "A06060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2531368671300056
+  },
+  {
+    "hex": "A06080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3732327505321815
+  },
+  {
+    "hex": "A06080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.1710833453521645
+  },
+  {
+    "hex": "A060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4835803134232375
+  },
+  {
+    "hex": "A060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0601935063741323
+  },
+  {
+    "hex": "A060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.624935165965916
+  },
+  {
+    "hex": "A060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.9248334994997536
+  },
+  {
+    "hex": "A060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.797420027352242
+  },
+  {
+    "hex": "A060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.770903992351589
+  },
+  {
+    "hex": "A060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9935723247556774
+  },
+  {
+    "hex": "A060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.610214581494085
+  },
+  {
+    "hex": "A08000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9645808062411154
+  },
+  {
+    "hex": "A08000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.653287015997026
+  },
+  {
+    "hex": "A08020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.967537382910412
+  },
+  {
+    "hex": "A08020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.657712378044581
+  },
+  {
+    "hex": "A08040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9901225944051166
+  },
+  {
+    "hex": "A08040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.6478685213158095
+  },
+  {
+    "hex": "A08060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.034269942633832
+  },
+  {
+    "hex": "A08060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.620057297332964
+  },
+  {
+    "hex": "A08080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.102884232238793
+  },
+  {
+    "hex": "A08080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5730334833540427
+  },
+  {
+    "hex": "A080A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.197843446371632
+  },
+  {
+    "hex": "A080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.507138758455812
+  },
+  {
+    "hex": "A080C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.320179447346568
+  },
+  {
+    "hex": "A080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4240668485071404
+  },
+  {
+    "hex": "A080E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.470174200914018
+  },
+  {
+    "hex": "A080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3265417458524573
+  },
+  {
+    "hex": "A080FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.641488640790033
+  },
+  {
+    "hex": "A080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.22145163700723
+  },
+  {
+    "hex": "A0A000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.8584111559844
+  },
+  {
+    "hex": "A0A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.104182256106888
+  },
+  {
+    "hex": "A0A020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.858678180138249
+  },
+  {
+    "hex": "A0A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1089873335473044
+  },
+  {
+    "hex": "A0A040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.876177804741188
+  },
+  {
+    "hex": "A0A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.105498902036406
+  },
+  {
+    "hex": "A0A060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.911838790335818
+  },
+  {
+    "hex": "A0A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0913939575263045
+  },
+  {
+    "hex": "A0A080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.968243753548936
+  },
+  {
+    "hex": "A0A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0656533518113607
+  },
+  {
+    "hex": "A0A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.04711634566513
+  },
+  {
+    "hex": "A0A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0280601824660156
+  },
+  {
+    "hex": "A0A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.149481679315833
+  },
+  {
+    "hex": "A0A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9791110828460157
+  },
+  {
+    "hex": "A0A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.275748753880474
+  },
+  {
+    "hex": "A0A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.919904538372679
+  },
+  {
+    "hex": "A0A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.420725911942042
+  },
+  {
+    "hex": "A0A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8542296835466574
+  },
+  {
+    "hex": "A0C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.824359684364951
+  },
+  {
+    "hex": "A0C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.68482906491326
+  },
+  {
+    "hex": "A0C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.8222464302442
+  },
+  {
+    "hex": "A0C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6893038037529025
+  },
+  {
+    "hex": "A0C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.8350180303327
+  },
+  {
+    "hex": "A0C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.688889830167694
+  },
+  {
+    "hex": "A0C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.862695971259835
+  },
+  {
+    "hex": "A0C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6821304002580386
+  },
+  {
+    "hex": "A0C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.907531947006785
+  },
+  {
+    "hex": "A0C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6682868254982801
+  },
+  {
+    "hex": "A0C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.971073217780923
+  },
+  {
+    "hex": "A0C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6470341731701592
+  },
+  {
+    "hex": "A0C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.0543034737131505
+  },
+  {
+    "hex": "A0C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6184211805967594
+  },
+  {
+    "hex": "A0C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.157713117804299
+  },
+  {
+    "hex": "A0C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5828302920379926
+  },
+  {
+    "hex": "A0C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.277178232439965
+  },
+  {
+    "hex": "A0C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5423210485054801
+  },
+  {
+    "hex": "A0E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.805443841359084
+  },
+  {
+    "hex": "A0E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3713385042800552
+  },
+  {
+    "hex": "A0E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.8014295335393635
+  },
+  {
+    "hex": "A0E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3752491511063842
+  },
+  {
+    "hex": "A0E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.810129918663974
+  },
+  {
+    "hex": "A0E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3761950753022112
+  },
+  {
+    "hex": "A0E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.830821649952587
+  },
+  {
+    "hex": "A0E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.373245661973418
+  },
+  {
+    "hex": "A0E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.865438086970193
+  },
+  {
+    "hex": "A0E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3658862458475378
+  },
+  {
+    "hex": "A0E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.915341730125751
+  },
+  {
+    "hex": "A0E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.353825444136522
+  },
+  {
+    "hex": "A0E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.981447029881044
+  },
+  {
+    "hex": "A0E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.336972785895824
+  },
+  {
+    "hex": "A0E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.06428040726024
+  },
+  {
+    "hex": "A0E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3154224810676285
+  },
+  {
+    "hex": "A0E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.1606450831490775
+  },
+  {
+    "hex": "A0E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2903091353432423
+  },
+  {
+    "hex": "A0FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.729640299792661
+  },
+  {
+    "hex": "A0FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.14299422697936
+  },
+  {
+    "hex": "A0FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.724282570024715
+  },
+  {
+    "hex": "A0FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1463413044741821
+  },
+  {
+    "hex": "A0FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.729771697385537
+  },
+  {
+    "hex": "A0FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.147804491031588
+  },
+  {
+    "hex": "A0FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.744837157935914
+  },
+  {
+    "hex": "A0FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1467651265563599
+  },
+  {
+    "hex": "A0FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.771129606494747
+  },
+  {
+    "hex": "A0FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1428621885306751
+  },
+  {
+    "hex": "A0FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.809836256153977
+  },
+  {
+    "hex": "A0FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.135863987665037
+  },
+  {
+    "hex": "A0FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.8617879787196525
+  },
+  {
+    "hex": "A0FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1256534723106355
+  },
+  {
+    "hex": "A0FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.927511028654254
+  },
+  {
+    "hex": "A0FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1122200770311401
+  },
+  {
+    "hex": "A0FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.00455222505703
+  },
+  {
+    "hex": "A0FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0962150685116678
+  },
+  {
+    "hex": "C00000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.752645318965526
+  },
+  {
+    "hex": "C00000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.586506248726807
+  },
+  {
+    "hex": "C00020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.7604938699496353
+  },
+  {
+    "hex": "C00020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.588140846959014
+  },
+  {
+    "hex": "C00040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.7928883485394382
+  },
+  {
+    "hex": "C00040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5564222193172017
+  },
+  {
+    "hex": "C00060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8535705760449446
+  },
+  {
+    "hex": "C00060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.4842424933204916
+  },
+  {
+    "hex": "C00080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.946033956628848
+  },
+  {
+    "hex": "C00080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3715022986578487
+  },
+  {
+    "hex": "C000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.0723716937223307
+  },
+  {
+    "hex": "C000A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2227316685468264
+  },
+  {
+    "hex": "C000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2335017167781546
+  },
+  {
+    "hex": "C000C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0457394270226037
+  },
+  {
+    "hex": "C000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4292976238557955
+  },
+  {
+    "hex": "C000E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.849949860066732
+  },
+  {
+    "hex": "C000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6510396293952283
+  },
+  {
+    "hex": "C000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.6512798264832993
+  },
+  {
+    "hex": "C02000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8280020885630375
+  },
+  {
+    "hex": "C02000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.601825970398308
+  },
+  {
+    "hex": "C02020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8353240785092946
+  },
+  {
+    "hex": "C02020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.6032710949524076
+  },
+  {
+    "hex": "C02040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.8662949250528733
+  },
+  {
+    "hex": "C02040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5731847109002373
+  },
+  {
+    "hex": "C02060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.924457027504395
+  },
+  {
+    "hex": "C02060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.5046884506245957
+  },
+  {
+    "hex": "C02080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.0132088109173494
+  },
+  {
+    "hex": "C02080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.397367192647889
+  },
+  {
+    "hex": "C020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.134619147020151
+  },
+  {
+    "hex": "C020A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.255086118612223
+  },
+  {
+    "hex": "C020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2896437266669585
+  },
+  {
+    "hex": "C020C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.0848327454698907
+  },
+  {
+    "hex": "C020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4782487289937327
+  },
+  {
+    "hex": "C020E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.895260428943696
+  },
+  {
+    "hex": "C020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6921202210828157
+  },
+  {
+    "hex": "C020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7015758546378774
+  },
+  {
+    "hex": "C04000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.124657391187707
+  },
+  {
+    "hex": "C04000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3379334860400705
+  },
+  {
+    "hex": "C04020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.130698252620701
+  },
+  {
+    "hex": "C04020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3405656327162765
+  },
+  {
+    "hex": "C04040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.1591632560016842
+  },
+  {
+    "hex": "C04040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.3178440563260287
+  },
+  {
+    "hex": "C04060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.2131250080542157
+  },
+  {
+    "hex": "C04060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2639018282977026
+  },
+  {
+    "hex": "C04080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.295838278237727
+  },
+  {
+    "hex": "C04080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.17779100632167
+  },
+  {
+    "hex": "C040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4093232235211697
+  },
+  {
+    "hex": "C040A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.061827955013485
+  },
+  {
+    "hex": "C040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.554570603752954
+  },
+  {
+    "hex": "C040C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.920857976092854
+  },
+  {
+    "hex": "C040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.7316564336363625
+  },
+  {
+    "hex": "C040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.761288397231816
+  },
+  {
+    "hex": "C040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9328715628636526
+  },
+  {
+    "hex": "C040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5955216583502665
+  },
+  {
+    "hex": "C06000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.636795308811294
+  },
+  {
+    "hex": "C06000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.883567345939059
+  },
+  {
+    "hex": "C06020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6408931384989813
+  },
+  {
+    "hex": "C06020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8876184560010665
+  },
+  {
+    "hex": "C06040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.665700349458363
+  },
+  {
+    "hex": "C06040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.874005778869642
+  },
+  {
+    "hex": "C06060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.713574959192205
+  },
+  {
+    "hex": "C06060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8383197172201977
+  },
+  {
+    "hex": "C06080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.787559416075643
+  },
+  {
+    "hex": "C06080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.779322173775317
+  },
+  {
+    "hex": "C060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.8895905931220423
+  },
+  {
+    "hex": "C060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.697856219895509
+  },
+  {
+    "hex": "C060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.0206898573175485
+  },
+  {
+    "hex": "C060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5964880734172855
+  },
+  {
+    "hex": "C060E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.1810661234125295
+  },
+  {
+    "hex": "C060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.479017400870593
+  },
+  {
+    "hex": "C060FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.363860292921555
+  },
+  {
+    "hex": "C060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.354071827440675
+  },
+  {
+    "hex": "C08000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.335177959444426
+  },
+  {
+    "hex": "C08000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3908702582600627
+  },
+  {
+    "hex": "C08020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.336964813489938
+  },
+  {
+    "hex": "C08020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.395637256761712
+  },
+  {
+    "hex": "C08040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.357412422674435
+  },
+  {
+    "hex": "C08040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3891176805018337
+  },
+  {
+    "hex": "C08060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.398020949634246
+  },
+  {
+    "hex": "C08060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3682797545747896
+  },
+  {
+    "hex": "C08080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.46156607881524
+  },
+  {
+    "hex": "C08080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.331956669208034
+  },
+  {
+    "hex": "C080A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.54986575750129
+  },
+  {
+    "hex": "C080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2801662229791737
+  },
+  {
+    "hex": "C080C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.663952671233834
+  },
+  {
+    "hex": "C080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2139581337269494
+  },
+  {
+    "hex": "C080E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.804164726535418
+  },
+  {
+    "hex": "C080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1352084695421527
+  },
+  {
+    "hex": "C080FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.964638387945183
+  },
+  {
+    "hex": "C080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.049261501706854
+  },
+  {
+    "hex": "C0A000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.167539516946966
+  },
+  {
+    "hex": "C0A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9529204788217438
+  },
+  {
+    "hex": "C0A020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.166987264509067
+  },
+  {
+    "hex": "C0A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.957673387158855
+  },
+  {
+    "hex": "C0A040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.182901955776361
+  },
+  {
+    "hex": "C0A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9554614572501514
+  },
+  {
+    "hex": "C0A060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.2159027811265135
+  },
+  {
+    "hex": "C0A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9442912519966304
+  },
+  {
+    "hex": "C0A080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.2684658591700915
+  },
+  {
+    "hex": "C0A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.923237939404046
+  },
+  {
+    "hex": "C0A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.342259866631165
+  },
+  {
+    "hex": "C0A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8920211411057681
+  },
+  {
+    "hex": "C0A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.438300068387495
+  },
+  {
+    "hex": "C0A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8509380112839127
+  },
+  {
+    "hex": "C0A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.557026649948694
+  },
+  {
+    "hex": "C0A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8007838727443979
+  },
+  {
+    "hex": "C0A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.693603996927606
+  },
+  {
+    "hex": "C0A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7446651311800323
+  },
+  {
+    "hex": "C0C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.0748911411485835
+  },
+  {
+    "hex": "C0C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5978441393503182
+  },
+  {
+    "hex": "C0C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.072246900102562
+  },
+  {
+    "hex": "C0C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.602177561845944
+  },
+  {
+    "hex": "C0C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.0839001538096245
+  },
+  {
+    "hex": "C0C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6022188643491315
+  },
+  {
+    "hex": "C0C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.109666026760614
+  },
+  {
+    "hex": "C0C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5966712211174272
+  },
+  {
+    "hex": "C0C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.151711433167011
+  },
+  {
+    "hex": "C0C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.584859459538417
+  },
+  {
+    "hex": "C0C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.21153587982954
+  },
+  {
+    "hex": "C0C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5664601793627952
+  },
+  {
+    "hex": "C0C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.290107446576962
+  },
+  {
+    "hex": "C0C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5414678355960212
+  },
+  {
+    "hex": "C0C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.387930207874638
+  },
+  {
+    "hex": "C0C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5101634918086888
+  },
+  {
+    "hex": "C0C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.501135752812174
+  },
+  {
+    "hex": "C0C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.474313350920288
+  },
+  {
+    "hex": "C0E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.0037953222325875
+  },
+  {
+    "hex": "C0E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3207217697829567
+  },
+  {
+    "hex": "C0E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.9994661035269266
+  },
+  {
+    "hex": "C0E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3244985589013487
+  },
+  {
+    "hex": "C0E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.007410876089996
+  },
+  {
+    "hex": "C0E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3255870340010367
+  },
+  {
+    "hex": "C0E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.026778531498728
+  },
+  {
+    "hex": "C0E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3231352790151625
+  },
+  {
+    "hex": "C0E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.059436876977367
+  },
+  {
+    "hex": "C0E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3166657502502992
+  },
+  {
+    "hex": "C0E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.106708793753261
+  },
+  {
+    "hex": "C0E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3058988844589887
+  },
+  {
+    "hex": "C0E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.1694913531657845
+  },
+  {
+    "hex": "C0E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2907328031780647
+  },
+  {
+    "hex": "C0E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.2483138372860285
+  },
+  {
+    "hex": "C0E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2712295213486198
+  },
+  {
+    "hex": "C0E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.340156827043041
+  },
+  {
+    "hex": "C0E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.248396407246265
+  },
+  {
+    "hex": "C0FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.885066190695102
+  },
+  {
+    "hex": "C0FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1125999787927907
+  },
+  {
+    "hex": "C0FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.879539708218474
+  },
+  {
+    "hex": "C0FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1158408907023114
+  },
+  {
+    "hex": "C0FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.8845309637656795
+  },
+  {
+    "hex": "C0FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1173341303062538
+  },
+  {
+    "hex": "C0FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.898695849302032
+  },
+  {
+    "hex": "C0FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1165017617096855
+  },
+  {
+    "hex": "C0FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.923634996937062
+  },
+  {
+    "hex": "C0FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1130040070962965
+  },
+  {
+    "hex": "C0FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.960503699343431
+  },
+  {
+    "hex": "C0FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1066192380158073
+  },
+  {
+    "hex": "C0FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.010116202101194
+  },
+  {
+    "hex": "C0FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0972301645432463
+  },
+  {
+    "hex": "C0FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.072995996662499
+  },
+  {
+    "hex": "C0FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0848164614032403
+  },
+  {
+    "hex": "C0FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.14681150723719
+  },
+  {
+    "hex": "C0FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0699712397970662
+  },
+  {
+    "hex": "E00000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3622643639002603
+  },
+  {
+    "hex": "E00000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.869112474044425
+  },
+  {
+    "hex": "E00020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.367656874188061
+  },
+  {
+    "hex": "E00020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8739557662241038
+  },
+  {
+    "hex": "E00040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.3958384546417664
+  },
+  {
+    "hex": "E00040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.858124471240707
+  },
+  {
+    "hex": "E00060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4496650215856324
+  },
+  {
+    "hex": "E00060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.81665770147005
+  },
+  {
+    "hex": "E00080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.5324175423765967
+  },
+  {
+    "hex": "E00080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.748542228536901
+  },
+  {
+    "hex": "E000A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6461155182869245
+  },
+  {
+    "hex": "E000A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.655389334901865
+  },
+  {
+    "hex": "E000C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.7917259421991623
+  },
+  {
+    "hex": "E000C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.540888852122461
+  },
+  {
+    "hex": "E000E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.969281175015543
+  },
+  {
+    "hex": "E000E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.410076461386154
+  },
+  {
+    "hex": "E000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.170996135739263
+  },
+  {
+    "hex": "E000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.273063966427774
+  },
+  {
+    "hex": "E02000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.414119926811447
+  },
+  {
+    "hex": "E02000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.915052803266171
+  },
+  {
+    "hex": "E02020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4191679890886344
+  },
+  {
+    "hex": "E02020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.9194505971698574
+  },
+  {
+    "hex": "E02040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4462271943145657
+  },
+  {
+    "hex": "E02040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.9038106640786174
+  },
+  {
+    "hex": "E02060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.4980166791638574
+  },
+  {
+    "hex": "E02060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.8632752242275448
+  },
+  {
+    "hex": "E02080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.577732257787798
+  },
+  {
+    "hex": "E02080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.79674177158353
+  },
+  {
+    "hex": "E020A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6873672579561174
+  },
+  {
+    "hex": "E020A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.705596183735806
+  },
+  {
+    "hex": "E020C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.8279142636854195
+  },
+  {
+    "hex": "E020C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.593222696527186
+  },
+  {
+    "hex": "E020E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.999477162175479
+  },
+  {
+    "hex": "E020E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.464341617839833
+  },
+  {
+    "hex": "E020FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.194605517039049
+  },
+  {
+    "hex": "E020FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3287651189530196
+  },
+  {
+    "hex": "E04000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6736691383278264
+  },
+  {
+    "hex": "E04000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7749046981944603
+  },
+  {
+    "hex": "E04020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.6777022808957667
+  },
+  {
+    "hex": "E04020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.7794256730193974
+  },
+  {
+    "hex": "E04040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.702672175348781
+  },
+  {
+    "hex": "E04040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.766937207665629
+  },
+  {
+    "hex": "E04060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.750920220858247
+  },
+  {
+    "hex": "E04060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.733172193594903
+  },
+  {
+    "hex": "E04080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.825512262464076
+  },
+  {
+    "hex": "E04080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.6769225352889676
+  },
+  {
+    "hex": "E040A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.9283921352252547
+  },
+  {
+    "hex": "E040A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.598989411596168
+  },
+  {
+    "hex": "E040C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.060573840996457
+  },
+  {
+    "hex": "E040C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.5018388730192176
+  },
+  {
+    "hex": "E040E0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.222246237984976
+  },
+  {
+    "hex": "E040E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3891295107627872
+  },
+  {
+    "hex": "E040FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.4064707077427965
+  },
+  {
+    "hex": "E040FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2691617981228682
+  },
+  {
+    "hex": "E06000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.1323619789765305
+  },
+  {
+    "hex": "E06000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.483283663365587
+  },
+  {
+    "hex": "E06020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.134808630387725
+  },
+  {
+    "hex": "E06020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.488117345206526
+  },
+  {
+    "hex": "E06040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.156675066609792
+  },
+  {
+    "hex": "E06040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.480230681106516
+  },
+  {
+    "hex": "E06060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.199712203005626
+  },
+  {
+    "hex": "E06060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.456268957214995
+  },
+  {
+    "hex": "E06080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.2667930302204615
+  },
+  {
+    "hex": "E06080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.415033785550247
+  },
+  {
+    "hex": "E060A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.359779106403454
+  },
+  {
+    "hex": "E060A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.356713767064558
+  },
+  {
+    "hex": "E060C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.479699564910454
+  },
+  {
+    "hex": "E060C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.282690648683262
+  },
+  {
+    "hex": "E060E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.626846183118152
+  },
+  {
+    "hex": "E060E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.195274171159127
+  },
+  {
+    "hex": "E060FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.795008818679346
+  },
+  {
+    "hex": "E060FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.100560013319879
+  },
+  {
+    "hex": "E08000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.766700699942772
+  },
+  {
+    "hex": "E08000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.131622219892461
+  },
+  {
+    "hex": "E08020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.767225030928532
+  },
+  {
+    "hex": "E08020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1365242215725337
+  },
+  {
+    "hex": "E08040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.785339928464907
+  },
+  {
+    "hex": "E08040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1327095223103743
+  },
+  {
+    "hex": "E08060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.822074923130618
+  },
+  {
+    "hex": "E08060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.117751873592734
+  },
+  {
+    "hex": "E08080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.880059687618399
+  },
+  {
+    "hex": "E08080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0906096568438164
+  },
+  {
+    "hex": "E080A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.961040687173341
+  },
+  {
+    "hex": "E080A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.0510994030263308
+  },
+  {
+    "hex": "E080C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.066044650013938
+  },
+  {
+    "hex": "E080C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9997984870767223
+  },
+  {
+    "hex": "E080E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.195463000899379
+  },
+  {
+    "hex": "E080E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9379202443324675
+  },
+  {
+    "hex": "E080FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.3439491867791995
+  },
+  {
+    "hex": "E080FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8694771349639834
+  },
+  {
+    "hex": "E0A000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.531316803011311
+  },
+  {
+    "hex": "E0A000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7925659023630705
+  },
+  {
+    "hex": "E0A020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.529867111516141
+  },
+  {
+    "hex": "E0A020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7972030687587128
+  },
+  {
+    "hex": "E0A040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.544029335217215
+  },
+  {
+    "hex": "E0A040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7961329042041536
+  },
+  {
+    "hex": "E0A060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.574081623412751
+  },
+  {
+    "hex": "E0A060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7876833729856914
+  },
+  {
+    "hex": "E0A080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.622379033583936
+  },
+  {
+    "hex": "E0A080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7710366166405949
+  },
+  {
+    "hex": "E0A0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.690525490132731
+  },
+  {
+    "hex": "E0A0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7458774996571471
+  },
+  {
+    "hex": "E0A0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.779520702579088
+  },
+  {
+    "hex": "E0A0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.712343907858657
+  },
+  {
+    "hex": "E0A0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.889834091069683
+  },
+  {
+    "hex": "E0A0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6709727383518804
+  },
+  {
+    "hex": "E0A0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.017021939736229
+  },
+  {
+    "hex": "E0A0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6242331364280589
+  },
+  {
+    "hex": "E0C000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.373242562622466
+  },
+  {
+    "hex": "E0C000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5000299690280288
+  },
+  {
+    "hex": "E0C020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.370006437472211
+  },
+  {
+    "hex": "E0C020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5041944229182642
+  },
+  {
+    "hex": "E0C040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.380405115968475
+  },
+  {
+    "hex": "E0C040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5046746528705681
+  },
+  {
+    "hex": "E0C060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.404022558922105
+  },
+  {
+    "hex": "E0C060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5003395985720571
+  },
+  {
+    "hex": "E0C080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.442928682412766
+  },
+  {
+    "hex": "E0C080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4905841627331609
+  },
+  {
+    "hex": "E0C0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.49856700911671
+  },
+  {
+    "hex": "E0C0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4750945417757597
+  },
+  {
+    "hex": "E0C0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.5718851411952945
+  },
+  {
+    "hex": "E0C0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4538199393910578
+  },
+  {
+    "hex": "E0C0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.663399033137249
+  },
+  {
+    "hex": "E0C0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4269489193492408
+  },
+  {
+    "hex": "E0C0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.769525261814667
+  },
+  {
+    "hex": "E0C0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3959544030262465
+  },
+  {
+    "hex": "E0E000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.243108520011481
+  },
+  {
+    "hex": "E0E000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2608419031926357
+  },
+  {
+    "hex": "E0E020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.2384205512326405
+  },
+  {
+    "hex": "E0E020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2644667607568503
+  },
+  {
+    "hex": "E0E040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.245504290133752
+  },
+  {
+    "hex": "E0E040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2657016207716418
+  },
+  {
+    "hex": "E0E060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.2633625987095165
+  },
+  {
+    "hex": "E0E060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2637803179934348
+  },
+  {
+    "hex": "E0E080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.293787733795278
+  },
+  {
+    "hex": "E0E080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2582670127181705
+  },
+  {
+    "hex": "E0E0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.338056138108696
+  },
+  {
+    "hex": "E0E0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2488974929324705
+  },
+  {
+    "hex": "E0E0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.397043338545536
+  },
+  {
+    "hex": "E0E0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.235561018344118
+  },
+  {
+    "hex": "E0E0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.471279721461144
+  },
+  {
+    "hex": "E0E0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2182888621480374
+  },
+  {
+    "hex": "E0E0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.557946412885308
+  },
+  {
+    "hex": "E0E0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1979536903478014
+  },
+  {
+    "hex": "E0FF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.075177123267405
+  },
+  {
+    "hex": "E0FF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0749811410658434
+  },
+  {
+    "hex": "E0FF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.069452462491109
+  },
+  {
+    "hex": "E0FF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0781018274461363
+  },
+  {
+    "hex": "E0FF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.073866912441284
+  },
+  {
+    "hex": "E0FF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0796285403901493
+  },
+  {
+    "hex": "E0FF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.086990048083363
+  },
+  {
+    "hex": "E0FF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0790295006138373
+  },
+  {
+    "hex": "E0FF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.110364414183545
+  },
+  {
+    "hex": "E0FF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.075989416676173
+  },
+  {
+    "hex": "E0FFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.145107789731988
+  },
+  {
+    "hex": "E0FFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0702989006848607
+  },
+  {
+    "hex": "E0FFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.192014239910657
+  },
+  {
+    "hex": "E0FFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0618416531819888
+  },
+  {
+    "hex": "E0FFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.251602775566841
+  },
+  {
+    "hex": "E0FFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0505878971438734
+  },
+  {
+    "hex": "E0FFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.321681172962261
+  },
+  {
+    "hex": "E0FFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0370662621307927
+  },
+  {
+    "hex": "FF0000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.004843510829874
+  },
+  {
+    "hex": "FF0000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3432828482739487
+  },
+  {
+    "hex": "FF0020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.007888525170138
+  },
+  {
+    "hex": "FF0020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.349211722243616
+  },
+  {
+    "hex": "FF0040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.0319633568802455
+  },
+  {
+    "hex": "FF0040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3418373627764524
+  },
+  {
+    "hex": "FF0060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.07906946740685
+  },
+  {
+    "hex": "FF0060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.317687065507985
+  },
+  {
+    "hex": "FF0080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.152266569405462
+  },
+  {
+    "hex": "FF0080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2756314475038466
+  },
+  {
+    "hex": "FF00A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.253486918668699
+  },
+  {
+    "hex": "FF00A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2160728327219816
+  },
+  {
+    "hex": "FF00C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.38372872704002
+  },
+  {
+    "hex": "FF00C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.140709267300601
+  },
+  {
+    "hex": "FF00E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.543161995087012
+  },
+  {
+    "hex": "FF00E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.052206423061908
+  },
+  {
+    "hex": "FF00FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.724912527778306
+  },
+  {
+    "hex": "FF00FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.956993167796998
+  },
+  {
+    "hex": "FF2000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.034171528886155
+  },
+  {
+    "hex": "FF2000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.4000146876961823
+  },
+  {
+    "hex": "FF2020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.037032120668853
+  },
+  {
+    "hex": "FF2020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.405504068794143
+  },
+  {
+    "hex": "FF2040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.060256495066803
+  },
+  {
+    "hex": "FF2040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.397864043143809
+  },
+  {
+    "hex": "FF2060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.105764935502465
+  },
+  {
+    "hex": "FF2060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3736558467425426
+  },
+  {
+    "hex": "FF2080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.176542012302667
+  },
+  {
+    "hex": "FF2080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3317209710968805
+  },
+  {
+    "hex": "FF20A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.274493276993564
+  },
+  {
+    "hex": "FF20A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2723830262325233
+  },
+  {
+    "hex": "FF20C0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.400632642190438
+  },
+  {
+    "hex": "FF20C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.197227429886618
+  },
+  {
+    "hex": "FF20E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.555183607882332
+  },
+  {
+    "hex": "FF20E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1087965138921954
+  },
+  {
+    "hex": "FF20FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.73154182410288
+  },
+  {
+    "hex": "FF20FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.013419108551974
+  },
+  {
+    "hex": "FF4000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.257252035510925
+  },
+  {
+    "hex": "FF4000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3305414306133048
+  },
+  {
+    "hex": "FF4020",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.259339819750937
+  },
+  {
+    "hex": "FF4020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3357906348808153
+  },
+  {
+    "hex": "FF4040",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.280859800505829
+  },
+  {
+    "hex": "FF4040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3294265633764306
+  },
+  {
+    "hex": "FF4060",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.323438915195042
+  },
+  {
+    "hex": "FF4060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3083454009303614
+  },
+  {
+    "hex": "FF4080",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.389945708012931
+  },
+  {
+    "hex": "FF4080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2713994363570813
+  },
+  {
+    "hex": "FF40A0",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.482236926472112
+  },
+  {
+    "hex": "FF40A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2186954493120523
+  },
+  {
+    "hex": "FF40C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.601336765790762
+  },
+  {
+    "hex": "FF40C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1514254814052527
+  },
+  {
+    "hex": "FF40E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.747532167168492
+  },
+  {
+    "hex": "FF40E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.071635306168136
+  },
+  {
+    "hex": "FF40FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.914644550983312
+  },
+  {
+    "hex": "FF40FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9848592090264734
+  },
+  {
+    "hex": "FF6000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.662760110500922
+  },
+  {
+    "hex": "FF6000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1448098248618535
+  },
+  {
+    "hex": "FF6020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.663591192313585
+  },
+  {
+    "hex": "FF6020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1499065151688055
+  },
+  {
+    "hex": "FF6040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.68252739792055
+  },
+  {
+    "hex": "FF6040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1458092087383163
+  },
+  {
+    "hex": "FF6060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.7207207973279255
+  },
+  {
+    "hex": "FF6060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1299764012291575
+  },
+  {
+    "hex": "FF6080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.780866897528136
+  },
+  {
+    "hex": "FF6080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1013478657651707
+  },
+  {
+    "hex": "FF60A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.864742854846304
+  },
+  {
+    "hex": "FF60A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.059789880825015
+  },
+  {
+    "hex": "FF60C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.973375360892943
+  },
+  {
+    "hex": "FF60C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.005986563610175
+  },
+  {
+    "hex": "FF60E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.107128052616621
+  },
+  {
+    "hex": "FF60E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.941297251113563
+  },
+  {
+    "hex": "FF60FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.260436861069008
+  },
+  {
+    "hex": "FF60FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8699908664625209
+  },
+  {
+    "hex": "FF8000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.232566421016815
+  },
+  {
+    "hex": "FF8000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.896205966443665
+  },
+  {
+    "hex": "FF8020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.231840704252319
+  },
+  {
+    "hex": "FF8020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.9010605352644567
+  },
+  {
+    "hex": "FF8040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.247604192474219
+  },
+  {
+    "hex": "FF8040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8992248259049236
+  },
+  {
+    "hex": "FF8060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.280416750918214
+  },
+  {
+    "hex": "FF8060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8887736384478027
+  },
+  {
+    "hex": "FF8080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.332754456689502
+  },
+  {
+    "hex": "FF8080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8688071578641843
+  },
+  {
+    "hex": "FF80A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.406284783410673
+  },
+  {
+    "hex": "FF80A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.8390428266751835
+  },
+  {
+    "hex": "FF80C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.502020876330841
+  },
+  {
+    "hex": "FF80C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.7997518612863692
+  },
+  {
+    "hex": "FF80E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.620400060146154
+  },
+  {
+    "hex": "FF80E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.751684354736222
+  },
+  {
+    "hex": "FF80FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.756596358349043
+  },
+  {
+    "hex": "FF80FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.697812422699281
+  },
+  {
+    "hex": "FFA000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.928015106800585
+  },
+  {
+    "hex": "FFA000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.637293429270537
+  },
+  {
+    "hex": "FFA020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.925664739442984
+  },
+  {
+    "hex": "FFA020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6417576620548266
+  },
+  {
+    "hex": "FFA040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.938037053911499
+  },
+  {
+    "hex": "FFA040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6415976933641527
+  },
+  {
+    "hex": "FFA060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.965065277164117
+  },
+  {
+    "hex": "FFA060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.635426619041386
+  },
+  {
+    "hex": "FFA080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.008976375623483
+  },
+  {
+    "hex": "FFA080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6225338754533376
+  },
+  {
+    "hex": "FFA0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.071303327404245
+  },
+  {
+    "hex": "FFA0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6025962424008957
+  },
+  {
+    "hex": "FFA0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.1530246629008865
+  },
+  {
+    "hex": "FFA0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.575640502313976
+  },
+  {
+    "hex": "FFA0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.254633972297173
+  },
+  {
+    "hex": "FFA0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5420071714081167
+  },
+  {
+    "hex": "FFA0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.372087268042928
+  },
+  {
+    "hex": "FFA0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.5036271124551295
+  },
+  {
+    "hex": "FFC000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.702222416770469
+  },
+  {
+    "hex": "FFC000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3999999997592647
+  },
+  {
+    "hex": "FFC020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.698383322704153
+  },
+  {
+    "hex": "FFC020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4039754322063023
+  },
+  {
+    "hex": "FFC040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.70748226172295
+  },
+  {
+    "hex": "FFC040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4048294719696055
+  },
+  {
+    "hex": "FFC060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.728865898490895
+  },
+  {
+    "hex": "FFC060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.4015873660347395
+  },
+  {
+    "hex": "FFC080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.764500797803725
+  },
+  {
+    "hex": "FFC080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3937140280145197
+  },
+  {
+    "hex": "FFC0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.8157693545848685
+  },
+  {
+    "hex": "FFC0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3809121861862594
+  },
+  {
+    "hex": "FFC0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.883594468385411
+  },
+  {
+    "hex": "FFC0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3630987886286177
+  },
+  {
+    "hex": "FFC0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 6.968500585940097
+  },
+  {
+    "hex": "FFC0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.3403872900221319
+  },
+  {
+    "hex": "FFC0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.067198968900375
+  },
+  {
+    "hex": "FFC0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.313985124781555
+  },
+  {
+    "hex": "FFE000",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.510133699905358
+  },
+  {
+    "hex": "FFE000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1967083674787304
+  },
+  {
+    "hex": "FFE020",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.5050740780739975
+  },
+  {
+    "hex": "FFE020",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2001709149480937
+  },
+  {
+    "hex": "FFE040",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.511252318224862
+  },
+  {
+    "hex": "FFE040",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2015360090505196
+  },
+  {
+    "hex": "FFE060",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.5275188654110785
+  },
+  {
+    "hex": "FFE060",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2001225318982622
+  },
+  {
+    "hex": "FFE080",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.555584848512427
+  },
+  {
+    "hex": "FFE080",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1955372772444184
+  },
+  {
+    "hex": "FFE0A0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.596675981465928
+  },
+  {
+    "hex": "FFE0A0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1875337590180481
+  },
+  {
+    "hex": "FFE0C0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.651642962617146
+  },
+  {
+    "hex": "FFE0C0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1759960711714033
+  },
+  {
+    "hex": "FFE0E0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.721014897342886
+  },
+  {
+    "hex": "FFE0E0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1609294403648862
+  },
+  {
+    "hex": "FFE0FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.802183197086486
+  },
+  {
+    "hex": "FFE0FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.1430772977195502
+  },
+  {
+    "hex": "FFFF00",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.289875829407045
+  },
+  {
+    "hex": "FFFF00",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0330791198387235
+  },
+  {
+    "hex": "FFFF20",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.283941715264836
+  },
+  {
+    "hex": "FFFF20",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.036071883477701
+  },
+  {
+    "hex": "FFFF40",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.287740260817891
+  },
+  {
+    "hex": "FFFF40",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.037628258234892
+  },
+  {
+    "hex": "FFFF60",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.299749206605666
+  },
+  {
+    "hex": "FFFF60",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0372641072381725
+  },
+  {
+    "hex": "FFFF80",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.321448226465655
+  },
+  {
+    "hex": "FFFF80",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0346898540044853
+  },
+  {
+    "hex": "FFFFA0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.353913996206643
+  },
+  {
+    "hex": "FFFFA0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0297096406381678
+  },
+  {
+    "hex": "FFFFC0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.397917751448537
+  },
+  {
+    "hex": "FFFFC0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0222095334846666
+  },
+  {
+    "hex": "FFFFE0",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.45397220535136
+  },
+  {
+    "hex": "FFFFE0",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.01215171768038
+  },
+  {
+    "hex": "FFFFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.520033235562218
+  },
+  {
+    "hex": "FFFFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0
+  },
+  {
+    "hex": "43D10D",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 5.970290649756973
+  },
+  {
+    "hex": "43D10D",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.6114475873285523
+  },
+  {
+    "hex": "2699F5",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.63346646184444
+  },
+  {
+    "hex": "2699F5",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1987780878729106
+  },
+  {
+    "hex": "7955EB",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 3.293701253557053
+  },
+  {
+    "hex": "7955EB",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 3.2208607333521857
+  },
+  {
+    "hex": "FFFFFF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 8.520033235562218
+  },
+  {
+    "hex": "FFFFFF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.0
+  },
+  {
+    "hex": "000000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 1.0
+  },
+  {
+    "hex": "000000",
+    "light": true,
+    "expected": 0.7,
+    "referenceContrast": 9.959768248837664
+  },
+  {
+    "hex": "FF0000",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.004843510829874
+  },
+  {
+    "hex": "FF0000",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.3432828482739487
+  },
+  {
+    "hex": "0000FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 2.210250429732304
+  },
+  {
+    "hex": "0000FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 4.4013391903729895
+  },
+  {
+    "hex": "0091FF",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": 4.452250379312871
+  },
+  {
+    "hex": "0091FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.2785638336389
+  },
+  {
+    "hex": "0099FF",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 4.682621733398023
+  },
+  {
+    "hex": "0099FF",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 2.1504430931306433
+  },
+  {
+    "hex": "FFD966",
+    "light": false,
+    "expected": 0.7,
+    "referenceContrast": 7.356421273290728
+  },
+  {
+    "hex": "FFD966",
+    "light": true,
+    "expected": 1,
+    "referenceContrast": 1.2405398573656707
+  },
+  {
+    "hex": "",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": null
+  },
+  {
+    "hex": "bad",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": null
+  },
+  {
+    "hex": "GGGGGG",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": null
+  },
+  {
+    "hex": "12345678",
+    "light": false,
+    "expected": 1,
+    "referenceContrast": null
+  }
+]

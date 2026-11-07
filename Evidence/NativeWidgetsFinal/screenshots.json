@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Native Smart Stack final active accessibility",
+    "file": "native-smart-stack-final-active-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetsMatched.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Smart Stack final active",
+    "file": "native-smart-stack-final-active.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetsMatched.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch real source for final native widget",
+    "file": "watch-real-source-for-final-native-widget.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetsMatched.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Smart Stack final inactive accessibility",
+    "file": "native-smart-stack-final-inactive-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetsMatched.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Smart Stack final inactive",
+    "file": "native-smart-stack-final-inactive.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetsMatched.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reads final widget punch-out",
+    "file": "watch-reads-final-widget-punch-out.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStopFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native final widget after interactive stop accessibility",
+    "file": "native-final-widget-after-interactive-stop-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStopFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native final widget after interactive stop",
+    "file": "native-final-widget-after-interactive-stop.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStopFinal.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

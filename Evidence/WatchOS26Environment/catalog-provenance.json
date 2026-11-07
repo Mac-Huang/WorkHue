@@ -1,0 +1,178 @@
+{
+  "catalogSHA256": "10c77d82b1d1af2690027bfd0cccba5edf8a4dfd1c0ba786836586b8074f11e8",
+  "catalogURL": "https://devimages-cdn.apple.com/downloads/xcode/simulators/index2.dvtdownloadableindex",
+  "fetchedAtUTC": "2026-11-07T17:48:22.679841+00:00",
+  "responseHeaders": {
+    "Accept-Ranges": "bytes",
+    "Access-Control-Allow-Origin": "*",
+    "Age": "460",
+    "CDNUUID": "a1c80411-9693-4ac7-ab6f-e57d8957dc1d-10134060649",
+    "Cache-Control": "max-age=600, public",
+    "Connection": "close",
+    "Content-Length": "593263",
+    "Content-Type": "text/plain",
+    "Date": "Sat, 07 Nov 2026 17:40:42 GMT",
+    "ETag": "\"41ee12a426cee04b309e42c5a86bfb51\"",
+    "Last-Modified": "Tue, 03 Nov 2026 18:20:45 GMT",
+    "Server": "AmazonS3",
+    "Via": "http/1.1 uschi6-xdc-mx-018.ts.apple.com (acdn/26.17695), http/1.1 uschi5-edge-fx-042.ts.apple.com (acdn/26.17695), http/1.1 uschi5-edge-fx-042.ts.apple.com (acdn/26.17695)",
+    "X-Cache": "hit-fresh, hit-fresh, none"
+  },
+  "selectedRecords": [
+    {
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 5234754234,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b1",
+      "name": "watchOS 26.5 beta Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5541h",
+        "version": "26.5"
+      },
+      "version": "26.5.0.1"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 3959482662,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b1_arm64",
+      "name": "watchOS 26.5 beta Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5541h",
+        "version": "26.5"
+      },
+      "version": "26.5.0.1"
+    },
+    {
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 5234754335,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b2",
+      "name": "watchOS 26.5 beta 2 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5553h",
+        "version": "26.5"
+      },
+      "version": "26.5.0.2"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 3959482675,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b2_arm64",
+      "name": "watchOS 26.5 beta 2 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5553h",
+        "version": "26.5"
+      },
+      "version": "26.5.0.2"
+    },
+    {
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 5234753693,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b4",
+      "name": "watchOS 26.5 beta 4 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5567a",
+        "version": "26.5"
+      },
+      "version": "26.5.0.4"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 3959482686,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_b4_arm64",
+      "name": "watchOS 26.5 beta 4 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T5567a",
+        "version": "26.5"
+      },
+      "version": "26.5.0.4"
+    },
+    {
+      "architectures": [
+        "arm64",
+        "x86_64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 5234754350,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5",
+      "name": "watchOS 26.5 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T570",
+        "version": "26.5"
+      },
+      "version": "26.5.0.0"
+    },
+    {
+      "architectures": [
+        "arm64"
+      ],
+      "category": "simulator",
+      "contentType": "cryptexDiskImage",
+      "dictionaryVersion": 2,
+      "downloadMethod": "mobileAsset",
+      "fileSize": 3959483106,
+      "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_arm64",
+      "name": "watchOS 26.5 Simulator Runtime",
+      "platform": "com.apple.platform.watchos",
+      "simulatorVersion": {
+        "buildUpdate": "23T570",
+        "version": "26.5"
+      },
+      "version": "26.5.0.0"
+    }
+  ],
+  "watch26Versions": [
+    "26.0",
+    "26.1",
+    "26.2",
+    "26.4",
+    "26.5"
+  ]
+}

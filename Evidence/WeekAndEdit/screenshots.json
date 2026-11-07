@@ -1,0 +1,38 @@
+[
+  {
+    "file": "day-after-deleting-the-only-session.png",
+    "title": "Day after deleting the only session",
+    "sourceResult": "TestResults/WeekAndEdit.xcresult",
+    "test": "PunchinoUITests/testExistingSessionDiscardChangesAndDelete()"
+  },
+  {
+    "file": "delete-session-confirmation.png",
+    "title": "Delete session confirmation",
+    "sourceResult": "TestResults/WeekAndEdit.xcresult",
+    "test": "PunchinoUITests/testExistingSessionDiscardChangesAndDelete()"
+  },
+  {
+    "file": "unchanged-study-session-editor.png",
+    "title": "Unchanged Study session editor",
+    "sourceResult": "TestResults/WeekAndEdit.xcresult",
+    "test": "PunchinoUITests/testExistingSessionDiscardChangesAndDelete()"
+  },
+  {
+    "file": "manual-personal-session.png",
+    "title": "Manual Personal session",
+    "sourceResult": "TestResults/WeekAndEdit.xcresult",
+    "test": "PunchinoUITests/testManualSessionRecordsSelectedWorkload()"
+  },
+  {
+    "file": "empty-week-summary.png",
+    "title": "Empty week summary",
+    "sourceResult": "TestResults/WeekDetailsFinal.xcresult",
+    "test": "PunchinoUITests/testWeekDetailsEmptyNavigationAndWorkedDays()"
+  },
+  {
+    "file": "worked-days-in-read-only-week.png",
+    "title": "Worked days in read-only week",
+    "sourceResult": "TestResults/WeekDetailsFinal.xcresult",
+    "test": "PunchinoUITests/testWeekDetailsEmptyNavigationAndWorkedDays()"
+  }
+]

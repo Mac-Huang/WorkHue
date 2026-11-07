@@ -1,0 +1,29 @@
+{
+  "cloudEnabled": false,
+  "differentWatchProcess": true,
+  "mode": "short-lived",
+  "phoneBundle": "dev.codex.PunchinoLifetimeProbe.run20261107085236.short",
+  "phoneEnded": false,
+  "phoneObservedStop": false,
+  "sameSessionID": true,
+  "sharedSourceSHA256": {
+    "CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Models.swift": "e7c4fc318beb296f5b6399a44793228b2eaef70a8500918dae2eb27da1c69df1",
+    "SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "TimeStore.swift": "7773a67cc03a2ae08b347a2ab8c455ef1f0217bf4a858e74ca3818a936e79715",
+    "WatchSync.swift": "9e16f09e9091f4f291eec58b46a9e514f08548846e077ed8a8b96e1c715a579e"
+  },
+  "waitSeconds": 15,
+  "watchActivationAfterWait": 2,
+  "watchActivationAtReturn": 0,
+  "watchBundle": "dev.codex.PunchinoLifetimeProbe.run20261107085236.short.watchkitapp",
+  "watchDelegateAfterWait": false,
+  "watchDelegateAtReturn": false,
+  "watchEnded": true,
+  "watchStoreReleased": true
+}

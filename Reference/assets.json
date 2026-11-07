@@ -1,0 +1,418 @@
+[
+  {
+    "file": "reference-01.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a0/61/50a06198-e98d-e380-a0d1-41b1624ea24d/Style_2.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/0/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/50/a0/61/50a06198-e98d-e380-a0d1-41b1624ea24d/Style_2.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 1,
+        "green": 1,
+        "blue": 1,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.12156862745098039,
+        "green": 0.12156862745098039,
+        "blue": 0.12549019607843137,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-02.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/79/36/e57936f7-37e7-6bdc-f00e-7fbf7bb8332a/Style_1.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/1/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e5/79/36/e57936f7-37e7-6bdc-f00e-7fbf7bb8332a/Style_1.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.9098039215686274,
+        "green": 0.9098039215686274,
+        "blue": 0.8901960784313725,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.16862745098039217,
+        "green": 0.16862745098039217,
+        "blue": 0.17254901960784313,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-03.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/84/10/a6841008-c2fb-21d2-5320-a7f6bdc73d4c/Style_1__U0028No_Text_U0029.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/2/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/a6/84/10/a6841008-c2fb-21d2-5320-a7f6bdc73d4c/Style_1__U0028No_Text_U0029.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.9607843137254902,
+        "green": 0.9647058823529412,
+        "blue": 0.9294117647058824,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.047058823529411764,
+        "green": 0.047058823529411764,
+        "blue": 0.047058823529411764,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-04.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/09/d8/a509d8d4-079c-beb2-acc3-8f393d956f82/Style_3.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/3/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a5/09/d8/a509d8d4-079c-beb2-acc3-8f393d956f82/Style_3.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.6666666666666666,
+        "green": 0.7372549019607844,
+        "blue": 0.8745098039215686,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.03137254901960784,
+        "green": 0.03529411764705882,
+        "blue": 0.047058823529411764,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-05.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/55/75/6e5575d5-11e2-64ee-ac3e-5a9c54aee482/Style_31.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/4/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/55/75/6e5575d5-11e2-64ee-ac3e-5a9c54aee482/Style_31.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.9019607843137255,
+        "green": 0.9019607843137255,
+        "blue": 0.8941176470588236,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.027450980392156862,
+        "green": 0.03529411764705882,
+        "blue": 0.050980392156862744,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-06.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/fe/b7/72feb7b6-bf77-3949-ddd7-10162ad13412/Style_3_2.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/5/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/72/fe/b7/72feb7b6-bf77-3949-ddd7-10162ad13412/Style_3_2.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.6666666666666666,
+        "green": 0.7372549019607844,
+        "blue": 0.8745098039215686,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.03137254901960784,
+        "green": 0.03529411764705882,
+        "blue": 0.047058823529411764,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-07.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/62/a4/f962a496-95d7-263f-62b2-8927aab29f6e/Style_1_2.jpg/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_phone_/items/6/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f9/62/a4/f962a496-95d7-263f-62b2-8927aab29f6e/Style_1_2.jpg/{w}x{h}{c}.{f}",
+      "width": 1284,
+      "height": 2778,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.050980392156862744,
+        "green": 0.023529411764705882,
+        "blue": 0.054901960784313725,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.9803921568627451,
+        "green": 0.3607843137254902,
+        "blue": 0.44313725490196076,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-08.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/18/ad/9b18ad3b-94b6-ff38-1fb2-d988eaee5869/incoming-A8573EC6-BD7C-482E-BC01-DCE09ADC4429.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/0/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/9b/18/ad/9b18ad3b-94b6-ff38-1fb2-d988eaee5869/incoming-A8573EC6-BD7C-482E-BC01-DCE09ADC4429.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.4627450980392157,
+        "green": 0.9058823529411765,
+        "blue": 0.26666666666666666,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-09.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/a4/4e/f6a44e3d-1550-0f29-e421-5337439ba8c7/incoming-BD5DCA02-18E9-4B68-A6A3-FB742725FA75.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/1/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/f6/a4/4e/f6a44e3d-1550-0f29-e421-5337439ba8c7/incoming-BD5DCA02-18E9-4B68-A6A3-FB742725FA75.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.9294117647058824,
+        "green": 0.9294117647058824,
+        "blue": 0.9294117647058824,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-10.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/f6/5b/6ef65bbf-c016-63cc-199b-25ab44e8824d/incoming-7AE7B9A1-6E25-41E3-9690-71F3E6B2A576.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/2/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/6e/f6/5b/6ef65bbf-c016-63cc-199b-25ab44e8824d/incoming-7AE7B9A1-6E25-41E3-9690-71F3E6B2A576.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.9294117647058824,
+        "green": 0.9294117647058824,
+        "blue": 0.9294117647058824,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-11.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/f2/3d/39f23da7-ee50-90cc-9661-e95ae5010d0e/incoming-127AD278-A884-4DD3-A06B-AA9EE686C879.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/3/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/39/f2/3d/39f23da7-ee50-90cc-9661-e95ae5010d0e/incoming-127AD278-A884-4DD3-A06B-AA9EE686C879.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.07058823529411765,
+        "green": 0.0784313725490196,
+        "blue": 0.08627450980392157,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.8,
+        "green": 0.788235294117647,
+        "blue": 0.788235294117647,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-12.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/fd/5d/a6fd5d3a-c03b-ac78-5fa1-7e1538cd0a88/incoming-4897E05A-640F-4F27-9524-C3937F2445FF.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/4/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a6/fd/5d/a6fd5d3a-c03b-ac78-5fa1-7e1538cd0a88/incoming-4897E05A-640F-4F27-9524-C3937F2445FF.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0.07058823529411765,
+        "green": 0.0784313725490196,
+        "blue": 0.08627450980392157,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.8431372549019608,
+        "green": 0.8627450980392157,
+        "blue": 0.8431372549019608,
+        "type": "rgb"
+      }
+    }
+  },
+  {
+    "file": "reference-13.jpg",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/fc/68/24fc6804-4e1c-6ac2-eff2-b4d5a23b9662/incoming-7AF55C21-594B-4FDC-A040-47DD0C38923D.png/1400x2800bb.jpg",
+    "jsonPath": "/data/0/data/shelfMapping/product_media_watch_/items/5/screenshot",
+    "data": {
+      "$kind": "Artwork",
+      "crop": "bb",
+      "template": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/24/fc/68/24fc6804-4e1c-6ac2-eff2-b4d5a23b9662/incoming-7AF55C21-594B-4FDC-A040-47DD0C38923D.png/{w}x{h}{c}.{f}",
+      "width": 416,
+      "height": 496,
+      "variants": [
+        {
+          "$kind": "ArtworkVariant",
+          "format": "jpeg",
+          "quality": 70,
+          "supportsWideGamut": false
+        }
+      ],
+      "backgroundColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "type": "rgb"
+      },
+      "textColor": {
+        "red": 0.9019607843137255,
+        "green": 0.9019607843137255,
+        "blue": 0.9019607843137255,
+        "type": "rgb"
+      }
+    }
+  }
+]

@@ -1,0 +1,111 @@
+--- before/Shared/Models.swift
++++ Shared/Models.swift
+@@ -23,12 +23,17 @@
+ }
+ 
+ public enum WorkloadColorStyle {
++    private static let originalPresetHexes: Set<String> = ["43D10D", "2699F5", "7955EB"]
++
+     public static func phoneNeedsDarkInk(_ hex: String) -> Bool {
+-        relativeLuminance(hex) > 0.55
++        guard !originalPresetHexes.contains(normalizedHex(hex)) else { return false }
++        let luminance = relativeLuminance(hex)
++        return contrastRatio(luminance, 0) > contrastRatio(luminance, 1)
+     }
+ 
+     public static func watchNeedsLightInk(_ hex: String) -> Bool {
+-        relativeLuminance(hex) < 0.10
++        guard !originalPresetHexes.contains(normalizedHex(hex)) else { return false }
++        return !phoneNeedsDarkInk(hex)
+     }
+ 
+     public static func blendsIntoSurface(_ hex: String, onDarkSurface: Bool) -> Bool {
+@@ -36,9 +41,23 @@
+         return onDarkSurface ? luminance < 0.08 : luminance > 0.75
+     }
+ 
++    public static func textNeedsPrimaryInk(_ hex: String, onDarkSurface: Bool) -> Bool {
++        guard !originalPresetHexes.contains(normalizedHex(hex)) else { return false }
++        let surface = relativeLuminance(onDarkSurface ? "2C2C2E" : "F2F2F7")
++        return contrastRatio(relativeLuminance(hex), surface) < 4.5
++    }
++
++    private static func contrastRatio(_ first: Double, _ second: Double) -> Double {
++        (max(first, second) + 0.05) / (min(first, second) + 0.05)
++    }
++
++    private static func normalizedHex(_ hex: String) -> String {
++        let value = hex.trimmingCharacters(in: .whitespacesAndNewlines).replacingOccurrences(of: "#", with: "").uppercased()
++        return value.count == 6 && UInt32(value, radix: 16) != nil ? value : "43D10D"
++    }
++
+     private static func relativeLuminance(_ hex: String) -> Double {
+-        let normalized = hex.trimmingCharacters(in: .whitespacesAndNewlines).replacingOccurrences(of: "#", with: "")
+-        let value = normalized.count == 6 ? UInt32(normalized, radix: 16) ?? 0x43D10D : 0x43D10D
++        let value = UInt32(normalizedHex(hex), radix: 16) ?? 0x43D10D
+         func linear(_ component: UInt32) -> Double {
+             let channel = Double(component) / 255
+             return channel <= 0.04045 ? channel / 12.92 : pow((channel + 0.055) / 1.055, 2.4)
+--- before/Phone/DayDetailView.swift
++++ Phone/DayDetailView.swift
+@@ -130,7 +130,7 @@
+                 .font(.system(size: 17, design: .monospaced))
+                 HStack(spacing: 7) {
+                     Text(session.workloadName)
+-                        .foregroundStyle(WorkloadColorStyle.blendsIntoSurface(session.colorHex, onDarkSurface: colorScheme == .dark) ? Color.primary : Color(hex: session.colorHex))
++                        .foregroundStyle(WorkloadColorStyle.textNeedsPrimaryInk(session.colorHex, onDarkSurface: colorScheme == .dark) ? Color.primary : Color(hex: session.colorHex))
+                     Label(SessionSourceDisplay.title(session.source), systemImage: SessionSourceDisplay.symbol(session.source))
+                         .foregroundStyle(.tertiary)
+                 }.font(.system(size: 11))
+@@ -540,7 +540,7 @@
+                         }
+                         .frame(width: 5, height: 5)
+                     Text(session.workloadName)
+-                        .foregroundStyle(WorkloadColorStyle.blendsIntoSurface(session.colorHex, onDarkSurface: colorScheme == .dark) ? Color.primary : session.color)
++                        .foregroundStyle(WorkloadColorStyle.textNeedsPrimaryInk(session.colorHex, onDarkSurface: colorScheme == .dark) ? Color.primary : session.color)
+                     Label(SessionSourceDisplay.title(session.source), systemImage: SessionSourceDisplay.symbol(session.source))
+                         .foregroundStyle(.tertiary)
+                 }
+--- before/Watch/PunchinoWatchApp.swift
++++ Watch/PunchinoWatchApp.swift
+@@ -474,7 +474,7 @@
+ }
+ 
+ private func watchWorkloadLabelColor(_ hex: String) -> Color {
+-    WorkloadColorStyle.blendsIntoSurface(hex, onDarkSurface: true) ? .primary : Color(hex: hex)
++    WorkloadColorStyle.textNeedsPrimaryInk(hex, onDarkSurface: true) ? .primary : Color(hex: hex)
+ }
+ 
+ private struct WatchWorkloadSwatch: View {
+--- before/Widgets/PunchinoWidgets.swift
++++ Widgets/PunchinoWidgets.swift
+@@ -280,6 +280,11 @@
+         return WorkloadColorStyle.blendsIntoSurface(active.colorHex, onDarkSurface: widgetHasDarkSurface)
+     }
+ 
++    private var activeTextNeedsPrimaryInk: Bool {
++        guard let active = entry.activeSession else { return false }
++        return WorkloadColorStyle.textNeedsPrimaryInk(active.colorHex, onDarkSurface: widgetHasDarkSurface)
++    }
++
+     private func statusSymbol(color: Color) -> some View {
+         Image(systemName: entry.activeSession == nil ? "circle" : "circle.fill")
+             .foregroundStyle(color)
+@@ -301,7 +306,7 @@
+             Spacer(minLength: 2)
+             Text(TimeFormat.duration(entry.total(component)))
+                 .monospacedDigit()
+-                .foregroundStyle(activeSymbolNeedsOutline ? .primary : entry.tint)
++                .foregroundStyle(activeTextNeedsPrimaryInk ? .primary : entry.tint)
+         }
+         .font(.caption)
+         .lineLimit(1)
+@@ -375,7 +380,7 @@
+                                     .allowsHitTesting(false)
+                             }
+                         }
+-                        .foregroundStyle(activeSymbolNeedsOutline ? .primary : entry.tint)
++                        .foregroundStyle(activeTextNeedsPrimaryInk ? .primary : entry.tint)
+                     } else {
+                         Link(destination: URL(string: "punchino://punch-in")!) {
+                             Image(systemName: "plus")

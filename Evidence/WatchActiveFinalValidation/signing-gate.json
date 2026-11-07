@@ -1,0 +1,14 @@
+{
+  "checkedUTC": "2026-11-07T18:50:10.498777+00:00",
+  "validSigningIdentities": 0,
+  "physicalDevelopmentDevices": 0,
+  "deviceListScope": "devicectl. All listed devices were simulated.",
+  "xcodeProjectOpen": "Punchino.xcodeproj",
+  "xcodeSigningUI": {
+    "automaticallyManageSigning": true,
+    "accountButton": "Add Account…",
+    "status": "Signing for \"Punchino\" requires a development team. Select a development team in the Signing & Capabilities editor."
+  },
+  "changesMade": "Opened Signing & Capabilities for read-only inspection. No account, team, certificate, provisioning, or device security setting changed.",
+  "requiredNextStep": "User signs into an Apple developer account in Xcode, selects a team, and connects development devices. Cloud and App Group capabilities require compatible team provisioning."
+}

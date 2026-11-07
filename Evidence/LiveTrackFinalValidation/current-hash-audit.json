@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "evidence": "Evidence/LiveTrackFinalValidation/device-build.json",
+      "checked": 31,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "evidence": "Evidence/ReferenceActiveLive/measurements.json",
+      "checked": 4,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "evidence": "Evidence/CustomColorLiveTrackFinal/validation.json",
+      "checked": 42,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "evidence": "Evidence/WatchDisplayContrastFinal/validation.json",
+      "checked": 12,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "evidence": "Evidence/ConnectivityProbe/ContrastCorrection/validation-summary.json",
+      "checked": 10,
+      "missing": [],
+      "mismatches": []
+    },
+    {
+      "evidence": "Evidence/Watch45mmFinal/validation.json",
+      "checked": 13,
+      "missing": [],
+      "mismatches": []
+    }
+  ]
+}

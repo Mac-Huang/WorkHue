@@ -1,0 +1,47 @@
+{
+  "activeSessionCount": 0,
+  "cloudEnabled": false,
+  "exactFieldsValidated": [
+    "UUID",
+    "workloadID",
+    "workloadName",
+    "colorHex",
+    "source",
+    "start",
+    "end",
+    "timerBoundaries",
+    "modifiedAt"
+  ],
+  "passed": true,
+  "probeSourceSHA256": "1b2b79e7a543516fc6474280c0c30b56c5a2c1966db9be243cffcdb952bc9533",
+  "runnerSHA256": "3daa439d6f05517061dd6b42d796c4cf53f8c7999f46784eb2329ac90232d162",
+  "sequence": [
+    "phone starts Work",
+    "watch receives Work",
+    "watch stops Work",
+    "watch starts Study",
+    "phone receives Study",
+    "phone stops Study",
+    "both converge"
+  ],
+  "sessionCount": 2,
+  "sharedSourceSHA256": {
+    "Shared/CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "Shared/CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "Shared/CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d",
+    "Shared/SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "Shared/StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Shared/Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "Shared/TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e"
+  },
+  "simulatorPair": {
+    "phone": "iPhone 18 Pro Max",
+    "watch": "Apple Watch Series 12 (46mm)"
+  },
+  "studyID": "C6CA6F91-AF0F-4F3E-951C-ED590A0C3EE6",
+  "workID": "8507F572-52A1-4C3B-BC22-565BE0EA75DC",
+  "xcodeVersion": "Xcode 27.2\nBuild version 27B52"
+}

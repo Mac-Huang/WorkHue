@@ -1,0 +1,37 @@
+--- Watch/PunchinoWatchApp.swift (Trial3)
++++ Watch/PunchinoWatchApp.swift (final)
+@@ -179,12 +179,12 @@
+                             Text("Started \(watchClock(active.start))")
+                                 .font(.system(size: startedFontSize, weight: legibilityWeight == .bold ? .medium : .regular))
+                         }
+-                            .foregroundStyle(Color(hex: "8D8D93"))
+-                            .lineLimit(1)
+-                            .padding(.top, 7.5)
+-                            .accessibilityElement(children: .combine)
+-                            .accessibilityLabel("\(active.workloadName). Started \(watchClock(active.start))")
+-                            .accessibilityIdentifier("watchActiveWorkload")
++                        .foregroundStyle(Color(hex: "8D8D93"))
++                        .lineLimit(1)
++                        .padding(.top, 7.5)
++                        .accessibilityElement(children: .combine)
++                        .accessibilityLabel("\(active.workloadName). Started \(watchClock(active.start))")
++                        .accessibilityIdentifier("watchActiveWorkload")
+                     }
+                     WatchTotalStrip(title: "Today", seconds: total(.day, at: context.date), color: store.settings.tint, layoutHeight: active == nil ? 32 : 35)
+                         .offset(y: active == nil ? 0.5 : -2)
+@@ -385,6 +385,7 @@
+ 
+ private enum WatchTimerInkStyle {
+     static func opacity(on hex: String, usingLightInk: Bool, isLuminanceReduced: Bool = false) -> Double {
++        // Reduced luminance keeps opaque ink.
+         guard !isLuminanceReduced else { return 1 }
+         let normalized = hex.trimmingCharacters(in: CharacterSet(charactersIn: "#"))
+         guard normalized.count == 6, let value = UInt32(normalized, radix: 16) else { return 1 }
+@@ -394,6 +395,7 @@
+         let backgroundLuminance = luminance(background)
+         let inkLuminance = luminance(composite)
+         let contrast = (max(backgroundLuminance, inkLuminance) + 0.05) / (min(backgroundLuminance, inkLuminance) + 0.05)
++        // Fade timer ink only when the composite retains at least 4.5:1 contrast.
+         return contrast >= 4.5 ? 0.7 : 1
+     }
+ 

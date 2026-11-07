@@ -1,0 +1,123 @@
+{
+  "appInstalledByThisTask": false,
+  "appSourceEditedByThisTask": false,
+  "bootstatusExitCodes": {
+    "phone": 0,
+    "watch": 0
+  },
+  "catalogContainsWatchOS26_6": false,
+  "catalogSHA256": "10c77d82b1d1af2690027bfd0cccba5edf8a4dfd1c0ba786836586b8074f11e8",
+  "catalogURL": "https://devimages-cdn.apple.com/downloads/xcode/simulators/index2.dvtdownloadableindex",
+  "createdAtUTC": "2026-11-07T17:52:55.342897+00:00",
+  "devices": {
+    "phone": {
+      "createCommand": [
+        "xcrun",
+        "simctl",
+        "create",
+        "Punchino Series9 Companion 26.5",
+        "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+        "com.apple.CoreSimulator.SimRuntime.iOS-26-5"
+      ],
+      "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.iPhone-16-Plus",
+      "name": "Punchino Series9 Companion 26.5",
+      "runtimeBuild": "23F73",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-26-5",
+      "runtimeVersion": "26.5",
+      "state": "Booted",
+      "udid": "B7A8C734-C0A8-47B7-B52D-1B43A3A42062"
+    },
+    "watch": {
+      "createCommand": [
+        "xcrun",
+        "simctl",
+        "create",
+        "Punchino Series9 Reference 26.5",
+        "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
+        "com.apple.CoreSimulator.SimRuntime.watchOS-26-5"
+      ],
+      "deviceTypeIdentifier": "com.apple.CoreSimulator.SimDeviceType.Apple-Watch-Series-9-45mm",
+      "name": "Punchino Series9 Reference 26.5",
+      "runtimeBuild": "23T570",
+      "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-26-5",
+      "runtimeVersion": "26.5",
+      "state": "Booted",
+      "udid": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+    }
+  },
+  "displaySettingsChangedByThisTask": false,
+  "downloadExitCode": 0,
+  "existingDevicesPresent": true,
+  "existingPairMappingsPreserved": true,
+  "logs": {
+    "phone-boot.log": "d72763b067b9cf75e4ba55aabba3a11b5ed96a4f5db625bc2a99383ffa91f883",
+    "runtime-verification.log": "efc30e22f12a1b1558926710f1f73e33cefa4ffa8676f80448eb0c3bd102270d",
+    "watch-boot.log": "75894930a8b4da8799daf5ded3dc130a99b1da8e577887066466b49cd577b8fb",
+    "watchos26.5-download.log": "0e0803f90b6815cec4eb8bfdbc8119dafdef3619ec7ebf8072d51d56dc93b623"
+  },
+  "newDeviceIDs": [
+    "B7A8C734-C0A8-47B7-B52D-1B43A3A42062",
+    "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  ],
+  "newLicenseAccepted": false,
+  "oldDeviceCount": 34,
+  "optionalRuntimeVerification": {
+    "exitCode": 1,
+    "log": "runtime-verification.log",
+    "message": "Signature verification failed: (-67054 a sealed resource is missing or invalid",
+    "normalBootSucceededWithoutBypass": true
+  },
+  "pairID": "EFBCAF8B-D42D-44E2-96C5-517DAEAD1DC2",
+  "pairState": "(active, connected)",
+  "referenceWatch": {
+    "boldText": true,
+    "build": "23U67",
+    "metadataSource": "Parent-confirmed read-only physical metadata",
+    "model": "Apple Watch Series 9 (GPS), 45mm",
+    "watchOS": "26.6"
+  },
+  "runtimeImage": {
+    "build": "23T570",
+    "deletable": true,
+    "identifier": "6E5DFE1C-892A-4894-8B35-ADB60D1CE524",
+    "kind": "Patchable Cryptex Disk Image",
+    "mountPath": "/private/var/run/com.apple.security.cryptexd/mnt/watchOS_23T570",
+    "parentMountPath": "/System/Library/AssetsV2/com_apple_MobileAsset_watchOSSimulatorRuntime/c523dafdf621ee4b7146d710acd2235b03562449.asset/AssetData",
+    "path": "/System/Library/AssetsV2/com_apple_MobileAsset_watchOSSimulatorRuntime/c523dafdf621ee4b7146d710acd2235b03562449.asset/AssetData",
+    "platformIdentifier": "com.apple.platform.watchsimulator",
+    "runtimeBundlePath": "/private/var/run/com.apple.security.cryptexd/mnt/watchOS_23T570/Library/Developer/CoreSimulator/Profiles/Runtimes/watchOS 26.5.simruntime",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-26-5",
+    "signatureState": "Unknown",
+    "sizeBytes": 3935033546,
+    "state": "Ready",
+    "supportedArchitectures": [
+      "arm64"
+    ],
+    "version": "26.5"
+  },
+  "selectedCatalogRecord": {
+    "architectures": [
+      "arm64"
+    ],
+    "category": "simulator",
+    "contentType": "cryptexDiskImage",
+    "dictionaryVersion": 2,
+    "downloadMethod": "mobileAsset",
+    "fileSize": 3959483106,
+    "identifier": "com.apple.dmg.WatchSimulatorSDK26_5_arm64",
+    "name": "watchOS 26.5 Simulator Runtime",
+    "platform": "com.apple.platform.watchos",
+    "simulatorVersion": {
+      "buildUpdate": "23T570",
+      "version": "26.5"
+    },
+    "version": "26.5.0.0"
+  },
+  "selectionAfter": {
+    "developerDirectory": "/Applications/Xcode.app/Contents/Developer",
+    "iphoneSimulatorSDK": "27.2",
+    "watchSimulatorSDK": "27.2",
+    "xcodeVersion": "Xcode 27.2\nBuild version 27B52"
+  },
+  "uiTestsRunByThisTask": false
+}

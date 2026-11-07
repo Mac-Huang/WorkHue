@@ -1,0 +1,10 @@
+{
+  "cases" : 1482,
+  "contrastCriterion" : 4.5,
+  "minimumReducedContrast" : 4.5220530473054579,
+  "normalOpacityChecks" : 1482,
+  "opaqueDecisions" : 1019,
+  "passed" : true,
+  "reducedDecisions" : 463,
+  "reducedLuminanceChecks" : 1482
+}

@@ -1,0 +1,42 @@
+Attributes: Application, 0x10bc1c140, pid: 32966, identifier: 'Carousel'
+Element subtree:
+ →Application, 0x10bc1c140, pid: 32966, identifier: 'Carousel'
+    Window, 0x10bc1c280, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10bc1c500, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x10bc1c3c0, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x10bc1c780, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x10bc1c640, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10bc1e440, {{0.0, 0.0}, {208.0, 248.0}}
+                Other, 0x10bc1e300, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10bc1e580, {{0.0, 0.0}, {208.0, 38.0}}
+                StatusBar, 0x10bc1e6c0, {{0.0, 0.0}, {208.0, 38.0}}
+                  Other, 0x10bc1e800, {{0.0, 0.0}, {208.0, 38.0}}
+                  Other, 0x10bc1e940, {{0.0, 0.0}, {208.0, 38.0}}
+          Other, 0x10bc1ea80, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x10bc1ebc0, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x10bc1ed00, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x10bc1ee40, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10bc1ef80, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10bc1f0c0, {{0.0, 0.0}, {208.0, 248.0}}
+                Other, 0x10bc1f200, {{158.0, 15.5}, {35.0, 20.5}}, label: '2:53 AM'
+                  Other, 0x10bc1f340, {{158.0, 15.5}, {35.0, 20.5}}
+                    Other, 0x10bc1f480, {{158.0, 15.5}, {35.0, 20.5}}, label: '2:53 AM'
+    Window, 0x10bc1f5c0, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x10bc1f700, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10bc1f840, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10bc1f980, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x10bc1fac0, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x10bc1fc00, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x10bc1fd40, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x10bc1fe80, {{0.0, 0.0}, {416.0, 496.0}}
+        Other, 0x10bc1db80, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x10bc1d900, {{200.0, 45.0}, {6.0, 46.0}}
+    Window (Main), 0x10bc1d7c0, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10bc1d040, {{0.0, 0.0}, {208.0, 248.0}}
+Path to element:
+ →Application, 0x10bc1c140, pid: 32966, identifier: 'Carousel'
+Query chain:
+ →Find: Application 'com.apple.Carousel'
+  Output: {
+    Application, 0x10bc1d2c0, pid: 32966, identifier: 'Carousel'
+  }

@@ -1,0 +1,24 @@
+{
+  "extensionOnlyState": false,
+  "passed": true,
+  "seededSessions": 0,
+  "sessionCount": 9,
+  "sessionsUnchanged": true,
+  "workloadCount": 5,
+  "approvedWatch": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+  "approvedPhone": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+  "repositoryPath": "/Users/xuming/Library/Developer/CoreSimulator/Devices/F0B67AC3-174C-4ED3-8F0C-B882CF29B587/data/Containers/Shared/AppGroup/E5352BE7-1262-4313-96AD-276FEFE3D65D/tracking.json",
+  "mechanism": "Actual Shared SnapshotRepository.update API, workload definitions only",
+  "definitions": [
+    {
+      "id": "00000000-0000-0000-0000-000000000100",
+      "name": "Black",
+      "colorHex": "000000"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000101",
+      "name": "White",
+      "colorHex": "FFFFFF"
+    }
+  ]
+}

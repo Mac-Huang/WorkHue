@@ -1,0 +1,104 @@
+[
+  {
+    "file": "statistics-y.png",
+    "title": "Statistics Y",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-6m.png",
+    "title": "Statistics 6M",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-m.png",
+    "title": "Statistics M",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-w.png",
+    "title": "Statistics W",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-d.png",
+    "title": "Statistics D",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "calendar-layout.png",
+    "title": "Calendar layout",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testCalendarUsesEqualSquareColumns()"
+  },
+  {
+    "file": "native-csv-share-sheet.png",
+    "title": "Native CSV share sheet",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testDarkOverviewAndCSVExport()"
+  },
+  {
+    "file": "dark-calendar-overview.png",
+    "title": "Dark calendar overview",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testDarkOverviewAndCSVExport()"
+  },
+  {
+    "file": "recorded-workloads-in-day-history.png",
+    "title": "Recorded workloads in day history",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testEachSessionKeepsItsSelectedWorkload()"
+  },
+  {
+    "file": "active-study-session.png",
+    "title": "Active Study session",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testEachSessionKeepsItsSelectedWorkload()"
+  },
+  {
+    "file": "workload-color-choices.png",
+    "title": "Workload color choices",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession()"
+  },
+  {
+    "file": "idle-track-layout.png",
+    "title": "Idle Track layout",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession()"
+  },
+  {
+    "file": "focus-observe.png",
+    "title": "Focus observe",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "focus-momentum.png",
+    "title": "Focus momentum",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "focus-balance.png",
+    "title": "Focus balance",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "native-tabs-preserve-state.png",
+    "title": "Native tabs preserve state",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testNativeTabsPreserveScreenState()"
+  },
+  {
+    "file": "custom-workload-punch-button.png",
+    "title": "Custom workload punch button",
+    "sourceResult": "TestResults/PhoneLiveAudit.xcresult",
+    "test": "PunchinoUITests/testNewWorkloadAppearsInPunchInChoices()"
+  }
+]

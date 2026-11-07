@@ -1,0 +1,5 @@
+#include "Base.xcconfig"
+// Use this file only after configuring the matching identifiers in your Apple team.
+// Example: xcodebuild ... -xcconfig Config/CloudSync.xcconfig DEVELOPMENT_TEAM=YOUR_TEAM_ID
+PUNCHINO_CLOUD_SYNC_ENABLED = YES
+PUNCHINO_ENTITLEMENTS = Config/Cloud.entitlements

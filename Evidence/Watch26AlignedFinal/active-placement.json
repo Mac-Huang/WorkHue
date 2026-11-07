@@ -1,0 +1,49 @@
+{
+  "comparison": [
+    {
+      "coreBoundsInclusive": [
+        113,
+        115,
+        282,
+        283
+      ],
+      "INBoundsInclusive": [
+        175,
+        157,
+        221,
+        195
+      ],
+      "source": "prior45mmReplica",
+      "timerBoundsInclusive": [
+        151,
+        226,
+        245,
+        248
+      ]
+    },
+    {
+      "coreBoundsInclusive": [
+        113,
+        115,
+        282,
+        283
+      ],
+      "INBoundsInclusive": [
+        175,
+        157,
+        221,
+        195
+      ],
+      "source": "final45mmReplica",
+      "timerBoundsInclusive": [
+        151,
+        226,
+        244,
+        248
+      ]
+    }
+  ],
+  "coreAndINBoundsMatch": true,
+  "timerVerticalBoundsMatch": true,
+  "timerHorizontalLimit": "The prior synthetic timer displays 00:01; the new timer displays 00:00. Their glyph widths differ. Source font and layout parameters are unchanged."
+}

@@ -1,0 +1,334 @@
+{
+  "durationUnitGlyph" : [
+    {
+      "heightPixels" : 16,
+      "maskPixels" : 199,
+      "source" : "reference",
+      "widthPixels" : 16
+    },
+    {
+      "heightPixels" : 16,
+      "maskPixels" : 181,
+      "source" : "replica",
+      "widthPixels" : 16
+    }
+  ],
+  "durationUnitMaskThreshold" : "B>70, B>R+50, G>R+25",
+  "outInk" : {
+    "binaryMaskDifferencePixels" : 3,
+    "fullCropDifferentPixels" : 211,
+    "maximumChannelDifference" : 1,
+    "referenceBoundsInclusive" : [
+      146,
+      213,
+      250,
+      251
+    ],
+    "referenceDominantRGB" : "141,141,147",
+    "referenceMaskPixels" : 2635,
+    "replicaBoundsInclusive" : [
+      146,
+      213,
+      250,
+      251
+    ],
+    "replicaDominantRGB" : "141,141,147",
+    "replicaMaskPixels" : 2632
+  },
+  "pageDots" : {
+    "binaryMaskDifferencePixels" : 0,
+    "fullCropDifferentPixels" : 16,
+    "maximumChannelDifference" : 1,
+    "referenceBoundsInclusive" : [
+      181,
+      468,
+      214,
+      479
+    ],
+    "referenceDominantRGB" : "60,60,60",
+    "referenceMaskPixels" : 244,
+    "replicaBoundsInclusive" : [
+      181,
+      468,
+      214,
+      479
+    ],
+    "replicaDominantRGB" : "60,60,60",
+    "replicaMaskPixels" : 244
+  },
+  "privateValuesSeededOrExported" : false,
+  "ring" : {
+    "binaryMaskDifferencePixels" : 8,
+    "fullCropDifferentPixels" : 543,
+    "maximumChannelDifference" : 1,
+    "referenceBoundsInclusive" : [
+      110,
+      143,
+      285,
+      318
+    ],
+    "referenceDominantRGB" : "28,28,29",
+    "referenceMaskPixels" : 3886,
+    "replicaBoundsInclusive" : [
+      110,
+      143,
+      285,
+      318
+    ],
+    "replicaDominantRGB" : "28,28,29",
+    "replicaMaskPixels" : 3894
+  },
+  "todayLabel" : {
+    "binaryMaskDifferencePixels" : 0,
+    "fullCropDifferentPixels" : 217,
+    "maximumChannelDifference" : 2,
+    "referenceBoundsInclusive" : [
+      44,
+      381,
+      113,
+      402
+    ],
+    "referenceDominantRGB" : "83,83,86",
+    "referenceMaskPixels" : 662,
+    "replicaBoundsInclusive" : [
+      44,
+      381,
+      113,
+      402
+    ],
+    "replicaDominantRGB" : "83,83,86",
+    "replicaMaskPixels" : 662
+  },
+  "todayPaint" : {
+    "referenceBoundsInclusive" : [
+      20,
+      360,
+      375,
+      417
+    ],
+    "referenceDominantRGB" : "18,18,19",
+    "replicaBoundsInclusive" : [
+      20,
+      360,
+      375,
+      417
+    ],
+    "replicaDominantRGB" : "18,18,19",
+    "topLeftCorner" : {
+      "binaryMaskDifferencePixels" : 0,
+      "fullCropDifferentPixels" : 8,
+      "maximumChannelDifference" : 1,
+      "referenceBoundsInclusive" : [
+        20,
+        360,
+        59,
+        377
+      ],
+      "referenceDominantRGB" : "18,18,19",
+      "referenceMaskPixels" : 670,
+      "replicaBoundsInclusive" : [
+        20,
+        360,
+        59,
+        377
+      ],
+      "replicaDominantRGB" : "18,18,19",
+      "replicaMaskPixels" : 670
+    }
+  },
+  "todayValueTypography" : [
+    {
+      "dominantRGB" : "0,145,255",
+      "inkHeightPixels" : 22,
+      "rightInkInsetFromPaintPixels" : 25,
+      "source" : "reference"
+    },
+    {
+      "dominantRGB" : "0,145,255",
+      "inkHeightPixels" : 22,
+      "rightInkInsetFromPaintPixels" : 25,
+      "source" : "replica"
+    }
+  ],
+  "totalsCardPaint" : [
+    {
+      "referenceBoundsInclusive" : [
+        4,
+        84,
+        391,
+        183
+      ],
+      "referenceDominantRGB" : "34,34,35",
+      "replicaBoundsInclusive" : [
+        4,
+        84,
+        391,
+        183
+      ],
+      "replicaDominantRGB" : "34,34,35",
+      "topLeftCorner" : {
+        "binaryMaskDifferencePixels" : 0,
+        "fullCropDifferentPixels" : 36,
+        "maximumChannelDifference" : 1,
+        "referenceBoundsInclusive" : [
+          4,
+          84,
+          39,
+          111
+        ],
+        "referenceDominantRGB" : "34,34,35",
+        "referenceMaskPixels" : 895,
+        "replicaBoundsInclusive" : [
+          4,
+          84,
+          39,
+          111
+        ],
+        "replicaDominantRGB" : "34,34,35",
+        "replicaMaskPixels" : 895
+      }
+    },
+    {
+      "referenceBoundsInclusive" : [
+        4,
+        194,
+        391,
+        293
+      ],
+      "referenceDominantRGB" : "34,34,35",
+      "replicaBoundsInclusive" : [
+        4,
+        194,
+        391,
+        293
+      ],
+      "replicaDominantRGB" : "34,34,35",
+      "topLeftCorner" : {
+        "binaryMaskDifferencePixels" : 0,
+        "fullCropDifferentPixels" : 36,
+        "maximumChannelDifference" : 1,
+        "referenceBoundsInclusive" : [
+          4,
+          194,
+          39,
+          221
+        ],
+        "referenceDominantRGB" : "34,34,35",
+        "referenceMaskPixels" : 895,
+        "replicaBoundsInclusive" : [
+          4,
+          194,
+          39,
+          221
+        ],
+        "replicaDominantRGB" : "34,34,35",
+        "replicaMaskPixels" : 895
+      }
+    },
+    {
+      "referenceBoundsInclusive" : [
+        4,
+        304,
+        391,
+        403
+      ],
+      "referenceDominantRGB" : "34,34,35",
+      "replicaBoundsInclusive" : [
+        4,
+        304,
+        391,
+        403
+      ],
+      "replicaDominantRGB" : "34,34,35",
+      "topLeftCorner" : {
+        "binaryMaskDifferencePixels" : 0,
+        "fullCropDifferentPixels" : 36,
+        "maximumChannelDifference" : 1,
+        "referenceBoundsInclusive" : [
+          4,
+          304,
+          39,
+          331
+        ],
+        "referenceDominantRGB" : "34,34,35",
+        "referenceMaskPixels" : 895,
+        "replicaBoundsInclusive" : [
+          4,
+          304,
+          39,
+          331
+        ],
+        "replicaDominantRGB" : "34,34,35",
+        "replicaMaskPixels" : 895
+      }
+    }
+  ],
+  "totalsLabels" : [
+    {
+      "binaryMaskDifferencePixels" : 0,
+      "fullCropDifferentPixels" : 291,
+      "label" : "Today",
+      "maximumChannelDifference" : 1,
+      "referenceBoundsInclusive" : [
+        25,
+        122,
+        112,
+        150
+      ],
+      "referenceDominantRGB" : "154,154,161",
+      "referenceMaskPixels" : 903,
+      "replicaBoundsInclusive" : [
+        25,
+        122,
+        112,
+        150
+      ],
+      "replicaDominantRGB" : "154,154,161",
+      "replicaMaskPixels" : 903
+    },
+    {
+      "binaryMaskDifferencePixels" : 0,
+      "fullCropDifferentPixels" : 541,
+      "label" : "This Week",
+      "maximumChannelDifference" : 1,
+      "referenceBoundsInclusive" : [
+        25,
+        231,
+        175,
+        255
+      ],
+      "referenceDominantRGB" : "154,154,161",
+      "referenceMaskPixels" : 1501,
+      "replicaBoundsInclusive" : [
+        25,
+        231,
+        175,
+        255
+      ],
+      "replicaDominantRGB" : "154,154,161",
+      "replicaMaskPixels" : 1501
+    },
+    {
+      "binaryMaskDifferencePixels" : 0,
+      "fullCropDifferentPixels" : 519,
+      "label" : "This Month",
+      "maximumChannelDifference" : 1,
+      "referenceBoundsInclusive" : [
+        25,
+        341,
+        190,
+        365
+      ],
+      "referenceDominantRGB" : "154,154,161",
+      "referenceMaskPixels" : 1599,
+      "replicaBoundsInclusive" : [
+        25,
+        341,
+        190,
+        365
+      ],
+      "replicaDominantRGB" : "154,154,161",
+      "replicaMaskPixels" : 1599
+    }
+  ]
+}

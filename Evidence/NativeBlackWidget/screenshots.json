@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Native Black widget stopped with source app closed accessibility",
+    "file": "native-black-widget-stopped-with-source-app-closed-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Black widget stopped with source app closed",
+    "file": "native-black-widget-stopped-with-source-app-closed.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Black workload widget with contrast outline accessibility",
+    "file": "native-black-workload-widget-with-contrast-outline-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Black workload widget with contrast outline",
+    "file": "native-black-workload-widget-with-contrast-outline.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Normal Watch Black source session",
+    "file": "normal-watch-black-source-session.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Normal Watch selects predefined Black workload",
+    "file": "normal-watch-selects-predefined-black-workload.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeBlackWidget.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "result": "TestResults/WatchNativeBlackWidget.xcresult",
+  "source": "Normal Watch wheel and confirmation, after approved workload-definition preload",
+  "preloadedSessions": 0,
+  "extensionOnlyState": false,
+  "savedBlackHexUnchanged": true,
+  "watchAppTerminatedBeforeWidgetTap": true,
+  "watchAppStillNotRunningAfterTap": true,
+  "pairedPhoneSessionExactlyMatches": true,
+  "session": {
+    "colorHex": "000000",
+    "end": 815736040.874802,
+    "id": "B4FA6096-ABBA-4340-828C-2988898AC0FC",
+    "modifiedAt": 815736040.87486,
+    "source": "watch",
+    "start": 815736031.705619,
+    "timerBoundaries": [
+      {
+        "id": "B4FA6096-ABBA-4340-828C-2988898AC0FC",
+        "start": 815736031.705619,
+        "timestamp": 815736031.705619
+      }
+    ],
+    "workloadID": "00000000-0000-0000-0000-000000000100",
+    "workloadName": "Black"
+  },
+  "activeCountAfterStop": 0,
+  "sourceSHA256": {
+    "Watch/PunchinoWatchApp.swift": "b059d235a3b1c528549aa88de71c2a5e758c712c776cc1df1c0f55060d71cb0e",
+    "Widgets/PunchinoWidgets.swift": "37d8acb5189e5d182dacd26ccf5df2bfcaf91a70077bf97fbc2bcdc98ffdd180",
+    "Shared/Models.swift": "9123d44709bff66a65c202a5e53642dd131c1934d6126dc7ba5a1328cf69746c",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a"
+  }
+}

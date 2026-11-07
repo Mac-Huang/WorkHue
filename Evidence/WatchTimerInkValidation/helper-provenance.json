@@ -1,0 +1,9 @@
+{
+  "helperSHA256": "02f33b69453b2d00858b2635a3f2bd42e0dfc194bee984c42a7aed6a47412f92",
+  "sourceFile": "Watch/PunchinoWatchApp.swift",
+  "method": "The exact private enum was extracted without changes and compiled as a standalone executable. Expected contrast decisions came from an independent Python calculation.",
+  "seededSessions": 0,
+  "simulatorOrUserDataAccessed": false,
+  "productSourceSHA256": "dfb7d0a78bef42957a9da6db837f8e3ce092f9a66a8343e50e51d05b3f7e525e",
+  "helperMatchesCurrentSource": true
+}

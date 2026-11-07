@@ -1,0 +1,267 @@
+Optional(Attributes: Application, 0x108095540, pid: 18781, label: 'Punchino'
+Element subtree:
+ →Application, 0x108095540, pid: 18781, label: 'Punchino'
+    Window (Main), 0x108095400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x108095a40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x108095900, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x108095cc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x108095e00, {{-402.0, -874.0}, {1206.0, 2622.0}}
+          Other, 0x108096080, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1080961c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x108096580, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1080966c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x108096440, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x108096800, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x108096a80, {{0.0, 0.0}, {402.0, 874.0}}
+                        Other, 0x108096bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                          Other, 0x108096940, {{0.0, 0.0}, {402.0, 874.0}}
+                            NavigationBar, 0x108096d00, {{0.0, 62.0}, {402.0, 106.0}}, identifier: 'Overview'
+                              Other, 0x10524b0c0, {{339.7, 66.0}, {42.3, 36.0}}
+                                Other, 0x10524b200, {{339.7, 66.0}, {42.3, 36.0}}
+                                  Button, 0x10524b340, {{339.7, 66.0}, {42.3, 36.0}}, identifier: 'settingsButton', label: 'Settings'
+                              StaticText, 0x10524b480, {{16.0, 119.7}, {149.7, 40.7}}, label: 'Overview'
+                            Other, 0x10524b700, {{0.0, 0.0}, {402.0, 874.0}}
+                              Other, 0x10524b840, {{0.0, 0.0}, {402.0, 874.0}}
+                                Other, 0x10524bac0, {{0.0, 0.0}, {402.0, 874.0}}
+                                  Other, 0x10524bc00, {{0.0, 0.0}, {402.0, 874.0}}
+                                    ScrollView, 0x10524b980, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x1052492c0, {{0.0, 0.0}, {402.0, 874.0}}
+                                        Other, 0x105249180, {{0.0, 0.0}, {402.0, 156.0}}
+                                        Other, 0x10524af80, {{0.0, 741.0}, {402.0, 133.0}}
+                                      Other, 0x109290000, {{0.0, 0.0}, {402.0, 874.0}}
+                                      Other, 0x109290140, {{0.0, 168.0}, {402.0, 583.3}}
+                                        Button, 0x109290280, {{16.0, 180.0}, {180.0, 80.0}}, identifier: 'dayGoalCard', label: 'Today, 0m / 3h 0m', value: 0%
+                                          StaticText, 0x1092903c0, {{31.0, 195.0}, {44.0, 18.0}}, label: 'Today'
+                                          ProgressIndicator, 0x109290500, {{31.0, 221.0}, {150.0, 4.0}}, value: 0%
+                                            ProgressIndicator, 0x109290640, {{31.0, 211.0}, {150.0, 24.0}}, value: 0%
+                                          StaticText, 0x109290780, {{31.0, 233.0}, {55.0, 12.0}}, label: '0m / 3h 0m'
+                                        Button, 0x1092908c0, {{206.0, 180.0}, {180.0, 80.0}}, identifier: 'weekGoalCard', label: 'Week, 0m / 21h 0m', value: 0%
+                                          StaticText, 0x109290a00, {{221.0, 195.0}, {40.7, 18.0}}, label: 'Week'
+                                          ProgressIndicator, 0x109290b40, {{221.0, 221.0}, {150.0, 4.0}}, value: 0%
+                                            ProgressIndicator, 0x109290c80, {{221.0, 211.0}, {150.0, 24.0}}, value: 0%
+                                          StaticText, 0x109290dc0, {{221.0, 233.0}, {59.3, 12.0}}, label: '0m / 21h 0m'
+                                        Button, 0x109290f00, {{16.0, 282.0}, {44.0, 44.0}}, identifier: 'chevron.left', label: 'Previous month'
+                                        StaticText, 0x109291040, {{126.5, 292.0}, {149.0, 24.0}}, identifier: 'monthTitle', label: 'November 2026'
+                                        Button, 0x109291180, {{342.0, 282.0}, {44.0, 44.0}}, identifier: 'chevron.right', label: 'Next month', Disabled
+                                        StaticText, 0x1092912c0, {{28.4, 326.0}, {23.0, 13.3}}, label: 'Mon'
+                                        StaticText, 0x109291400, {{83.9, 326.0}, {19.3, 13.3}}, label: 'Tue'
+                                        StaticText, 0x109291540, {{135.5, 326.0}, {23.7, 13.3}}, label: 'Wed'
+                                        StaticText, 0x109291680, {{190.8, 326.0}, {20.3, 13.3}}, label: 'Thu'
+                                        StaticText, 0x1092917c0, {{247.9, 326.0}, {13.7, 13.3}}, label: 'Fri'
+                                        StaticText, 0x109291900, {{299.8, 326.0}, {17.3, 13.3}}, label: 'Sat'
+                                        StaticText, 0x109291a40, {{352.0, 326.0}, {20.3, 13.3}}, label: 'Sun'
+                                        Other, 0x109291b80, {{15.5, 344.8}, {371.0, 317.3}}
+                                          Button, 0x109291cc0, {{337.8, 344.8}, {48.7, 48.7}}, identifier: 'day-1', label: 'Sunday, November 1, 2026, 0m'
+                                          Button, 0x109291e00, {{15.5, 398.5}, {48.7, 48.7}}, identifier: 'day-2', label: 'Monday, November 2, 2026, 0m'
+                                          Button, 0x109291f40, {{69.2, 398.5}, {48.7, 48.7}}, identifier: 'day-3', label: 'Tuesday, November 3, 2026, 0m'
+                                          Button, 0x109292080, {{122.8, 398.5}, {48.7, 48.7}}, identifier: 'day-4', label: 'Wednesday, November 4, 2026, 0m'
+                                          Button, 0x1092921c0, {{176.5, 398.5}, {49.0, 48.7}}, identifier: 'day-5', label: 'Thursday, November 5, 2026, 0m'
+                                          Button, 0x109292300, {{230.5, 398.5}, {48.7, 48.7}}, identifier: 'day-6', label: 'Friday, November 6, 2026, 0m'
+                                          Button, 0x109292440, {{283.7, 398.0}, {49.7, 49.7}}, identifier: 'day-7', label: 'Saturday, November 7, 2026, 0m'
+                                          Button, 0x109292580, {{337.8, 398.5}, {48.7, 48.7}}, identifier: 'day-8', label: 'Sunday, November 8, 2026, 0m'
+                                          Button, 0x1092926c0, {{15.5, 452.2}, {48.7, 48.7}}, identifier: 'day-9', label: 'Monday, November 9, 2026, 0m'
+                                          Button, 0x109292800, {{69.2, 452.2}, {48.7, 48.7}}, identifier: 'day-10', label: 'Tuesday, November 10, 2026, 0m'
+                                          Button, 0x109292940, {{122.8, 452.2}, {48.7, 48.7}}, identifier: 'day-11', label: 'Wednesday, November 11, 2026, 0m'
+                                          Button, 0x109292a80, {{176.5, 452.2}, {49.0, 48.7}}, identifier: 'day-12', label: 'Thursday, November 12, 2026, 0m'
+                                          Button, 0x109292bc0, {{230.5, 452.2}, {48.7, 48.7}}, identifier: 'day-13', label: 'Friday, November 13, 2026, 0m'
+                                          Button, 0x109292d00, {{284.2, 452.2}, {48.7, 48.7}}, identifier: 'day-14', label: 'Saturday, November 14, 2026, 0m'
+                                          Button, 0x109292e40, {{337.8, 452.2}, {48.7, 48.7}}, identifier: 'day-15', label: 'Sunday, November 15, 2026, 0m'
+                                          Button, 0x109292f80, {{15.5, 505.8}, {48.7, 49.0}}, identifier: 'day-16', label: 'Monday, November 16, 2026, 0m'
+                                          Button, 0x1092930c0, {{69.2, 505.8}, {48.7, 49.0}}, identifier: 'day-17', label: 'Tuesday, November 17, 2026, 0m'
+                                          Button, 0x109293200, {{122.8, 505.8}, {48.7, 49.0}}, identifier: 'day-18', label: 'Wednesday, November 18, 2026, 0m'
+                                          Button, 0x109293340, {{176.5, 505.8}, {49.0, 49.0}}, identifier: 'day-19', label: 'Thursday, November 19, 2026, 0m'
+                                          Button, 0x109293480, {{230.5, 505.8}, {48.7, 49.0}}, identifier: 'day-20', label: 'Friday, November 20, 2026, 0m'
+                                          Button, 0x1092935c0, {{284.2, 505.8}, {48.7, 49.0}}, identifier: 'day-21', label: 'Saturday, November 21, 2026, 0m'
+                                          Button, 0x109293700, {{337.8, 505.8}, {48.7, 49.0}}, identifier: 'day-22', label: 'Sunday, November 22, 2026, 0m'
+                                          Button, 0x109293840, {{15.5, 559.8}, {48.7, 48.7}}, identifier: 'day-23', label: 'Monday, November 23, 2026, 0m'
+                                          Button, 0x109293980, {{69.2, 559.8}, {48.7, 48.7}}, identifier: 'day-24', label: 'Tuesday, November 24, 2026, 0m'
+                                          Button, 0x109293ac0, {{122.8, 559.8}, {48.7, 48.7}}, identifier: 'day-25', label: 'Wednesday, November 25, 2026, 0m'
+                                          Button, 0x109293c00, {{176.5, 559.8}, {49.0, 48.7}}, identifier: 'day-26', label: 'Thursday, November 26, 2026, 0m'
+                                          Button, 0x109293d40, {{230.5, 559.8}, {48.7, 48.7}}, identifier: 'day-27', label: 'Friday, November 27, 2026, 0m'
+                                          Button, 0x109293e80, {{284.2, 559.8}, {48.7, 48.7}}, identifier: 'day-28', label: 'Saturday, November 28, 2026, 0m'
+                                          Button, 0x109298000, {{337.8, 559.8}, {48.7, 48.7}}, identifier: 'day-29', label: 'Sunday, November 29, 2026, 0m'
+                                          Button, 0x109298140, {{15.5, 613.5}, {48.7, 48.7}}, identifier: 'day-30', label: 'Monday, November 30, 2026, 0m'
+                                        Other, 0x109298280, {{104.2, 689.8}, {194.0, 37.5}}, label: 'Calendar intensity: darker colors represent more hours. Red borders mark days over your daily limit.'
+                                          StaticText, 0x1092983c0, {{106.0, 715.3}, {12.7, 12.0}}, label: '0h'
+                                          StaticText, 0x109298500, {{131.7, 715.3}, {18.7, 12.0}}, label: '<2h'
+                                          StaticText, 0x109298640, {{163.3, 715.3}, {24.7, 12.0}}, label: '2–4h'
+                                          StaticText, 0x109298780, {{201.0, 715.3}, {25.0, 12.0}}, label: '4–6h'
+                                          StaticText, 0x1092988c0, {{239.0, 715.3}, {25.0, 12.0}}, label: '6–8h'
+                                          StaticText, 0x109298a00, {{277.0, 715.3}, {19.0, 12.0}}, label: '8h+'
+                                      Other, 0x109298b40, {{369.0, 116.0}, {30.0, 675.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                                        Other, 0x109298c80, {{396.0, 158.7}, {3.0, 629.3}}
+                                      Other, 0x109298dc0, {{369.0, 116.0}, {30.0, 675.0}}, label: 'Vertical scroll bar, 1 page', value: 0%
+                                        Other, 0x109298f00, {{396.0, 158.7}, {3.0, 629.3}}
+                            Toolbar, 0x109299040, {{0.0, 0.0}, {402.0, 874.0}}, identifier: 'Toolbar', label: 'Toolbar'
+                              Other, 0x109299180, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1092992c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x109299400, {{0.0, 791.0}, {402.0, 83.0}}
+                    Other, 0x109299540, {{0.0, 0.0}, {402.0, 874.0}}
+                      TabBar, 0x109299680, {{0.0, 791.0}, {402.0, 83.0}}, label: 'Tab Bar'
+                        Other, 0x1092997c0, {{64.0, 791.0}, {274.0, 62.0}}
+                          Other, 0x109299900, {{64.0, 791.0}, {94.0, 54.0}}
+                          Other, 0x109299a40, {{64.0, 791.0}, {274.0, 62.0}}
+                            Button, 0x109299b80, {{68.0, 795.0}, {94.0, 54.0}}, identifier: 'calendar', label: 'Home', Selected
+                              Image, 0x109299cc0, {{100.7, 802.3}, {29.0, 25.0}}, identifier: 'calendar', label: 'calendar'
+                            Button, 0x109299e00, {{154.0, 795.0}, {94.0, 54.0}}, identifier: 'chart.bar.fill', label: 'Statistics'
+                              Image, 0x109299f40, {{183.7, 802.3}, {35.0, 25.3}}, identifier: 'chart.bar.fill', label: 'chart column'
+                            Button, 0x10929a080, {{240.0, 795.0}, {94.0, 54.0}}, identifier: 'circle', label: 'OUT'
+                              Image, 0x10929a1c0, {{273.3, 801.3}, {27.3, 27.3}}, identifier: 'circle.fill', label: 'Circle'
+                          Other, 0x10929a300, {{64.0, 791.0}, {274.0, 62.0}}
+                          Other, 0x10929a440, {{68.0, 795.0}, {94.0, 54.0}}
+                            Other, 0x10929a580, {{68.0, 795.0}, {94.0, 54.0}}
+                              Other, 0x10929a6c0, {{68.0, 795.0}, {94.0, 54.0}}
+                              Other, 0x10929a800, {{68.0, 795.0}, {94.0, 54.0}}
+                                Other, 0x10929a940, {{68.0, 795.0}, {94.0, 54.0}}
+                                  Other, 0x10929aa80, {{68.0, 795.0}, {94.0, 54.0}}
+                                    Other, 0x10929abc0, {{68.0, 795.0}, {94.0, 54.0}}
+                                  Other, 0x10929ad00, {{68.0, 795.0}, {94.0, 54.0}}
+                                Other, 0x10929ae40, {{68.0, 795.0}, {94.0, 54.0}}
+                    Other, 0x10929af80, {{0.0, 791.0}, {402.0, 83.0}}
+                      Other, 0x10929b0c0, {{0.0, 791.0}, {402.0, 83.0}}
+                        Other, 0x10929b200, {{0.0, 791.0}, {402.0, 83.0}}
+                          Other, 0x10929b340, {{0.0, 791.0}, {402.0, 83.0}}
+                            Other, 0x10929b480, {{0.0, 791.0}, {402.0, 83.0}}
+                              Other, 0x10929b5c0, {{0.0, 791.0}, {402.0, 83.0}}
+      Other, 0x10929b700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10929b840, {{-402.0, -874.0}, {1206.0, 2622.0}}
+        Other, 0x10929b980, {{0.0, 62.0}, {402.0, 812.0}}
+          Other, 0x10929bac0, {{0.0, 62.0}, {402.0, 812.0}}
+            Other, 0x10929bc00, {{0.0, 62.0}, {402.0, 812.0}}
+              Other, 0x10929bd40, {{0.0, 62.0}, {402.0, 812.0}}
+                Other, 0x10929be80, {{0.0, 62.0}, {402.0, 812.0}}
+                  NavigationBar, 0x10929c000, {{0.0, 78.0}, {402.0, 54.0}}, identifier: 'Settings'
+                    StaticText, 0x10929c140, {{167.7, 89.7}, {66.7, 20.7}}, label: 'Settings'
+                    Other, 0x10929c280, {{316.3, 82.0}, {65.7, 36.0}}
+                      Other, 0x10929c3c0, {{316.3, 82.0}, {65.7, 36.0}}
+                        Button, 0x10929c500, {{316.3, 82.0}, {65.7, 36.0}}, identifier: 'settingsDone', label: 'Done'
+                  Other, 0x10929c640, {{0.0, 62.0}, {402.0, 812.0}}
+                    Other, 0x10929c780, {{0.0, 62.0}, {402.0, 812.0}}
+                      Other, 0x10929c8c0, {{0.0, 62.0}, {402.0, 812.0}}
+                        Other, 0x10929ca00, {{0.0, 62.0}, {402.0, 812.0}}
+                          CollectionView, 0x10929cb40, {{0.0, 62.0}, {402.0, 812.0}}
+                            Other, 0x10929cc80, {{-16.0, 38.7}, {434.0, 270.7}}
+                            Cell, 0x10929cdc0, {{16.0, 38.7}, {370.0, 40.3}}
+                              Other, 0x10929cf00, {{16.0, 38.7}, {370.0, 40.3}}
+                              Other, 0x10929d040, {{16.0, 38.7}, {370.0, 40.3}}
+                                Other, 0x10929d180, {{16.0, 38.7}, {370.0, 40.3}}
+                                  Other, 0x10929d2c0, {{16.0, 38.7}, {370.0, 40.3}}
+                                    StaticText, 0x10929d400, {{16.0, 38.7}, {370.0, 40.3}}, label: 'Your Goals'
+                            Other, 0x10929d540, {{0.0, 62.0}, {402.0, 812.0}}
+                              Other, 0x10929d680, {{0.0, 62.0}, {402.0, 110.0}}
+                            Other, 0x10929d7c0, {{0.0, 62.0}, {402.0, 812.0}}
+                              Other, 0x10929d900, {{0.0, 62.0}, {402.0, 110.0}}
+                            Cell, 0x10929da40, {{16.0, 79.0}, {370.0, 106.3}}
+                              Other, 0x10929db80, {{16.0, 79.0}, {370.0, 106.3}}
+                                Other, 0x10929dcc0, {{16.0, 79.0}, {370.0, 106.3}}
+                              Other, 0x10929de00, {{16.0, 79.0}, {370.0, 106.3}}
+                                Other, 0x10929df40, {{16.0, 79.0}, {370.0, 106.3}}
+                                  Other, 0x10929e080, {{16.0, 79.0}, {370.0, 106.3}}
+                                    StaticText, 0x10929e1c0, {{36.0, 101.0}, {94.3, 20.3}}, label: 'Weekly Goal'
+                                    StaticText, 0x10929e300, {{36.0, 101.0}, {330.0, 20.3}}, label: 'Weekly Goal, 21.0h / week'
+                                    Slider, 0x10929e440, {{36.0, 132.3}, {330.0, 31.0}}, identifier: 'weeklyGoalSlider', label: 'Weekly Goal', value: 21
+                            Cell, 0x10929e580, {{16.0, 185.3}, {370.0, 106.3}}
+                              Other, 0x10929e6c0, {{16.0, 185.3}, {370.0, 106.3}}
+                                Other, 0x10929e800, {{16.0, 185.3}, {370.0, 106.3}}
+                              Other, 0x10929e940, {{16.0, 185.3}, {370.0, 106.3}}
+                                Other, 0x10929ea80, {{16.0, 185.3}, {370.0, 106.3}}
+                                  Other, 0x10929ebc0, {{16.0, 185.3}, {370.0, 106.3}}
+                                    StaticText, 0x10929ed00, {{36.0, 207.3}, {330.0, 20.3}}, label: 'Daily Goal, 3.0h / day'
+                                    StaticText, 0x10929ee40, {{36.0, 207.3}, {76.7, 20.3}}, label: 'Daily Goal'
+                                    Slider, 0x10929ef80, {{36.0, 238.7}, {330.0, 31.0}}, identifier: 'dailyGoalSlider', label: 'Daily Goal', value: 3
+                            Other, 0x10929f0c0, {{36.0, 184.3}, {330.0, 1.0}}
+                            Other, 0x10929f200, {{-16.0, 309.3}, {434.0, 138.0}}
+                            Cell, 0x10929f340, {{16.0, 309.3}, {370.0, 40.3}}
+                              Other, 0x10929f480, {{16.0, 309.3}, {370.0, 40.3}}
+                              Other, 0x10929f5c0, {{16.0, 309.3}, {370.0, 40.3}}
+                                Other, 0x10929f700, {{16.0, 309.3}, {370.0, 40.3}}
+                                  Other, 0x10929f840, {{16.0, 309.3}, {370.0, 40.3}}
+                                    StaticText, 0x10929f980, {{16.0, 309.3}, {370.0, 40.3}}, label: 'Workloads'
+                            Cell, 0x10929fac0, {{16.0, 349.7}, {370.0, 52.0}}
+                              Other, 0x10929fc00, {{16.0, 349.7}, {370.0, 52.0}}
+                                Other, 0x10929fd40, {{16.0, 349.7}, {370.0, 52.0}}
+                              Other, 0x10929fe80, {{16.0, 349.7}, {370.0, 52.0}}
+                                Other, 0x1092a8000, {{16.0, 349.7}, {370.0, 52.0}}
+                                  Other, 0x1092a8140, {{16.0, 349.7}, {370.0, 52.0}}
+                                    Button, 0x1092a8280, {{16.0, 349.7}, {370.0, 52.0}}, identifier: 'workloadsSettings', label: 'Workload Colors'
+                                      Image, 0x1092a83c0, {{37.7, 365.3}, {20.7, 20.7}}, identifier: 'circle.grid.2x2.fill', label: 'Find Items'
+                                      StaticText, 0x1092a8500, {{37.7, 365.3}, {164.0, 20.7}}, label: 'Workload Colors'
+                                      Image, 0x1092a8640, {{356.7, 369.7}, {7.0, 12.0}}, identifier: 'chevron.forward'
+                            Cell, 0x1092a8780, {{16.0, 401.7}, {370.0, 45.7}}
+                              Other, 0x1092a88c0, {{16.0, 401.7}, {370.0, 45.7}}
+                              Other, 0x1092a8a00, {{16.0, 401.7}, {370.0, 45.7}}
+                                Other, 0x1092a8b40, {{16.0, 401.7}, {370.0, 45.7}}
+                                  Other, 0x1092a8c80, {{16.0, 401.7}, {370.0, 45.7}}
+                                    StaticText, 0x1092a8dc0, {{16.0, 401.7}, {370.0, 45.7}}, label: 'Define a color for each kind of work. Choose one each time you punch in.'
+                            Other, 0x1092a8f00, {{-16.0, 447.3}, {434.0, 110.0}}
+                            Cell, 0x1092a9040, {{16.0, 447.3}, {370.0, 40.3}}
+                              Other, 0x1092a9180, {{16.0, 447.3}, {370.0, 40.3}}
+                              Other, 0x1092a92c0, {{16.0, 447.3}, {370.0, 40.3}}
+                                Other, 0x1092a9400, {{16.0, 447.3}, {370.0, 40.3}}
+                                  Other, 0x1092a9540, {{16.0, 447.3}, {370.0, 40.3}}
+                                    StaticText, 0x1092a9680, {{16.0, 447.3}, {370.0, 40.3}}, label: 'Export'
+                            Cell, 0x1092a97c0, {{16.0, 487.7}, {370.0, 52.0}}
+                              Other, 0x1092a9900, {{16.0, 487.7}, {370.0, 52.0}}
+                                Other, 0x1092a9a40, {{16.0, 487.7}, {370.0, 52.0}}
+                              Other, 0x1092a9b80, {{16.0, 487.7}, {370.0, 52.0}}
+                                Other, 0x1092a9cc0, {{16.0, 487.7}, {370.0, 52.0}}
+                                  Other, 0x1092a9e00, {{16.0, 487.7}, {370.0, 52.0}}
+                                    Button, 0x1092a9f40, {{16.0, 487.7}, {370.0, 52.0}}, identifier: 'exportCSV', label: 'Export CSV'
+                                      StaticText, 0x1092aa080, {{38.3, 500.7}, {128.7, 26.3}}, label: 'Export CSV'
+                                      Image, 0x1092aa1c0, {{38.3, 500.7}, {19.7, 26.3}}, identifier: 'square.and.arrow.up', label: 'Share'
+                            Other, 0x1092aa300, {{-16.0, 557.0}, {434.0, 162.0}}
+                            Cell, 0x1092aa440, {{16.0, 557.0}, {370.0, 40.3}}
+                              Other, 0x1092aa580, {{16.0, 557.0}, {370.0, 40.3}}
+                              Other, 0x1092aa6c0, {{16.0, 557.0}, {370.0, 40.3}}
+                                Other, 0x1092aa800, {{16.0, 557.0}, {370.0, 40.3}}
+                                  Other, 0x1092aa940, {{16.0, 557.0}, {370.0, 40.3}}
+                                    StaticText, 0x1092aaa80, {{16.0, 557.0}, {370.0, 40.3}}, label: 'Import'
+                            Cell, 0x1092aabc0, {{16.0, 597.3}, {370.0, 52.0}}
+                              Other, 0x1092aad00, {{16.0, 597.3}, {370.0, 52.0}}
+                                Other, 0x1092aae40, {{16.0, 597.3}, {370.0, 52.0}}
+                              Other, 0x1092aaf80, {{16.0, 597.3}, {370.0, 52.0}}
+                                Other, 0x1092ab0c0, {{16.0, 597.3}, {370.0, 52.0}}
+                                  Other, 0x1092ab200, {{16.0, 597.3}, {370.0, 52.0}}
+                                    Switch, 0x1092ab340, {{16.0, 597.3}, {370.0, 52.0}}, identifier: 'replaceExistingToggle', label: 'Replace existing sessions', value: 0
+                                      StaticText, 0x1092ab480, {{36.0, 613.2}, {194.0, 20.3}}, label: 'Replace existing sessions'
+                                      Switch, 0x1092ab5c0, {{305.0, 609.3}, {63.0, 28.0}}, value: 0
+                            Cell, 0x1092ab700, {{16.0, 649.3}, {370.0, 52.0}}
+                              Other, 0x1092ab840, {{16.0, 649.3}, {370.0, 52.0}}
+                                Other, 0x1092ab980, {{16.0, 649.3}, {370.0, 52.0}}
+                              Other, 0x1092abac0, {{16.0, 649.3}, {370.0, 52.0}}
+                                Other, 0x1092abc00, {{16.0, 649.3}, {370.0, 52.0}}
+                                  Other, 0x1092abd40, {{16.0, 649.3}, {370.0, 52.0}}
+                                    Button, 0x1092abe80, {{16.0, 649.3}, {370.0, 52.0}}, identifier: 'importCSV', label: 'Import CSV'
+                                      StaticText, 0x1092b8000, {{38.3, 663.0}, {129.0, 25.0}}, label: 'Import CSV'
+                                      Image, 0x1092b8140, {{38.3, 663.0}, {19.7, 25.0}}, identifier: 'square.and.arrow.down', label: 'Download'
+                            Other, 0x1092b8280, {{36.0, 648.3}, {330.0, 1.0}}
+                            Other, 0x1092b83c0, {{-16.0, 718.7}, {434.0, 1745.3}}
+                            Cell, 0x1092b8500, {{16.0, 736.3}, {370.0, 52.0}}
+                              Other, 0x1092b8640, {{16.0, 736.3}, {370.0, 52.0}}
+                                Other, 0x1092b8780, {{16.0, 736.3}, {370.0, 52.0}}
+                              Other, 0x1092b88c0, {{16.0, 736.3}, {370.0, 52.0}}
+                                Other, 0x1092b8a00, {{16.0, 736.3}, {370.0, 52.0}}
+                                  Other, 0x1092b8b40, {{16.0, 736.3}, {370.0, 52.0}}
+                                    Button, 0x1092b8c80, {{16.0, 736.3}, {370.0, 52.0}}, identifier: 'debugInfo', label: 'Debug Info'
+                                      StaticText, 0x1092b8dc0, {{36.0, 752.2}, {83.7, 20.3}}, label: 'Debug Info'
+                                      Image, 0x1092b8f00, {{356.7, 756.3}, {7.0, 12.0}}, identifier: 'chevron.forward'
+                            Cell, 0x1092b9040, {{16.0, 788.3}, {370.0, 51.7}}
+                              Other, 0x1092b9180, {{16.0, 788.3}, {370.0, 51.7}}
+                              Other, 0x1092b92c0, {{16.0, 788.3}, {370.0, 51.7}}
+                                Other, 0x1092b9400, {{16.0, 788.3}, {370.0, 51.7}}
+                                  Other, 0x1092b9540, {{16.0, 788.3}, {370.0, 51.7}}
+                                    StaticText, 0x1092b9680, {{16.0, 788.3}, {370.0, 51.7}}, label: '© Johann Wahlmueller. Made in Hong Kong.'
+                            Other, 0x1092b97c0, {{369.0, 132.0}, {30.0, 680.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                              Other, 0x1092b9900, {{396.0, 425.0}, {3.0, 384.0}}
+                            Other, 0x1092b9a40, {{369.0, 132.0}, {30.0, 680.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                              Other, 0x1092b9b80, {{396.0, 425.0}, {3.0, 384.0}}
+                  Toolbar, 0x1092b9cc0, {{0.0, 62.0}, {402.0, 812.0}}, identifier: 'Toolbar', label: 'Toolbar'
+                    Other, 0x1092b9e00, {{0.0, 62.0}, {402.0, 812.0}}
+Path to element:
+ →Application, 0x108095540, pid: 18781, label: 'Punchino'
+Query chain:
+ →Find: Target Application 'com.xuming.PunchinoColor'
+  Output: {
+    Application, 0x1092b9f40, pid: 18781, label: 'Punchino'
+  }
+)

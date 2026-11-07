@@ -1,0 +1,38 @@
+[
+  {
+    "file": "reference-statistics-w.png",
+    "title": "Reference Statistics W",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  },
+  {
+    "file": "reference-idle-track.png",
+    "title": "Reference Idle Track",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  },
+  {
+    "file": "reference-settings-accessibility.txt",
+    "title": "Reference Settings accessibility",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  },
+  {
+    "file": "reference-settings-goals.png",
+    "title": "Reference Settings goals",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  },
+  {
+    "file": "reference-settings-top.png",
+    "title": "Reference Settings top",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  },
+  {
+    "file": "reference-home.png",
+    "title": "Reference Home",
+    "sourceResult": "TestResults/ReferenceMatchLatest.xcresult",
+    "test": "PunchinoUITests/testReferenceAppearance()"
+  }
+]

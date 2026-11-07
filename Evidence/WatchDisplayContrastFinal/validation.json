@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "result": "TestResults/WatchDisplayContrastFinal.xcresult",
+  "testCount": 2,
+  "failures": 0,
+  "durationSeconds": 75.512,
+  "sourceUnchangedDuringRun": true,
+  "sourceSHA256": {
+    "Watch/PunchinoWatchApp.swift": "c21c8da3efc09b7dcdc68b7525aefca71c852d26385f277d7f461b249bf68199",
+    "Widgets/PunchinoWidgets.swift": "6e0e3d27052e41d9df4540c6f5c2c91ae06de91189aa79d8ee3e1a4a893be8e9",
+    "Shared/CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "Shared/CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "Shared/CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d",
+    "Shared/SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "Shared/StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Shared/Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "Shared/TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e"
+  },
+  "sourceMtimes": {
+    "Watch/PunchinoWatchApp.swift": 1794071569.520442,
+    "Widgets/PunchinoWidgets.swift": 1794071569.5216947,
+    "Shared/CSVExporter.swift": 1794037109.6451783,
+    "Shared/CSVImporter.swift": 1794038312.5396285,
+    "Shared/CloudSync.swift": 1794035057.3487525,
+    "Shared/Models.swift": 1794071548.8109324,
+    "Shared/SnapshotRepository.swift": 1794033451.0387099,
+    "Shared/StatisticsMath.swift": 1794038027.5433307,
+    "Shared/Theme.swift": 1794036002.0845504,
+    "Shared/TimeMath.swift": 1794033763.0803819,
+    "Shared/TimeStore.swift": 1794041732.6635783,
+    "Shared/WatchSync.swift": 1794041768.195241
+  },
+  "watch": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+  "phone": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+  "cloudSyncEnabled": false,
+  "isolatedTestRepositories": true,
+  "signingIdentity": "-",
+  "historicalEvidenceModified": false
+}

@@ -1,0 +1,27 @@
+{
+  "retrieved": "2026-11-07",
+  "listing": "https://apps.apple.com/us/app/time-tracker-punchino/id6757963430",
+  "selected": {
+    "file": "original-icon-legacy.png",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/20/b6/5a/20b65a45-0b92-7b00-8530-1b920bf0101c/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/1024x1024bb.png",
+    "width": 1024,
+    "height": 1024,
+    "format": "PNG RGB",
+    "alpha": false,
+    "sha256": "009143da0c81f85aea104c7119a15bef7580ea2faf7380316bbe07dd0866f71b",
+    "destinations": [
+      "Phone/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "Watch/Assets.xcassets/AppIcon.appiconset/AppIcon.png"
+    ],
+    "operation": "Copied without raster edits or added masks"
+  },
+  "unused": {
+    "file": "original-icon-placeholder.png",
+    "url": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/7b/62/87/7b62874c-a8fb-b20d-3a96-3791ceda8bfd/Placeholder.mill/1024x1024bb.png",
+    "width": 1024,
+    "height": 1024,
+    "format": "PNG RGBA",
+    "reason": "Pre-masked rounded corners and transparency"
+  },
+  "raw_asset_endpoint": "Both direct /image/ endpoints returned HTTP 403. The selected /image/thumb/ endpoint returned an opaque square 1024px PNG."
+}

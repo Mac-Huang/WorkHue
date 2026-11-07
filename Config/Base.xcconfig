@@ -1,0 +1,6 @@
+// Default builds run locally without CloudKit authorization.
+PUNCHINO_CLOUD_SYNC_ENABLED = NO
+PUNCHINO_ENTITLEMENTS = Config/Local.entitlements
+SWIFT_VERSION = 5.0
+CODE_SIGN_STYLE = Automatic
+DEVELOPMENT_TEAM =

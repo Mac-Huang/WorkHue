@@ -1,0 +1,43 @@
+{
+  "checkedUTC": "2026-11-07T18:56:06.529796+00:00",
+  "recentTaskOwnedPairs": [
+    {
+      "id": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC",
+      "name": "Punchino Series9 Reference 26.5",
+      "state": "Shutdown"
+    },
+    {
+      "id": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+      "name": "Punchino Reference Plus",
+      "state": "Shutdown"
+    },
+    {
+      "id": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+      "name": "Punchino Widget Capture",
+      "state": "Shutdown"
+    },
+    {
+      "id": "B7A8C734-C0A8-47B7-B52D-1B43A3A42062",
+      "name": "Punchino Series9 Companion 26.5",
+      "state": "Shutdown"
+    }
+  ],
+  "preexistingDevices": [
+    {
+      "id": "4CC06395-9158-423A-B7DE-9F282F57A0B2",
+      "state": "Booted"
+    },
+    {
+      "id": "DBF5B1EA-EDE1-4356-BE82-692E333876E1",
+      "state": "Booted"
+    },
+    {
+      "id": "D6848CAF-A8A3-45A3-837A-68E066285466",
+      "state": "Booted"
+    }
+  ],
+  "allRecentTaskOwnedDevicesShutdown": true,
+  "allPreexistingDevicesStillBooted": true,
+  "dataAndPairingsDeleted": false,
+  "note": "Root confirmed the recent task-owned pairs are shut down. The final46mm shutdown request returned Already Shutdown after the agent completed that cleanup. No data or pairing was deleted."
+}

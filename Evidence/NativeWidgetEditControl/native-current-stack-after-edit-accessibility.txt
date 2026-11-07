@@ -1,0 +1,36 @@
+Attributes: Application, 0x10b4fc8c0, pid: 32966, identifier: 'Carousel'
+Element subtree:
+ →Application, 0x10b4fc8c0, pid: 32966, identifier: 'Carousel'
+    Window, 0x10b4fca00, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10b4fcb40, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x10b4fcc80, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x10b4fcdc0, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x10b4fcf00, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10b4fd040, {{0.0, 0.0}, {208.0, 248.0}}
+                Other, 0x10b4fd180, {{0.0, 0.0}, {208.0, 248.0}}
+              Other, 0x10b4fd2c0, {{0.0, 0.0}, {208.0, 38.0}}
+                StatusBar, 0x10b4fd400, {{0.0, 0.0}, {208.0, 38.0}}
+          Other, 0x10b4fd540, {{0.0, 0.0}, {208.0, 248.0}}
+        Other, 0x10b4fd680, {{0.0, 0.0}, {208.0, 248.0}}
+          Other, 0x10b4fd7c0, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x10b4fd900, {{0.0, 0.0}, {208.0, 248.0}}
+            Other, 0x10b4fda40, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x10b4fdb80, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x10b4fdcc0, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10b4fde00, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10b4fdf40, {{0.0, 0.0}, {208.0, 248.0}}
+    Window, 0x10b4fe080, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x10b4fe1c0, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x10b4fe300, {{0.0, 0.0}, {416.0, 496.0}}
+      Other, 0x10b4fe440, {{0.0, 0.0}, {416.0, 496.0}}
+        Other, 0x10b4fe580, {{0.0, 0.0}, {416.0, 496.0}}
+    Window, 0x10b4fe6c0, {{200.0, 45.0}, {6.0, 46.0}}
+    Window (Main), 0x10b4fe800, {{0.0, 0.0}, {208.0, 248.0}}
+      Other, 0x10b4fe940, {{0.0, 0.0}, {208.0, 248.0}}
+Path to element:
+ →Application, 0x10b4fc8c0, pid: 32966, identifier: 'Carousel'
+Query chain:
+ →Find: Application 'com.apple.Carousel'
+  Output: {
+    Application, 0x10b4fc780, pid: 32966, identifier: 'Carousel'
+  }

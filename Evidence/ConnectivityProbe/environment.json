@@ -1,0 +1,18 @@
+{
+  "phone": {
+    "build": "24B8117",
+    "name": "iPhone 18 Pro Max",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.iOS-27-2",
+    "state": "Booted",
+    "version": "27.2"
+  },
+  "recordedAtUTC": "2026-11-07T08:21:39.673051+00:00",
+  "scope": "Foreground small-history transport; synthetic repositories; CloudSyncEnabled=NO",
+  "watch": {
+    "build": "24S118",
+    "name": "Apple Watch Series 12 (46mm)",
+    "runtimeIdentifier": "com.apple.CoreSimulator.SimRuntime.watchOS-27-2",
+    "state": "Booted",
+    "version": "27.2"
+  }
+}

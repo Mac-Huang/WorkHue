@@ -1,0 +1,208 @@
+{
+  "result": "TestResults/CustomColorLiveTrackFinal.xcresult",
+  "passed": true,
+  "testCount": 1,
+  "failureCount": 0,
+  "individualTest": {
+    "duration": "1m 59s",
+    "durationInSeconds": 119.39889597892761,
+    "name": "testCustomWhiteAndBlackWorkloadsRemainUsable()",
+    "nodeIdentifier": "PunchinoUITests/testCustomWhiteAndBlackWorkloadsRemainUsable()",
+    "nodeIdentifierURL": "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testCustomWhiteAndBlackWorkloadsRemainUsable",
+    "nodeType": "Test Case",
+    "result": "Passed"
+  },
+  "device": {
+    "architecture": "arm64",
+    "deviceId": "CB3CA06E-B76D-4FE0-AD9D-514187709688",
+    "deviceName": "Punchino Reference iOS26",
+    "modelName": "iPhone 16 Plus",
+    "osBuildNumber": "23F73",
+    "osVersion": "26.5",
+    "platform": "iOS Simulator"
+  },
+  "screenshotCount": 14,
+  "screenshots": [
+    {
+      "name": "Custom white and black week history dark",
+      "file": "custom-white-and-black-week-history-dark.png",
+      "sha256": "7ad2d5625e56135087e091e6e90afe8541f5cc46f7c5843614130f538d2a7420",
+      "exportedFileName": "3181E355-2DD0-4C44-87A0-6293FE935225.png",
+      "originalSHA256": "7ad2d5625e56135087e091e6e90afe8541f5cc46f7c5843614130f538d2a7420"
+    },
+    {
+      "name": "Custom white and black editor choices dark",
+      "file": "custom-white-and-black-editor-choices-dark.png",
+      "sha256": "1cf7e02a59a72bfebc3008513a8c97e8c2bbaf718aa47d3bd2d6e1cfcea1bb32",
+      "exportedFileName": "6BBF79DA-5A9A-45FE-BCAF-239484CB4961.png",
+      "originalSHA256": "1cf7e02a59a72bfebc3008513a8c97e8c2bbaf718aa47d3bd2d6e1cfcea1bb32"
+    },
+    {
+      "name": "Custom white and black day history dark",
+      "file": "custom-white-and-black-day-history-dark.png",
+      "sha256": "5910978fdcd2f8e446ccc7d4b9e6c5e1b73fbe971545fe8ac83149de0307ff2c",
+      "exportedFileName": "9F6C0F7D-E144-4497-9CF9-D76CBD585A78.png",
+      "originalSHA256": "5910978fdcd2f8e446ccc7d4b9e6c5e1b73fbe971545fe8ac83149de0307ff2c"
+    },
+    {
+      "name": "Custom White active dark",
+      "file": "custom-white-active-dark.png",
+      "sha256": "fa1e288cda2fc6284f7356e6da287a94d4f9ac57b0f2e7f7b758a8cb76ccb448",
+      "exportedFileName": "BD1D8D80-4296-409F-ABA7-7EF59213FFDF.png",
+      "originalSHA256": "fa1e288cda2fc6284f7356e6da287a94d4f9ac57b0f2e7f7b758a8cb76ccb448"
+    },
+    {
+      "name": "Custom Black active dark",
+      "file": "custom-black-active-dark.png",
+      "sha256": "b8c4ef82496dbda84d755ea236a4bf3e3b87d90d8c4ed4c0b42855451da97969",
+      "exportedFileName": "7418E394-BD68-4DDA-8A30-991AE2CA111D.png",
+      "originalSHA256": "b8c4ef82496dbda84d755ea236a4bf3e3b87d90d8c4ed4c0b42855451da97969"
+    },
+    {
+      "name": "Custom white and black week history light",
+      "file": "custom-white-and-black-week-history-light.png",
+      "sha256": "e639fc4bebd6b5a460beac0175f3f3878c7a0526d223028af0945aef96000725",
+      "exportedFileName": "7122F444-37E1-4BD2-8C0A-DB01FD390B67.png",
+      "originalSHA256": "e639fc4bebd6b5a460beac0175f3f3878c7a0526d223028af0945aef96000725"
+    },
+    {
+      "name": "Custom white and black editor choices light",
+      "file": "custom-white-and-black-editor-choices-light.png",
+      "sha256": "90e23a619a310ba0254051e48c05b9cf60962d594786f8a36a612e3d4be35bb5",
+      "exportedFileName": "B655E263-2B48-4298-8058-C6C7FFCA6990.png",
+      "originalSHA256": "90e23a619a310ba0254051e48c05b9cf60962d594786f8a36a612e3d4be35bb5"
+    },
+    {
+      "name": "Custom white and black day history light",
+      "file": "custom-white-and-black-day-history-light.png",
+      "sha256": "166d4878f3db81a9072bc544bd2b3750c2ad9cef43f66d1aee303fed6e1888d7",
+      "exportedFileName": "BC440CD9-6AF5-45E2-90F0-F1220B7A5610.png",
+      "originalSHA256": "166d4878f3db81a9072bc544bd2b3750c2ad9cef43f66d1aee303fed6e1888d7"
+    },
+    {
+      "name": "Custom Black active light",
+      "file": "custom-black-active-light.png",
+      "sha256": "541f056f3700ad9fb6b1068c678169fea465589e51d20f364c03842c688921ed",
+      "exportedFileName": "88A252DE-6556-4A95-8972-32FC6B7A71A1.png",
+      "originalSHA256": "541f056f3700ad9fb6b1068c678169fea465589e51d20f364c03842c688921ed"
+    },
+    {
+      "name": "Custom White day timeline light",
+      "file": "custom-white-day-timeline-light.png",
+      "sha256": "c6727bc527fbd84f38fc524b489772c53016f1d5c155478825aa78b474569c21",
+      "exportedFileName": "01D998EC-98FF-4592-B532-9F6215667073.png",
+      "originalSHA256": "c6727bc527fbd84f38fc524b489772c53016f1d5c155478825aa78b474569c21"
+    },
+    {
+      "name": "Custom White active light",
+      "file": "custom-white-active-light.png",
+      "sha256": "2bf35735e22b78284f0140863f2352cdafeb18abfde00d930c51ace613ecf3d9",
+      "exportedFileName": "12308FD5-D949-4E5D-AAD2-5A71A0BCE096.png",
+      "originalSHA256": "2bf35735e22b78284f0140863f2352cdafeb18abfde00d930c51ace613ecf3d9"
+    },
+    {
+      "name": "Custom white and black punch buttons light",
+      "file": "custom-white-and-black-punch-buttons-light.png",
+      "sha256": "1193de5386b7a1f2df913c87043be6f94129e32139458e1a5a906c7a8c738911",
+      "exportedFileName": "DF73EBFB-4EDB-40A3-82F6-37084A3F8076.png",
+      "originalSHA256": "1193de5386b7a1f2df913c87043be6f94129e32139458e1a5a906c7a8c738911"
+    },
+    {
+      "name": "Custom Black workload preview",
+      "file": "custom-black-workload-preview.png",
+      "sha256": "a0c2772448992958a081f06da828c5c6b43c020127b52e18d0b8b2417d7fd0c3",
+      "exportedFileName": "B4EDB37B-EAF3-4C70-953E-7EDC07B5908D.png",
+      "originalSHA256": "a0c2772448992958a081f06da828c5c6b43c020127b52e18d0b8b2417d7fd0c3"
+    },
+    {
+      "name": "Custom White workload preview",
+      "file": "custom-white-workload-preview.png",
+      "sha256": "fca64046556d8434606163755df1ef3dc15ca432b4d8541ac5e825a7139e4dda",
+      "exportedFileName": "24873B77-7BA2-4305-9016-DA38A4103C32.png",
+      "originalSHA256": "fca64046556d8434606163755df1ef3dc15ca432b4d8541ac5e825a7139e4dda"
+    }
+  ],
+  "productAndConfigurationSHA256": {
+    "Config/Base.xcconfig": "0fc6af95b545f546f2c246998e2bd5eaaea6f5d3a464840991d326290870af61",
+    "Config/Cloud.entitlements": "f63f317a15f1c4bfc3d3735bc198458eb44529388f4c6a8bc3639c9a3266b51d",
+    "Config/CloudSync.xcconfig": "517e014c84955948ce5cf93101da53596c94cc878c25af5cc4115acd7a4f2162",
+    "Config/Local.entitlements": "3bba54dcd9d0699a18546cc4ce22be914c9f60abdda5e3d2cc3e718d42766cd3",
+    "Config/Phone-Info.plist": "e11eabbf9288453a37ec53235c5be8d5604c178b5c51719549b5d7dc070f4af0",
+    "Config/Watch-Info.plist": "1041e6d8e49c84e87f5e990e8ea88ac3599c9d8b808dcde80f8dcee670ccb5fa",
+    "Config/Widget-Info.plist": "f062b940bf866fc8f553dd8ce7bda483da8529f01bd4733b77acdf70a6d27ccf",
+    "Phone/Assets.xcassets/AccentColor.colorset/Contents.json": "ed5c94b528631f76b3f9b46544de77c45537d9ece81a9f6efa108181df52eb93",
+    "Phone/Assets.xcassets/AppIcon.appiconset/AppIcon.png": "009143da0c81f85aea104c7119a15bef7580ea2faf7380316bbe07dd0866f71b",
+    "Phone/Assets.xcassets/AppIcon.appiconset/Contents.json": "852920cb36e95beb53771138a4b8195a16fcce1cc31250632f246081cc638f9a",
+    "Phone/Assets.xcassets/Contents.json": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f",
+    "Phone/CloudNotificationDelegate.swift": "51697d0e37409b16b16db2ae20588eeb6c9a1ae61c98c995ee4196ca229e6c6d",
+    "Phone/DayDetailView.swift": "167738f16c98cb4ed364c51f495c1f3c8d765108e42c1998214db29505ee527e",
+    "Phone/DebugInfoView.swift": "c036b66fcad8af4a86b1e629dbd4ee04ad721409aa177fa4f0e83ec27b7ae73a",
+    "Phone/OverviewView.swift": "a0ae0db0477b1f6a995e3b4de0ee5e4f30e87e3e15a908c4708e7c1f59aea3fe",
+    "Phone/PunchinoApp.swift": "c09fab3969eb3421ef40359978465ffcfd7cd687e92ae7da7527f31031227d99",
+    "Phone/PunchinoIntents.swift": "795bd1587e7f5ab398ee168a11e4d1bb7e99bd8ae396aabb0a2bd6598de94698",
+    "Phone/RootView.swift": "d7a7059b2d4a9a72255f8b8667c857669244e6d0b98a43581cd327c89c677e03",
+    "Phone/SettingsView.swift": "29c5a6c1a8dae267ca8081a27feb54843f4252823d9269b125bf455e1eaef6f2",
+    "Phone/StatisticsView.swift": "16c00d38abcb48598749168e99c2dfda925c637358eedf19405fb32f280c88ff",
+    "Phone/TrackView.swift": "e8e0ecea3091938a21d620ca087edcd0b9170e4403d9c424fc5fa924e47ee4a8",
+    "Punchino.xcodeproj/project.pbxproj": "aa9633ca26fa39c068ec4f1dd335c48715deef41d6c84b3fac65fe6268665305",
+    "Punchino.xcodeproj/xcshareddata/xcschemes/Punchino.xcscheme": "8b031577719fd2d892c4757cb49371526638fcda4279d0d352ee7a23b819c0b1",
+    "Punchino.xcodeproj/xcshareddata/xcschemes/PunchinoWatch.xcscheme": "ee5e894e131d68cbdc28f80f77fb29ab5478a77cd2c4ac5529d26a2cfdcdbea1",
+    "Shared/CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "Shared/CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "Shared/CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d",
+    "Shared/SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "Shared/StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Shared/Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "Shared/TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e",
+    "Watch/Assets.xcassets/AccentColor.colorset/Contents.json": "ed5c94b528631f76b3f9b46544de77c45537d9ece81a9f6efa108181df52eb93",
+    "Watch/Assets.xcassets/AppIcon.appiconset/AppIcon.png": "009143da0c81f85aea104c7119a15bef7580ea2faf7380316bbe07dd0866f71b",
+    "Watch/Assets.xcassets/AppIcon.appiconset/Contents.json": "4ada6e3edc9df7118f2e2393d18e5942191b891d7cbae2a23807839114174226",
+    "Watch/Assets.xcassets/Contents.json": "f5fb0e1f3a8142892ed092efb5955c1c2cc537003a89ad7bbdb9dade7fe8985f",
+    "Watch/PunchinoWatchApp.swift": "c21c8da3efc09b7dcdc68b7525aefca71c852d26385f277d7f461b249bf68199",
+    "Watch/WatchCloudNotificationDelegate.swift": "cc0b052e5bd80f12fa00e683f0eb6cecbf7461273991e1e802574e3f8537b804",
+    "Widgets/PunchinoWidgets.swift": "6e0e3d27052e41d9df4540c6f5c2c91ae06de91189aa79d8ee3e1a4a893be8e9"
+  },
+  "testSourceSHA256": {
+    "Tests/UITests/PunchinoUITests.swift": "2aa0ec2fcebd9252ca71e920ee9fb816af32dc843cbdeb516ebfc5a3ffa9b533"
+  },
+  "allRecordedSourcesPredateResultStart": true,
+  "scope": {
+    "platform": "iPhone simulator UI only; this run does not execute Watch or widget UI.",
+    "workloadCreation": "Real Settings editor and native ColorPicker hex fields create White FFFFFF and Black 000000.",
+    "sessionCreation": "Normal workload punch-in and punch-out controls create the sessions.",
+    "isolation": "Existing --ui-testing temporary repository with synchronization services disabled; no new session fixture or seed.",
+    "appearances": [
+      "light",
+      "dark via --demo-dark after --preserve-data relaunch"
+    ],
+    "functionalChecks": [
+      "Both custom punch buttons exist",
+      "Both colors punch in and out",
+      "Day/week histories contain both workload names",
+      "History counts are two in light mode and four in dark mode",
+      "Editor choice change enables Save and reverting disables Save without saving"
+    ],
+    "imageChecks": [
+      "Editor previews and custom punch choices",
+      "Active text and controls in both appearances",
+      "Day/week workload names and raw-color markers",
+      "Visible timeline bars and the isolated White light-mode outline",
+      "Session-editor White/Black choices in both appearances"
+    ],
+    "limit": "The sessions last only seconds. Minimum-width timeline bars can overlap, so the multi-session captures do not isolate every individual bar.",
+    "motion": "The --ui-testing flag freezes the pulse; these screenshots do not verify production animation timing."
+  },
+  "visualReview": {
+    "complete": true,
+    "reviewedScreenshotCount": 14,
+    "lightModeReviewCount": 9,
+    "independentDarkModeReviewCount": 5,
+    "concreteMismatches": []
+  },
+  "hashScope": "Hashes record current files. Including Watch/widget/config inputs does not claim their UI or signed-device behavior was tested by this phone case.",
+  "excludedProjectUserState": "Xcode xcuserdata files are local UI state and are excluded from build-input hashes.",
+  "sourceSnapshotCapturedUTC": "2026-11-07T17:22:20.970643+00:00"
+}

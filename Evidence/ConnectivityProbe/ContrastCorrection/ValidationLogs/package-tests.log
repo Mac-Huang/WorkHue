@@ -1,0 +1,160 @@
+Building for debugging...
+[1 / 5]
+[2 / 6] PunchinoCore
+[3 / 7] PunchinoCore
+[8 / 11] PunchinoCore
+[11 / 14] CoreTests-product
+[13 / 16] CoreTests-product
+[19 / 21] CoreTests-product
+Build complete! (2.29 sec)
+Test Suite 'All tests' started at 2026-11-07 11:13:22.603.
+Test Suite 'CoreTests.xctest' started at 2026-11-07 11:13:22.603.
+Test Suite 'CSVImportTests' started at 2026-11-07 11:13:22.603.
+Test Case '-[CoreTests.CSVImportTests testActiveTimerGuardsReplaceAndSecondActiveImport]' started.
+Test Case '-[CoreTests.CSVImportTests testActiveTimerGuardsReplaceAndSecondActiveImport]' passed (0.002 seconds).
+Test Case '-[CoreTests.CSVImportTests testAppendPreservesOverlapsAndDeduplicatesExplicitIDs]' started.
+Test Case '-[CoreTests.CSVImportTests testAppendPreservesOverlapsAndDeduplicatesExplicitIDs]' passed (0.002 seconds).
+Test Case '-[CoreTests.CSVImportTests testBadRowDoesNotChangeRepositoryDuringReplace]' started.
+Test Case '-[CoreTests.CSVImportTests testBadRowDoesNotChangeRepositoryDuringReplace]' passed (0.007 seconds).
+Test Case '-[CoreTests.CSVImportTests testCompletedOverlappingImportDoesNotStopLiveTimer]' started.
+Test Case '-[CoreTests.CSVImportTests testCompletedOverlappingImportDoesNotStopLiveTimer]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testConflictingDuplicateIDAbortsAtomicApply]' started.
+Test Case '-[CoreTests.CSVImportTests testConflictingDuplicateIDAbortsAtomicApply]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testExportKeepsFractionalSecondsAndAmbiguousDSTTimesLosslessly]' started.
+Test Case '-[CoreTests.CSVImportTests testExportKeepsFractionalSecondsAndAmbiguousDSTTimesLosslessly]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testExportUsesOriginalPrefixDurationsRawSourceAndFilename]' started.
+Test Case '-[CoreTests.CSVImportTests testExportUsesOriginalPrefixDurationsRawSourceAndFilename]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testInvalidChronologyAndFutureRowsAreRejected]' started.
+Test Case '-[CoreTests.CSVImportTests testInvalidChronologyAndFutureRowsAreRejected]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testMalformedQuotedFieldsAreRejected]' started.
+Test Case '-[CoreTests.CSVImportTests testMalformedQuotedFieldsAreRejected]' passed (0.000 seconds).
+Test Case '-[CoreTests.CSVImportTests testOriginalAliasesAndSeparateDayTimeFields]' started.
+Test Case '-[CoreTests.CSVImportTests testOriginalAliasesAndSeparateDayTimeFields]' passed (0.002 seconds).
+Test Case '-[CoreTests.CSVImportTests testOriginalEarlyMorningClockFieldsCannotBecomeDates]' started.
+Test Case '-[CoreTests.CSVImportTests testOriginalEarlyMorningClockFieldsCannotBecomeDates]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testOriginalSevenColumnsKeepSeparateOvernightDates]' started.
+Test Case '-[CoreTests.CSVImportTests testOriginalSevenColumnsKeepSeparateOvernightDates]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testOwnExportRoundTripPreservesQuotedNewlineColorSourceAndID]' started.
+Test Case '-[CoreTests.CSVImportTests testOwnExportRoundTripPreservesQuotedNewlineColorSourceAndID]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testReplaceCreatesTombstonesAndPreservesWorkloadsAndSettings]' started.
+Test Case '-[CoreTests.CSVImportTests testReplaceCreatesTombstonesAndPreservesWorkloadsAndSettings]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testUnidentifiedRowsDeduplicateAcrossRepeatedImports]' started.
+Test Case '-[CoreTests.CSVImportTests testUnidentifiedRowsDeduplicateAcrossRepeatedImports]' passed (0.001 seconds).
+Test Case '-[CoreTests.CSVImportTests testUTF16AndStartTimeAliases]' started.
+Test Case '-[CoreTests.CSVImportTests testUTF16AndStartTimeAliases]' passed (0.000 seconds).
+Test Suite 'CSVImportTests' passed at 2026-11-07 11:13:22.626.
+	 Executed 16 tests, with 0 failures (0 unexpected) in 0.022 (0.023) seconds
+Test Suite 'CoreTests' started at 2026-11-07 11:13:22.626.
+Test Case '-[CoreTests.CoreTests testActiveSessionUsesCurrentTimeAndPeriodBoundary]' started.
+Test Case '-[CoreTests.CoreTests testActiveSessionUsesCurrentTimeAndPeriodBoundary]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testArchivedWorkloadKeepsRecordedColorAndName]' started.
+Test Case '-[CoreTests.CoreTests testArchivedWorkloadKeepsRecordedColorAndName]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testBoundaryUnionDoesNotChangeEqualTimestampPayloadTie]' started.
+Test Case '-[CoreTests.CoreTests testBoundaryUnionDoesNotChangeEqualTimestampPayloadTie]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testBuiltInWorkloadColorsKeepTheirExistingInkAndSurfaceStyles]' started.
+Test Case '-[CoreTests.CoreTests testBuiltInWorkloadColorsKeepTheirExistingInkAndSurfaceStyles]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testColorStyleAcceptsHexFormattingAndLeavesStoredDataUnchanged]' started.
+Test Case '-[CoreTests.CoreTests testColorStyleAcceptsHexFormattingAndLeavesStoredDataUnchanged]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testConcurrentStartsKeepOneTimerAndPreserveElapsedTime]' started.
+Test Case '-[CoreTests.CoreTests testConcurrentStartsKeepOneTimerAndPreserveElapsedTime]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testConcurrentWritersKeepEverySession]' started.
+Test Case '-[CoreTests.CoreTests testConcurrentWritersKeepEverySession]' passed (0.026 seconds).
+Test Case '-[CoreTests.CoreTests testCorruptFileRemainsUnchanged]' started.
+Test Case '-[CoreTests.CoreTests testCorruptFileRemainsUnchanged]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testCSVPreservesNamesAndPreventsFormulaExecution]' started.
+Test Case '-[CoreTests.CoreTests testCSVPreservesNamesAndPreventsFormulaExecution]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testCustomLabelTextMeetsMeasuredNeutralSurfaceContrast]' started.
+Test Case '-[CoreTests.CoreTests testCustomLabelTextMeetsMeasuredNeutralSurfaceContrast]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testCustomLightAndDarkColorsChooseReadableInk]' started.
+Test Case '-[CoreTests.CoreTests testCustomLightAndDarkColorsChooseReadableInk]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testCustomMiddleColorInkMeetsMeasuredBaseColorContrast]' started.
+Test Case '-[CoreTests.CoreTests testCustomMiddleColorInkMeetsMeasuredBaseColorContrast]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testDaylightSavingDayUsesActualElapsedTime]' started.
+Test Case '-[CoreTests.CoreTests testDaylightSavingDayUsesActualElapsedTime]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testDeletedNewerTimerKeepsBoundaryInEveryMergeOrder]' started.
+Test Case '-[CoreTests.CoreTests testDeletedNewerTimerKeepsBoundaryInEveryMergeOrder]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testDeletedSessionDoesNotReturnAfterMerge]' started.
+Test Case '-[CoreTests.CoreTests testDeletedSessionDoesNotReturnAfterMerge]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testDeletionWinsOverDerivedClosureInEveryMergeOrder]' started.
+Test Case '-[CoreTests.CoreTests testDeletionWinsOverDerivedClosureInEveryMergeOrder]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testEqualTimestampTombstoneAndStoppedTimerWin]' started.
+Test Case '-[CoreTests.CoreTests testEqualTimestampTombstoneAndStoppedTimerWin]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testEveryFocusRoundTripsWithoutChangingGoals]' started.
+Test Case '-[CoreTests.CoreTests testEveryFocusRoundTripsWithoutChangingGoals]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testExplicitStopStillBeatsInferredBoundaryFromCompletedTimer]' started.
+Test Case '-[CoreTests.CoreTests testExplicitStopStillBeatsInferredBoundaryFromCompletedTimer]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testExplicitStopWinsOverDerivedClosureInEveryMergeOrder]' started.
+Test Case '-[CoreTests.CoreTests testExplicitStopWinsOverDerivedClosureInEveryMergeOrder]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testImmediatePatchRespectsByteBudgetWithoutRevivingArchives]' started.
+Test Case '-[CoreTests.CoreTests testImmediatePatchRespectsByteBudgetWithoutRevivingArchives]' passed (0.005 seconds).
+Test Case '-[CoreTests.CoreTests testInferredClosureDoesNotChangeEqualTimestampWorkloadTie]' started.
+Test Case '-[CoreTests.CoreTests testInferredClosureDoesNotChangeEqualTimestampWorkloadTie]' passed (0.001 seconds).
+Test Case '-[CoreTests.CoreTests testInvalidRangesFutureDatesAndOverlapAreRejected]' started.
+Test Case '-[CoreTests.CoreTests testInvalidRangesFutureDatesAndOverlapAreRejected]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testLargeHistoryPatchIncludesActiveStopDeletionAndArchives]' started.
+Test Case '-[CoreTests.CoreTests testLargeHistoryPatchIncludesActiveStopDeletionAndArchives]' passed (0.012 seconds).
+Test Case '-[CoreTests.CoreTests testLegacySessionWithoutBoundaryMetadataStillReconciles]' started.
+Test Case '-[CoreTests.CoreTests testLegacySessionWithoutBoundaryMetadataStillReconciles]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testLegacySettingsWithoutFocusKeepGoalsAndDefaultToBalance]' started.
+Test Case '-[CoreTests.CoreTests testLegacySettingsWithoutFocusKeepGoalsAndDefaultToBalance]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testMidnightSessionSplitsAcrossDays]' started.
+Test Case '-[CoreTests.CoreTests testMidnightSessionSplitsAcrossDays]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testNewerCompletedTimerClosesOlderOfflineActiveTimer]' started.
+Test Case '-[CoreTests.CoreTests testNewerCompletedTimerClosesOlderOfflineActiveTimer]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testOverlapsDoNotInflateTotal]' started.
+Test Case '-[CoreTests.CoreTests testOverlapsDoNotInflateTotal]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testReconciliationConvergesWhenIntermediateStartArrivesLate]' started.
+Test Case '-[CoreTests.CoreTests testReconciliationConvergesWhenIntermediateStartArrivesLate]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testRepositoryPreservesUpdatesAndTombstones]' started.
+Test Case '-[CoreTests.CoreTests testRepositoryPreservesUpdatesAndTombstones]' passed (0.008 seconds).
+Test Case '-[CoreTests.CoreTests testSurfaceBlendingDependsOnSurfaceBrightness]' started.
+Test Case '-[CoreTests.CoreTests testSurfaceBlendingDependsOnSurfaceBrightness]' passed (0.000 seconds).
+Test Case '-[CoreTests.CoreTests testThreeDeviceActiveMergeIsIndependentOfRecordOrder]' started.
+Test Case '-[CoreTests.CoreTests testThreeDeviceActiveMergeIsIndependentOfRecordOrder]' passed (0.002 seconds).
+Test Suite 'CoreTests' passed at 2026-11-07 11:13:22.692.
+	 Executed 33 tests, with 0 failures (0 unexpected) in 0.065 (0.066) seconds
+Test Suite 'StatisticsTests' started at 2026-11-07 11:13:22.692.
+Test Case '-[CoreTests.StatisticsTests testActiveAndDeletedSessionsRespectCurrentRange]' started.
+Test Case '-[CoreTests.StatisticsTests testActiveAndDeletedSessionsRespectCurrentRange]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testBalanceAverageUsesOnlyWorkedPeriodsWithinLimit]' started.
+Test Case '-[CoreTests.StatisticsTests testBalanceAverageUsesOnlyWorkedPeriodsWithinLimit]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testCrossMidnightSessionContributesToBothDaysButCountsOnce]' started.
+Test Case '-[CoreTests.StatisticsTests testCrossMidnightSessionContributesToBothDaysButCountsOnce]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testEmptyRangesHaveZeroMetricsAndRangeSpecificChartGoals]' started.
+Test Case '-[CoreTests.StatisticsTests testEmptyRangesHaveZeroMetricsAndRangeSpecificChartGoals]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testExactLimitCountsAsWithinLimitWithZeroRemainingHours]' started.
+Test Case '-[CoreTests.StatisticsTests testExactLimitCountsAsWithinLimitWithZeroRemainingHours]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testHalfYearComparisonUsesConsecutiveSixMonthRanges]' started.
+Test Case '-[CoreTests.StatisticsTests testHalfYearComparisonUsesConsecutiveSixMonthRanges]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testMonthAxisFollowsConfiguredWeekStartsAcrossMonthBoundary]' started.
+Test Case '-[CoreTests.StatisticsTests testMonthAxisFollowsConfiguredWeekStartsAcrossMonthBoundary]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testObservePatternsAggregateWeekdaysAcrossActualDays]' started.
+Test Case '-[CoreTests.StatisticsTests testObservePatternsAggregateWeekdaysAcrossActualDays]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testObserveTypicalRangeIncludesOnlyNonzeroBuckets]' started.
+Test Case '-[CoreTests.StatisticsTests testObserveTypicalRangeIncludesOnlyNonzeroBuckets]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testObserveTypicalRangeUsesIndexedMiddleHalfWithoutInterpolation]' started.
+Test Case '-[CoreTests.StatisticsTests testObserveTypicalRangeUsesIndexedMiddleHalfWithoutInterpolation]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testRollingDailyChartIncludesBothRepeatedHoursOnDaylightSavingDay]' started.
+Test Case '-[CoreTests.StatisticsTests testRollingDailyChartIncludesBothRepeatedHoursOnDaylightSavingDay]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testRollingDayChartTicksAdvanceWithCurrentHour]' started.
+Test Case '-[CoreTests.StatisticsTests testRollingDayChartTicksAdvanceWithCurrentHour]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testTrailingChartRangesAndBucketSizes]' started.
+Test Case '-[CoreTests.StatisticsTests testTrailingChartRangesAndBucketSizes]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testWeekComparisonUsesCalendarWeeksInsteadOfChartRange]' started.
+Test Case '-[CoreTests.StatisticsTests testWeekComparisonUsesCalendarWeeksInsteadOfChartRange]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testWeekRawSummaryAndWeekdayCanContainSessionsBeforeChartBuckets]' started.
+Test Case '-[CoreTests.StatisticsTests testWeekRawSummaryAndWeekdayCanContainSessionsBeforeChartBuckets]' passed (0.000 seconds).
+Test Case '-[CoreTests.StatisticsTests testYearBalanceUsesDailyLimitAgainstMonthlyBuckets]' started.
+Test Case '-[CoreTests.StatisticsTests testYearBalanceUsesDailyLimitAgainstMonthlyBuckets]' passed (0.001 seconds).
+Test Case '-[CoreTests.StatisticsTests testYearProgressUsesDailyGoalWhileChartUsesFourWeeklyGoals]' started.
+Test Case '-[CoreTests.StatisticsTests testYearProgressUsesDailyGoalWhileChartUsesFourWeeklyGoals]' passed (0.001 seconds).
+Test Suite 'StatisticsTests' passed at 2026-11-07 11:13:22.703.
+	 Executed 17 tests, with 0 failures (0 unexpected) in 0.010 (0.011) seconds
+Test Suite 'CoreTests.xctest' passed at 2026-11-07 11:13:22.703.
+	 Executed 66 tests, with 0 failures (0 unexpected) in 0.097 (0.100) seconds
+Test Suite 'All tests' passed at 2026-11-07 11:13:22.703.
+	 Executed 66 tests, with 0 failures (0 unexpected) in 0.097 (0.100) seconds
+◇ Test run started.
+↳ Testing Library Version: 2403
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "xcrun",
+    "simctl",
+    "runtime",
+    "verify",
+    "6E5DFE1C-892A-4894-8B35-ADB60D1CE524"
+  ],
+  "exitCode": 1
+}
+
+Signature verification failed: (-67054 a sealed resource is missing or invalid

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Watch reference bold Totals",
+    "file": "watch-reference-bold-totals.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/Watch26MatchTrial1Verified.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference bold Track",
+    "file": "watch-reference-bold-track.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/Watch26MatchTrial1Verified.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  }
+]

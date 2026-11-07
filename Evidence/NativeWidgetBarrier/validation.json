@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "result": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+  "watchAppTerminatedBeforeTap": true,
+  "watchAppNotRunningAfterTap": true,
+  "watchAppReopenedAfterTap": false,
+  "tapTarget": "Visible filled workload circle in the actual installed Smart Stack extension",
+  "watch": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+  "phone": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+  "cloudEnabled": false,
+  "group": "group.com.xuming.PunchinoColor",
+  "exactSessionFieldsMatch": true,
+  "session": {
+    "colorHex": "43D10D",
+    "end": 815734978.174477,
+    "id": "4C5EF7A1-96C4-408E-A6BB-F0EC52A2235E",
+    "modifiedAt": 815734978.174503,
+    "source": "watch",
+    "start": 815734969.058963,
+    "timerBoundaries": [
+      {
+        "id": "4C5EF7A1-96C4-408E-A6BB-F0EC52A2235E",
+        "start": 815734969.058963,
+        "timestamp": 815734969.058963
+      }
+    ],
+    "workloadID": "00000000-0000-0000-0000-000000000001",
+    "workloadName": "Work"
+  },
+  "watchActiveCount": 0,
+  "watchSnapshotSHA256": "a6131f845bdb9935c086001e1d0ed987cd65d6f406a61d549186563ce6fee714",
+  "phoneSnapshotSHA256": "a6131f845bdb9935c086001e1d0ed987cd65d6f406a61d549186563ce6fee714",
+  "sourceSHA256": {
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e",
+    "Widgets/PunchinoWidgets.swift": "c5de1156a36fe3a756d50c395ba15bd081d6765b4e7d9bbf09e2e3e9e8e0ec13",
+    "Watch/PunchinoWatchApp.swift": "c314efc42741ae8bd2a2f8fb759f782ffcfed308c54cdc9e5ef8afe9fb433018"
+  }
+}

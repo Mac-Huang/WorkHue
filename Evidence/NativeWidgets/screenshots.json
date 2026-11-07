@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Native Punchino Smart Stack inactive accessibility",
+    "file": "native-punchino-smart-stack-inactive-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetInactive.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Punchino Smart Stack inactive",
+    "file": "native-punchino-smart-stack-inactive.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetInactive.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Punchino Smart Stack after real punch-in accessibility",
+    "file": "native-punchino-smart-stack-after-real-punch-in-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetActive.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Punchino Smart Stack after real punch-in",
+    "file": "native-punchino-smart-stack-after-real-punch-in.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetActive.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native widget source Watch punch-in",
+    "file": "native-widget-source-watch-punch-in.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetActive.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch reads widget punch-out",
+    "file": "watch-reads-widget-punch-out.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStop.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Punchino widget after interactive stop accessibility",
+    "file": "native-punchino-widget-after-interactive-stop-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStop.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native Punchino widget after interactive stop",
+    "file": "native-punchino-widget-after-interactive-stop.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetStop.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

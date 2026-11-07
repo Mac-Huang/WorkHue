@@ -1,0 +1,13 @@
+{
+  "historicalTrial3SHA256": "71a187b7ab2de0e509f4a73adf26d8cb79058bf07bc7e879df984d775732d408",
+  "currentFinalSHA256": "dfb7d0a78bef42957a9da6db837f8e3ce092f9a66a8343e50e51d05b3f7e525e",
+  "reconstructedHistoricalHashMatchesManifest": true,
+  "method": "Reverse only the recorded indentation and comment patch in memory. Verify the entire reconstructed file against the historical Trial3 SHA256, then generate the exact unified diff. The product file is not changed.",
+  "changes": [
+    "Indentation of six Started-row modifier lines",
+    "Two comments in the pure timer-ink helper"
+  ],
+  "executableCodeChanged": false,
+  "testSourceChangedSinceTrial3": false,
+  "allOtherManifestHashesMatchCurrent": true
+}

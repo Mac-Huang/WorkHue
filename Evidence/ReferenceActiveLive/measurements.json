@@ -1,0 +1,193 @@
+{
+  "result": "TestResults/ReferenceActiveLive.xcresult",
+  "passed": true,
+  "testCount": 1,
+  "failureCount": 0,
+  "testDurationSeconds": 41.287,
+  "device": {
+    "model": "iPhone 16 Plus",
+    "runtime": "iOS 26.5",
+    "canvasPixels": [
+      1290,
+      2796
+    ],
+    "canvasPoints": [
+      430,
+      932
+    ],
+    "scale": 3
+  },
+  "launchArguments": [
+    "--ui-testing",
+    "--reference-empty"
+  ],
+  "referenceFixture": {
+    "appearance": "dark",
+    "dynamicTypeSize": "medium",
+    "SwiftUILegibilityWeight": "bold",
+    "systemSettingsChanged": false
+  },
+  "sourceSHA256": {
+    "Phone/TrackView.swift": "e8e0ecea3091938a21d620ca087edcd0b9170e4403d9c424fc5fa924e47ee4a8",
+    "Phone/RootView.swift": "d7a7059b2d4a9a72255f8b8667c857669244e6d0b98a43581cd327c89c677e03",
+    "Tests/UITests/PunchinoUITests.swift": "2aa0ec2fcebd9252ca71e920ee9fb816af32dc843cbdeb516ebfc5a3ffa9b533",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d"
+  },
+  "imageSHA256": {
+    "reference-active-track.png": "be0d25031979602122543f42072eb8862d747b02e1c2b768bd60fc32cdfea252",
+    "reference-idle-track.png": "e5c7c6719849ba3c739a75225a34056d901aa3a8ea2cc72260c011e63ac5548f"
+  },
+  "rasterMeasurementsPoints": {
+    "idleControlCenter": [
+      215,
+      486.6666666666667
+    ],
+    "activeControlCenter": [
+      215,
+      486.6666666666667
+    ],
+    "idleRingBounds": [
+      105,
+      376.6666666666667,
+      325,
+      596.6666666666666
+    ],
+    "activeOuterBounds": [
+      100,
+      371.6666666666667,
+      330,
+      601.6666666666666
+    ],
+    "textInkBounds": {
+      "IN": [
+        191.66666666666666,
+        446.0,
+        238.0,
+        486.0
+      ],
+      "timer": [
+        179.33333333333334,
+        518.3333333333334,
+        250.66666666666666,
+        535.6666666666666
+      ],
+      "Started": [
+        143.33333333333334,
+        622.3333333333334,
+        287.0,
+        638.3333333333334
+      ],
+      "workload": [
+        186.33333333333334,
+        655.0,
+        244.66666666666666,
+        669.0
+      ]
+    },
+    "activeTabLineInkBounds": [
+      300,
+      862.3333333333334,
+      302.3333333333333,
+      884
+    ],
+    "activeTabLineInkSize": [
+      2.3333333333333335,
+      21.666666666666668
+    ]
+  },
+  "sourceGeometry": {
+    "controlAnchorSize": [
+      220,
+      220
+    ],
+    "activeCoreDiameter": 200,
+    "activeMiddleDiameter": 220,
+    "activeOuterDiameterAtFixedTestPhase": 230,
+    "footerTopOffsetFromControlTop": 244,
+    "StartedToWorkloadStackGap": 14,
+    "INToTimerStackGap": 13,
+    "activeTotals": false,
+    "activeScrollView": false
+  },
+  "originalLiveComparison": {
+    "evidence": "Root inspected inline iPhone Mirroring images; no original raster file was saved.",
+    "mirrorImagePixels": [
+      699,
+      1532
+    ],
+    "deviceViewportPixels": [
+      17,
+      78,
+      680,
+      1515
+    ],
+    "derivedScalePixelsPerPoint": 1.541860465116279,
+    "approximateRawControlCenter": [
+      348,
+      829
+    ],
+    "normalizedApproximateControlCenter": [
+      214.67571644042232,
+      487.0739064856712
+    ],
+    "replicaMinusOriginalCenterPoints": [
+      0.3242835595776796,
+      -0.40723981900453055
+    ],
+    "approximateOriginalStartedRawY": 1052,
+    "originalStartedAnchorMeaning": "Unknown: the observation did not reliably distinguish ink top from row center.",
+    "normalizedApproximateStartedY": 631.7043740573152,
+    "replicaStartedInkCenterY": 630.3333333333334,
+    "replicaStartedInkCenterProjectedToMirrorRawY": 1049.886046511628,
+    "StartedComparisonLimit": "A row-center interpretation is close. An ink-top interpretation differs. Exact Started parity is not established."
+  },
+  "inferredOriginalMatchingChoices": {
+    "INFont": "56pt semibold rounded",
+    "timerFont": "24pt semibold monospaced",
+    "StartedFont": "16pt system secondary",
+    "ringOpacities": [
+      0.22,
+      0.28
+    ],
+    "coreFill": "SwiftUI gradient of recorded workload color",
+    "pulse": {
+      "outerDiameterRange": [
+        230,
+        240
+      ],
+      "secondsPerLeg": 1.8,
+      "glowRadiusRange": [
+        5,
+        8
+      ],
+      "glowOpacityRange": [
+        0.1,
+        0.16
+      ],
+      "timingAndGlowMatch": "Inferred. No exact original timing or glow measurements exist.",
+      "runtimeConditions": "Only while visible, scene active, and Reduce Motion off. UI tests hold the minimum phase.",
+      "motionValidationLimit": "The screenshots and UI tests do not observe production pulse timing or its restart animation."
+    }
+  },
+  "verifiedUIAssertions": [
+    "Equal idle/active centers within 0.5 pt",
+    "Absolute y486.7 \u00b1 1 pt only on the 430 \u00d7 932 pt canvas",
+    "No hittable active totals or ScrollView",
+    "MM:SS timer below one hour",
+    "Native saturated tab icon has a vertical component taller than 2.5 times its width",
+    "Study cue remains visible"
+  ],
+  "intentionalAddition": "Study workload name/color below Started. Recorded Study color 2699F5 can differ from the app accent.",
+  "additionalFlowEvidence": {
+    "result": "TestResults/LiveTrackLayoutFinal.xcresult",
+    "testCount": 3,
+    "failureCount": 0,
+    "durationSeconds": 84.421,
+    "captureSourceSHA256": {
+      "Phone/TrackView.swift": "30e5cdb6e524c30b9ddcc876ad9151f79206b82c7f0fd5e3db03d3fd68a4c994",
+      "Phone/RootView.swift": "d7a7059b2d4a9a72255f8b8667c857669244e6d0b98a43581cd327c89c677e03",
+      "Tests/UITests/PunchinoUITests.swift": "cdcf5afe79ab202821c698117963e1cf77da041a0bbb85c0b154dd5885400c21"
+    },
+    "scope": "First tap, Work/Study history, tab departure/return, persistence, and geometry. This run predates the final text-helper caller change and reference-test extension."
+  }
+}

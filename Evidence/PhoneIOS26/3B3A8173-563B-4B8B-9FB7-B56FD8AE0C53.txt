@@ -1,0 +1,103 @@
+Optional(Attributes: Application, 0x118349a40, pid: 35275, label: 'Punchino'
+Element subtree:
+ →Application, 0x118349a40, pid: 35275, label: 'Punchino'
+    Window (Main), 0x118349b80, {{0.0, 0.0}, {430.0, 932.0}}
+      Other, 0x118349cc0, {{0.0, 0.0}, {430.0, 932.0}}
+        Other, 0x118349e00, {{0.0, 0.0}, {430.0, 932.0}}
+          Other, 0x118349f40, {{0.0, 0.0}, {430.0, 932.0}}
+            Other, 0x11834a080, {{0.0, 0.0}, {430.0, 932.0}}
+              Other, 0x11834a1c0, {{0.0, 0.0}, {430.0, 932.0}}
+                Other, 0x11834a300, {{0.0, 0.0}, {430.0, 932.0}}
+                  Other, 0x11834a440, {{0.0, 0.0}, {430.0, 932.0}}
+                    Other, 0x11834a580, {{0.0, 0.0}, {430.0, 932.0}}
+                      Other, 0x11834a6c0, {{0.0, 0.0}, {430.0, 932.0}}
+                        Other, 0x11834a800, {{0.0, 0.0}, {430.0, 932.0}}
+                          Other, 0x11834a940, {{0.0, 0.0}, {430.0, 932.0}}
+                            NavigationBar, 0x11834aa80, {{0.0, 59.0}, {430.0, 54.0}}, identifier: 'Statistics'
+                              StaticText, 0x11834abc0, {{177.7, 70.7}, {74.7, 20.7}}, label: 'Statistics'
+                              Other, 0x11834ad00, {{365.0, 63.0}, {41.0, 36.0}}, identifier: 'settingsButton', label: 'Settings'
+                                Other, 0x11834ae40, {{365.0, 63.0}, {41.0, 36.0}}
+                                  Button, 0x11834af80, {{365.0, 63.0}, {41.0, 36.0}}, identifier: 'settingsButton', label: 'Settings'
+                            Other, 0x11834b0c0, {{0.0, 0.0}, {430.0, 932.0}}
+                              Other, 0x11834b200, {{0.0, 0.0}, {430.0, 932.0}}
+                                Other, 0x11834b340, {{0.0, 0.0}, {430.0, 932.0}}
+                                  Other, 0x11834b480, {{0.0, 0.0}, {430.0, 932.0}}
+                                    ScrollView, 0x11834b5c0, {{0.0, 0.0}, {430.0, 932.0}}
+                                      Other, 0x11834b700, {{0.0, -239.7}, {430.0, 1088.7}}
+                                        SegmentedControl, 0x11834b840, {{16.0, -232.7}, {398.0, 31.0}}, identifier: 'statisticsRange'
+                                          Button, 0x11834b980, {{16.0, -232.7}, {79.0, 32.0}}, label: 'D', Selected
+                                          Button, 0x11834bac0, {{95.0, -232.7}, {80.0, 32.0}}, label: 'W'
+                                          Button, 0x11834bc00, {{175.0, -232.7}, {79.0, 32.0}}, label: 'M'
+                                          Button, 0x11834bd40, {{254.0, -232.7}, {80.0, 32.0}}, label: '6M'
+                                          Button, 0x11834be80, {{334.0, -232.7}, {80.0, 32.0}}, label: 'Y'
+                                        StaticText, 0x10a8a5a40, {{32.0, -162.7}, {111.3, 20.3}}, label: 'Last 24 Hours'
+                                        Other, 0x10a890000, {{32.0, -130.3}, {366.0, 190.0}}, identifier: 'statisticsChart'
+                                          Other, 0x10a890140, {{49.0, -130.8}, {349.0, 1.0}}, label: 'Goal', value: 3.0h
+                                        StaticText, 0x10a890280, {{32.0, 115.7}, {131.0, 20.3}}, identifier: 'statisticsComparison', label: 'Day Comparison'
+                                        Image, 0x10a8903c0, {{200.3, 175.3}, {37.7, 32.0}}, identifier: 'statisticsComparison', label: 'Date And Time'
+                                        StaticText, 0x10a890500, {{136.5, 218.3}, {157.0, 13.3}}, identifier: 'statisticsComparison', label: 'No sessions in selected range'
+                                        StaticText, 0x10a890640, {{32.0, 313.0}, {144.0, 20.3}}, identifier: 'statisticsProgress', label: 'Progress Tracking'
+                                        Image, 0x10a890780, {{203.3, 369.7}, {23.7, 41.0}}, identifier: 'statisticsProgress', label: 'lightbulb'
+                                        StaticText, 0x10a8908c0, {{155.0, 422.0}, {120.0, 13.3}}, identifier: 'statisticsProgress', label: 'No sessions to analyze'
+                                        StaticText, 0x10a890a00, {{32.0, 513.3}, {110.7, 20.3}}, identifier: 'statisticsOutliers', label: 'Outliers (Day)'
+                                        Image, 0x10a890b40, {{199.3, 573.3}, {31.7, 27.3}}, identifier: 'statisticsOutliers', label: 'Chart Line'
+                                        StaticText, 0x10a890c80, {{136.5, 611.7}, {157.0, 13.3}}, identifier: 'statisticsOutliers', label: 'No sessions in selected range'
+                                        StaticText, 0x10a890dc0, {{32.0, 706.7}, {124.3, 20.3}}, identifier: 'statisticsSummary', label: 'Summary (Day)'
+                                        StaticText, 0x10a890f00, {{126.0, 765.3}, {178.0, 13.3}}, identifier: 'statisticsSummary', label: 'No sessions to calculate averages'
+                                      Other, 0x10a891040, {{0.0, -0.0}, {430.0, 932.0}}
+                                        Other, 0x10a891180, {{0.0, 0.0}, {430.0, 167.8}}
+                                        Other, 0x10a8912c0, {{0.0, 784.2}, {430.0, 147.8}}
+                                      Other, 0x10a891400, {{0.0, -0.0}, {430.0, 932.0}}
+                                        Other, 0x10a891540, {{0.0, 0.0}, {430.0, 167.8}}
+                                          Image, 0x10a891680, {{-120.0, -163.0}, {670.0, 326.0}}, identifier: 'AdditionalDimmingOverlay'
+                                          Other, 0x10a8917c0, {{0.0, 0.0}, {430.0, 103.0}}
+                                          Other, 0x10a891900, {{0.0, 0.0}, {430.0, 167.8}}
+                                            Other, 0x10a891a40, {{0.0, 0.0}, {430.0, 167.8}}
+                                          Other, 0x10a891b80, {{0.0, 0.0}, {430.0, 167.8}}
+                                            Other, 0x10a891cc0, {{0.0, 0.0}, {430.0, 167.8}}
+                                          Other, 0x10a891e00, {{0.0, 0.0}, {430.0, 167.8}}
+                                            Other, 0x10a891f40, {{0.0, 0.0}, {430.0, 167.8}}
+                                            Other, 0x10a892080, {{0.0, 0.0}, {430.0, 167.8}}
+                                      Other, 0x10a8921c0, {{397.0, 113.0}, {30.0, 736.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                                        Other, 0x10a892300, {{424.0, 316.3}, {3.0, 529.7}}
+                                      Other, 0x10a892440, {{397.0, 113.0}, {30.0, 736.0}}, label: 'Vertical scroll bar, 2 pages', value: 100%
+                                        Other, 0x10a892580, {{424.0, 316.3}, {3.0, 529.7}}
+                            Other, 0x10a8926c0, {{0.0, 0.0}, {430.0, 932.0}}
+                              Other, 0x10a892800, {{0.0, 0.0}, {430.0, 932.0}}
+                Other, 0x10a892940, {{0.0, 849.0}, {430.0, 83.0}}
+                  Other, 0x10a892a80, {{0.0, 0.0}, {430.0, 932.0}}
+                    TabBar, 0x10a892bc0, {{0.0, 849.0}, {430.0, 83.0}}, label: 'Tab Bar'
+                      Other, 0x10a892d00, {{78.0, 849.0}, {274.0, 62.0}}
+                        Other, 0x10a892e40, {{78.0, 849.0}, {94.0, 54.0}}
+                        Other, 0x10a892f80, {{78.0, 849.0}, {274.0, 62.0}}
+                          Button, 0x10a8930c0, {{82.0, 853.0}, {94.0, 54.0}}, label: 'Home'
+                            Image, 0x10a893200, {{115.0, 860.3}, {29.0, 25.0}}, identifier: 'calendar', label: 'calendar'
+                          Button, 0x10a893340, {{168.0, 853.0}, {94.0, 54.0}}, label: 'Statistics', Selected
+                            Image, 0x10a893480, {{198.0, 860.3}, {35.0, 25.3}}, identifier: 'chart.bar.fill', label: 'chart column'
+                          Button, 0x10a8935c0, {{254.0, 853.0}, {94.0, 54.0}}, label: 'OUT'
+                            Image, 0x10a893700, {{287.0, 859.3}, {27.3, 27.3}}, identifier: 'circle', label: 'circle'
+                        Other, 0x10a893840, {{168.0, 853.0}, {94.0, 54.0}}
+                          Other, 0x10a893980, {{168.0, 853.0}, {94.0, 54.0}}
+                            Other, 0x10a893ac0, {{168.0, 853.0}, {94.0, 54.0}}
+                            Other, 0x10a893c00, {{168.0, 853.0}, {94.0, 54.0}}
+                              Other, 0x10a893d40, {{168.0, 853.0}, {94.0, 54.0}}
+                                Other, 0x10a893e80, {{168.0, 853.0}, {94.0, 54.0}}
+                                  Other, 0x10a8a8000, {{168.0, 853.0}, {94.0, 54.0}}
+                                Other, 0x10a8a8140, {{168.0, 853.0}, {94.0, 54.0}}
+                              Other, 0x10a8a8280, {{168.0, 853.0}, {94.0, 54.0}}
+                  Other, 0x10a8a83c0, {{0.0, 849.0}, {430.0, 83.0}}
+                    Other, 0x10a8a8500, {{0.0, 849.0}, {430.0, 83.0}}
+                      Other, 0x10a8a8640, {{0.0, 849.0}, {430.0, 83.0}}
+                        Other, 0x10a8a8780, {{0.0, 849.0}, {430.0, 83.0}}
+                          Other, 0x10a8a88c0, {{0.0, 849.0}, {430.0, 83.0}}
+                            Other, 0x10a8a8a00, {{0.0, 849.0}, {430.0, 83.0}}
+                        Other, 0x10a8a8b40, {{0.0, 849.0}, {430.0, 83.0}}
+                          Other, 0x10a8a8c80, {{0.0, 849.0}, {430.0, 83.0}}
+Path to element:
+ →Application, 0x118349a40, pid: 35275, label: 'Punchino'
+Query chain:
+ →Find: Target Application 'com.xuming.PunchinoColor'
+  Output: {
+    Application, 0x10a8a8dc0, pid: 35275, label: 'Punchino'
+  }
+)

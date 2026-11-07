@@ -1,0 +1,100 @@
+[
+  {
+    "name": "Watch Black and White workload definitions after relaunch",
+    "file": "watch-black-and-white-workload-definitions-after-relaunch.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch White active dark ink",
+    "file": "watch-white-active-dark-ink.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch White workload wheel and confirmation",
+    "file": "watch-white-workload-wheel-and-confirmation.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch Black active light ink and outline",
+    "file": "watch-black-active-light-ink-and-outline.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch Black workload wheel and confirmation",
+    "file": "watch-black-workload-wheel-and-confirmation.png",
+    "test": "PunchinoWatchUITests/testBlackAndWhiteWorkloadsRemainReadable()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch persisted one-minute totals after relaunch",
+    "file": "watch-persisted-one-minute-totals-after-relaunch.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentTotals()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch Study active",
+    "file": "watch-study-active.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentTotals()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch workload wheel",
+    "file": "watch-workload-wheel.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentTotals()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch OUT",
+    "file": "watch-out.png",
+    "test": "PunchinoWatchUITests/testCrownWorkloadSelectionPunchOutAndPersistentTotals()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference read-only Totals after synthetic stop",
+    "file": "watch-reference-read-only-totals-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference idle after synthetic stop",
+    "file": "watch-reference-idle-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference bold Study active",
+    "file": "watch-reference-bold-study-active.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference bold Totals",
+    "file": "watch-reference-bold-totals.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference bold Track",
+    "file": "watch-reference-bold-track.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceAppearance()",
+    "sourceResult": "TestResults/WatchActiveFinal.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  }
+]

@@ -1,0 +1,376 @@
+{
+  "checkedUTC": "2026-11-07T18:52:36.874748+00:00",
+  "passed": true,
+  "hashChecks": 82,
+  "results": [
+    {
+      "name": "genericCloudBuild",
+      "evidence": "Evidence/WatchActiveFinalValidation/device-build.json",
+      "scope": "all recorded source/config files",
+      "checks": [
+        {
+          "path": "Config/Base.xcconfig",
+          "matches": true
+        },
+        {
+          "path": "Config/Cloud.entitlements",
+          "matches": true
+        },
+        {
+          "path": "Config/CloudSync.xcconfig",
+          "matches": true
+        },
+        {
+          "path": "Config/Local.entitlements",
+          "matches": true
+        },
+        {
+          "path": "Config/Phone-Info.plist",
+          "matches": true
+        },
+        {
+          "path": "Config/Watch-Info.plist",
+          "matches": true
+        },
+        {
+          "path": "Config/Widget-Info.plist",
+          "matches": true
+        },
+        {
+          "path": "Phone/CloudNotificationDelegate.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/DayDetailView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/DebugInfoView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/OverviewView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/PunchinoApp.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/PunchinoIntents.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/RootView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/SettingsView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/StatisticsView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/TrackView.swift",
+          "matches": true
+        },
+        {
+          "path": "Punchino.xcodeproj/project.pbxproj",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVExporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVImporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CloudSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Models.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/SnapshotRepository.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/StatisticsMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Theme.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeStore.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/WatchSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Watch/PunchinoWatchApp.swift",
+          "matches": true
+        },
+        {
+          "path": "Watch/WatchCloudNotificationDelegate.swift",
+          "matches": true
+        },
+        {
+          "path": "Widgets/PunchinoWidgets.swift",
+          "matches": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "currentWatchUI",
+      "evidence": "Evidence/WatchActiveFinal/source-sha256.json",
+      "scope": "all recorded source/config files",
+      "checks": [
+        {
+          "path": "Shared/CSVExporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVImporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CloudSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Models.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/SnapshotRepository.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/StatisticsMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Theme.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeStore.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/WatchSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Watch/PunchinoWatchApp.swift",
+          "matches": true
+        },
+        {
+          "path": "Watch/WatchCloudNotificationDelegate.swift",
+          "matches": true
+        },
+        {
+          "path": "Widgets/PunchinoWidgets.swift",
+          "matches": true
+        },
+        {
+          "path": "Tests/WatchUITests/PunchinoWatchUITests.swift",
+          "matches": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "phoneReferenceUI",
+      "evidence": "Evidence/ReferenceActiveLive/measurements.json",
+      "scope": "Phone and Shared sources only. Later Watch changes do not change these files.",
+      "checks": [
+        {
+          "path": "Phone/TrackView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/RootView.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Models.swift",
+          "matches": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "phoneCustomColorUI",
+      "evidence": "Evidence/CustomColorLiveTrackFinal/validation.json",
+      "scope": "Phone and Shared sources only. Later Watch changes do not change these files.",
+      "checks": [
+        {
+          "path": "Phone/Assets.xcassets/AccentColor.colorset/Contents.json",
+          "matches": true
+        },
+        {
+          "path": "Phone/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+          "matches": true
+        },
+        {
+          "path": "Phone/Assets.xcassets/AppIcon.appiconset/Contents.json",
+          "matches": true
+        },
+        {
+          "path": "Phone/Assets.xcassets/Contents.json",
+          "matches": true
+        },
+        {
+          "path": "Phone/CloudNotificationDelegate.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/DayDetailView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/DebugInfoView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/OverviewView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/PunchinoApp.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/PunchinoIntents.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/RootView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/SettingsView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/StatisticsView.swift",
+          "matches": true
+        },
+        {
+          "path": "Phone/TrackView.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVExporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVImporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CloudSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Models.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/SnapshotRepository.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/StatisticsMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Theme.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeStore.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/WatchSync.swift",
+          "matches": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "name": "sharedTransportAndCore",
+      "evidence": "Evidence/ConnectivityProbe/ContrastCorrection/validation-summary.json",
+      "scope": "all recorded source/config files",
+      "checks": [
+        {
+          "path": "Shared/CSVExporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CSVImporter.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/CloudSync.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Models.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/SnapshotRepository.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/StatisticsMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/Theme.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeMath.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/TimeStore.swift",
+          "matches": true
+        },
+        {
+          "path": "Shared/WatchSync.swift",
+          "matches": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "limit": "Hash identity establishes source consistency. It does not establish exact original behavior, signed installation, physical synchronization, or cloud delivery. Historical native-widget runs retain their historical source manifests."
+}

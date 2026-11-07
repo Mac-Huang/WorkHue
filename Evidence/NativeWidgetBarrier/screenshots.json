@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Native widget stopped while Watch app remains closed accessibility",
+    "file": "native-widget-stopped-while-watch-app-remains-closed-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native widget stopped while Watch app remains closed",
+    "file": "native-widget-stopped-while-watch-app-remains-closed.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native widget active before source app termination accessibility",
+    "file": "native-widget-active-before-source-app-termination-accessibility.txt",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Native widget active before source app termination",
+    "file": "native-widget-active-before-source-app-termination.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  },
+  {
+    "name": "Watch real source before native barrier stop",
+    "file": "watch-real-source-before-native-barrier-stop.png",
+    "test": "PunchinoWatchUITests/testNativeSmartStackDiscovery()",
+    "sourceResult": "TestResults/WatchNativeWidgetBarrierCircle.xcresult",
+    "deviceId": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587"
+  }
+]

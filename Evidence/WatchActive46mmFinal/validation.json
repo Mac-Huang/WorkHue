@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "testCount": 2,
+  "failures": 0,
+  "durationSeconds": 25.374,
+  "individualDurationSeconds": {
+    "testWatchReferenceActiveAppearance": 18.171,
+    "testWatchReferenceAppearance": 7.202
+  },
+  "result": "TestResults/WatchActive46mmFinal.xcresult",
+  "model": "Apple Watch Series 12 (46mm)",
+  "watchOS": "27.2",
+  "watchOSBuild": "24S118",
+  "canvasPixels": [
+    416,
+    496
+  ],
+  "watch": "F0B67AC3-174C-4ED3-8F0C-B882CF29B587",
+  "phone": "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+  "pair": "833E656F-1A3F-47DD-AE8F-2EFCD9F01BF9",
+  "signingIdentity": "-",
+  "sourceSHA256": {
+    "Shared/CSVExporter.swift": "e653e0d4b0d88403991df84f5043a12297f53e773972800fee1d823aa38e87ad",
+    "Shared/CSVImporter.swift": "c8bf09c8e038adf9c97163fe39381d86bdc20f1c06faadca3d081b7d01863ca3",
+    "Shared/CloudSync.swift": "5bfadd18503b0ea3b7e118c389322f799aa41f9aa8b140f116a637e15c257a69",
+    "Shared/Models.swift": "8a4dcf1f1773c103da8ccf80af3b92a3ab8bdb928be34cb1f51121ce83ce853d",
+    "Shared/SnapshotRepository.swift": "df9b8dfb0a622e03202dda169d90fc22b6b7661f09adab30ea575fcaa13cead9",
+    "Shared/StatisticsMath.swift": "0b79e69ee6ab3772f65678690cf5fec1707720dd2e5a177c02a6eca7701fac69",
+    "Shared/Theme.swift": "18540b2d98db1e0bf97b09f9e4a873ce3b557d679e2ab9ec7df3707d1baebfeb",
+    "Shared/TimeMath.swift": "a8ef8048f7950a8e034f7784a3986ffa232c18ae6fd3a2148c93cc178b2266b9",
+    "Shared/TimeStore.swift": "5a720f0fb264ef2c234d748c1fa7c000279840d20557342c500420bfafa2b83a",
+    "Shared/WatchSync.swift": "fc41dfc6d116992df805cf44d4ce7ca1d5c31410d4e4516846e7bf027a029f6e",
+    "Watch/PunchinoWatchApp.swift": "dfb7d0a78bef42957a9da6db837f8e3ce092f9a66a8343e50e51d05b3f7e525e",
+    "Watch/WatchCloudNotificationDelegate.swift": "cc0b052e5bd80f12fa00e683f0eb6cecbf7461273991e1e802574e3f8537b804",
+    "Widgets/PunchinoWidgets.swift": "6e0e3d27052e41d9df4540c6f5c2c91ae06de91189aa79d8ee3e1a4a893be8e9",
+    "Tests/WatchUITests/PunchinoWatchUITests.swift": "c736d050207d948c23ca69b0ca21599d113d42332e9ec629e24f2b44851297af"
+  },
+  "sourceStableDuringRun": true,
+  "productHashesCommonWithDeviceBuild": 13,
+  "allCommonProductHashesMatchDeviceBuild": true,
+  "deviceBuildManifest": "Evidence/WatchActiveFinalValidation/device-build.json",
+  "trial3SourceEquivalence": "Evidence/WatchActiveFinalValidation/trial3-to-final-provenance.json",
+  "contrastCheck": "Evidence/WatchTimerInkValidation/validation.json",
+  "fixture": {
+    "arguments": [
+      "--ui-testing",
+      "--reference-appearance"
+    ],
+    "freshIsolatedRepository": true,
+    "sessionsSeeded": 0,
+    "originalTimesOrTotalsSeededOrTranscribed": false,
+    "namedWorkload": "Study",
+    "startMethod": "Normal OUT tap, Digital Crown selection, and Punch In confirmation",
+    "timerSource": "Real elapsed time from the synthetic UI session",
+    "themeHex": "0099FF",
+    "childDynamicTypeSize": "xLarge",
+    "childLegibilityWeight": "bold",
+    "dynamicTypeOverride": false,
+    "systemClockOutsideAppOverride": true,
+    "leafDiagnostics": [
+      "Watch reference active frames: punch=(61.0, 65.5, 86.0, 86.0), started=(59.5, 163.0, 90.5, 13.5)",
+      "Watch reference active environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=IN=28.00,OUT=28.00,timer=13.00;timerInkOpacity=0.70)",
+      "Watch reference Track frames: punch=(59.5, 75.5, 89.0, 89.0), today=(10.0, 186.5, 188.0, 29.0)",
+      "Watch reference Track environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=IN=28.00,OUT=28.00,timer=13.00)",
+      "Watch reference Today environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=label=12.00,value=14.00)",
+      "Watch reference totals card frames: (2.0, 44.5, 204.0, 51.0), (2.0, 100.5, 204.0, 51.5), (2.0, 157.0, 204.0, 51.0)",
+      "Watch reference Totals environment: Optional(dynamicTypeSize=xLarge;legibilityWeight=Optional(SwiftUI.LegibilityWeight.bold);pointSizes=body=16.00)"
+    ]
+  },
+  "checks": {
+    "activeFitting": "Active core, halos, IN/timer, Started row, Today strip, and page dots fit on the 416\u00d7496 canvas.",
+    "idleFitting": "OUT ring/label, Today strip, and page dots fit without clipping.",
+    "totalsFitting": "All three cards, labels, and synthetic values remain fully visible.",
+    "readOnlyTotals": "Tapping Today leaves all Totals cards visible."
+  },
+  "limits": [
+    "This fitting run uses watchOS 27.2 and the 46mm simulator. It is not a private-original pixel comparison.",
+    "The separate 45mm comparison uses watchOS 26.5 and is linked in related45mmComparison.",
+    "Simulator execution does not establish physical-device installation."
+  ],
+  "scope": "46mm fitting for active, idle, and read-only Totals. This is not an original 46mm pixel comparison.",
+  "fittingReview": {
+    "active": "Core, halos, IN/timer, Started row, Today strip, and page dots fit without clipping.",
+    "idle": "OUT ring/label, Today strip, and page dots fit without clipping.",
+    "totals": "All three cards, invariant labels, synthetic values, and page dots are fully visible."
+  },
+  "related45mmComparison": "Evidence/WatchActiveFinal/validation.json",
+  "related45mmIndependentAudit": "Evidence/WatchActiveFinalValidation/independent-visual-audit.json",
+  "taskOwned46mmPairRestoredToShutdown": true,
+  "taskOwned26PairShutDownByRoot": true,
+  "pairingMembershipsPreservedAfterCleanup": true,
+  "dataErased": false
+}

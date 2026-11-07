@@ -1,0 +1,189 @@
+{
+  "background3x3PatchMeans" : [
+    {
+      "cardOrigin" : [
+        12,
+        90
+      ],
+      "file" : "Reference\/reference-11.jpg",
+      "samples" : [
+        {
+          "localPoint" : [
+            2,
+            80
+          ],
+          "sRGB" : [
+            0,
+            149,
+            50
+          ]
+        },
+        {
+          "localPoint" : [
+            12,
+            80
+          ],
+          "sRGB" : [
+            17,
+            106,
+            49
+          ]
+        },
+        {
+          "localPoint" : [
+            100,
+            2
+          ],
+          "sRGB" : [
+            0,
+            107,
+            35
+          ]
+        },
+        {
+          "localPoint" : [
+            200,
+            2
+          ],
+          "sRGB" : [
+            0,
+            73,
+            23
+          ]
+        },
+        {
+          "localPoint" : [
+            20,
+            145
+          ],
+          "sRGB" : [
+            13,
+            94,
+            41
+          ]
+        }
+      ]
+    },
+    {
+      "cardOrigin" : [
+        14,
+        250
+      ],
+      "file" : "Evidence\/NativeWidgetsFinal\/native-smart-stack-final-inactive.png",
+      "samples" : [
+        {
+          "localPoint" : [
+            2,
+            80
+          ],
+          "sRGB" : [
+            27,
+            143,
+            69
+          ]
+        },
+        {
+          "localPoint" : [
+            12,
+            80
+          ],
+          "sRGB" : [
+            16,
+            105,
+            48
+          ]
+        },
+        {
+          "localPoint" : [
+            100,
+            2
+          ],
+          "sRGB" : [
+            27,
+            103,
+            53
+          ]
+        },
+        {
+          "localPoint" : [
+            200,
+            2
+          ],
+          "sRGB" : [
+            19,
+            71,
+            35
+          ]
+        },
+        {
+          "localPoint" : [
+            20,
+            145
+          ],
+          "sRGB" : [
+            11,
+            93,
+            41
+          ]
+        }
+      ]
+    }
+  ],
+  "canvasPixels" : [
+    416,
+    496
+  ],
+  "elapsed" : {
+    "nativeInkBounds" : [
+      200,
+      303,
+      379,
+      363
+    ],
+    "nativeInkSize" : [
+      180,
+      61
+    ],
+    "nativeText" : "7sec",
+    "referenceInkBounds" : [
+      198,
+      144,
+      381,
+      205
+    ],
+    "referenceInkSize" : [
+      184,
+      62
+    ],
+    "referenceText" : "3sec",
+    "singleLineNoClipping" : true
+  },
+  "nativeWatchPoints" : {
+    "circle" : 58,
+    "elapsedText" : 45,
+    "statusText" : 45
+  },
+  "note" : "Actual native Smart Stack screenshots. Date headers and container origin differ with scroll position. Active workload hue is stored per session.",
+  "OUT" : {
+    "nativeInkBounds" : [
+      181,
+      302,
+      334,
+      363
+    ],
+    "nativeInkSize" : [
+      154,
+      62
+    ],
+    "referenceInkBounds" : [
+      181,
+      141,
+      334,
+      202
+    ],
+    "referenceInkSize" : [
+      154,
+      62
+    ]
+  }
+}

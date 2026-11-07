@@ -1,0 +1,12 @@
+{
+  "command": [
+    "xcodebuild",
+    "-downloadPlatform",
+    "watchOS",
+    "-buildVersion",
+    "26.5",
+    "-architectureVariant",
+    "arm64"
+  ],
+  "startedAtUTC": "2026-11-07T17:48:36.544876+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "focusedResult": "TestResults/WatchColorExtremesVerified.xcresult",
+  "focusedTestCount": 1,
+  "normalWatchTestCountNow": 2,
+  "defaultWorkloadRegression": "TestResults/WatchColorExtremes.xcresult",
+  "defaultRegressionTestPassed": true,
+  "customWorkloadCountAfterPreserveRelaunch": 2,
+  "uniqueCustomWorkloadIDs": 2,
+  "sessionCountCreatedThroughUI": 2,
+  "activeCountAfterUIStop": 0,
+  "fixtureOnlyWhenBothFlagsPresent": true,
+  "normalAppRepositoryUsed": false,
+  "defaultPresetBehaviorUnchanged": true,
+  "sourceSHA256": {
+    "Watch/PunchinoWatchApp.swift": "b059d235a3b1c528549aa88de71c2a5e758c712c776cc1df1c0f55060d71cb0e",
+    "Widgets/PunchinoWidgets.swift": "37d8acb5189e5d182dacd26ccf5df2bfcaf91a70077bf97fbc2bcdc98ffdd180",
+    "Shared/Models.swift": "9123d44709bff66a65c202a5e53642dd131c1934d6126dc7ba5a1328cf69746c",
+    "Tests/WatchUITests/PunchinoWatchUITests.swift": "95d262c8383687eb3c6538a5eed61b59d90957ff1b5908be0c93cdcef8ab92cd"
+  }
+}

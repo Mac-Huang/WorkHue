@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Watch reference read-only Totals after synthetic stop",
+    "file": "watch-reference-read-only-totals-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveMatchTrial1.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference idle after synthetic stop",
+    "file": "watch-reference-idle-after-synthetic-stop.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveMatchTrial1.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  },
+  {
+    "name": "Watch reference bold Study active",
+    "file": "watch-reference-bold-study-active.png",
+    "test": "PunchinoWatchUITests/testWatchReferenceActiveAppearance()",
+    "sourceResult": "TestResults/WatchActiveMatchTrial1.xcresult",
+    "deviceId": "5E68B1C0-177E-4CF8-A502-E65CAB51A8AC"
+  }
+]

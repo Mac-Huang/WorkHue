@@ -1,0 +1,404 @@
+import SwiftUI
+import WatchKit
+
+@main
+struct PunchinoWatchApp: App {
+    @WKApplicationDelegateAdaptor(WatchCloudNotificationDelegate.self) private var cloudDelegate
+    @State private var store: TimeStore
+    @Environment(\.scenePhase) private var scenePhase
+    private let referenceAppearance: Bool
+
+    init() {
+        let arguments = ProcessInfo.processInfo.arguments
+        referenceAppearance = arguments.contains("--ui-testing") && arguments.contains("--reference-appearance")
+        if arguments.contains("--ui-testing") {
+            let fileURL = FileManager.default.temporaryDirectory.appendingPathComponent("punchino-watch-ui-tests.json")
+            let repository = SnapshotRepository(fileURL: fileURL)
+            let freshRepository = !arguments.contains("--preserve-data") || !FileManager.default.fileExists(atPath: fileURL.path)
+            if freshRepository {
+                try? FileManager.default.removeItem(at: fileURL)
+                if arguments.contains("--color-extremes") {
+                    _ = try? repository.update { snapshot in
+                        snapshot.workloads = [
+                            Workload(id: UUID(uuidString: "00000000-0000-0000-0000-000000000100")!, name: "Black", colorHex: "000000"),
+                            Workload(id: UUID(uuidString: "00000000-0000-0000-0000-000000000101")!, name: "White", colorHex: "FFFFFF")
+                        ]
+                    }
+                }
+                if referenceAppearance {
+                    _ = try? repository.update { snapshot in
+                        snapshot.settings.themeHex = "0099FF"
+                    }
+                }
+            }
+            _store = State(initialValue: TimeStore(repository: repository, startServices: false))
+        } else {
+            _store = State(initialValue: TimeStore.shared)
+        }
+    }
+
+    var body: some Scene {
+        WindowGroup {
+            WatchRootView(store: store, referenceAppearance: referenceAppearance)
+                .tint(store.settings.tint)
+                .task { await store.refresh() }
+                .onChange(of: scenePhase) { _, phase in
+                    if phase == .active { Task { await store.refresh() } }
+                }
+        }
+    }
+}
+
+private struct WatchRootView: View {
+    let store: TimeStore
+    let referenceAppearance: Bool
+    @State private var page = 0
+    @State private var selectingWorkload = false
+
+    var body: some View {
+        NavigationStack {
+            TabView(selection: $page) {
+                WatchTrackView(store: store, selectWorkload: { selectingWorkload = true })
+                    .transformEnvironment(\.legibilityWeight) { weight in
+                        if referenceAppearance { weight = .bold }
+                    }
+                    .tag(0)
+                WatchTotalsView(store: store)
+                    .transformEnvironment(\.legibilityWeight) { weight in
+                        if referenceAppearance { weight = .bold }
+                    }
+                    .tag(1)
+            }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .containerBackground(.black, for: .navigation)
+            .sheet(isPresented: $selectingWorkload) {
+                WatchWorkloadPicker(store: store)
+            }
+            .onOpenURL { url in
+                if url.host == "punch-in" {
+                    page = 0
+                    if store.activeSession == nil { selectingWorkload = true }
+                } else if url.host == "punch-out" {
+                    store.stop()
+                    page = 0
+                }
+            }
+            .alert("Could Not Save", isPresented: Binding(
+                get: { store.errorMessage != nil },
+                set: { if !$0 { store.errorMessage = nil } }
+            )) {
+                Button("OK", role: .cancel) { store.errorMessage = nil }
+            } message: {
+                Text(store.errorMessage ?? "Please try again.")
+            }
+        }
+    }
+}
+
+private struct WatchTrackView: View {
+    let store: TimeStore
+    let selectWorkload: () -> Void
+    @Environment(\.isLuminanceReduced) private var isLuminanceReduced
+    @Environment(\.legibilityWeight) private var legibilityWeight
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @ScaledMetric(relativeTo: .largeTitle) private var outFontSize = 28.0
+    @ScaledMetric(relativeTo: .largeTitle) private var inFontSize = 28.0
+    @ScaledMetric(relativeTo: .body) private var timerFontSize = 13.0
+    @ScaledMetric(relativeTo: .caption) private var startedFontSize = 11.0
+    @ScaledMetric(relativeTo: .caption) private var startedIconSize = 10.0
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 1)) { context in
+            GeometryReader { geometry in
+                let active = store.activeSession
+                let diameter = min(geometry.size.width * (active == nil ? 0.44 : 0.425), geometry.size.height * 0.63).rounded(.down)
+                let lightInk = active.map { WorkloadColorStyle.watchNeedsLightInk($0.colorHex) } ?? false
+                let timerOpacity = active.map { WatchTimerInkStyle.opacity(on: $0.colorHex, usingLightInk: lightInk, isLuminanceReduced: isLuminanceReduced) } ?? 1
+                VStack(spacing: active == nil ? 20 : 4) {
+                    Spacer(minLength: 0)
+                    Button {
+                        if active != nil {
+                            store.stop()
+                            WKInterfaceDevice.current().play(.stop)
+                        } else {
+                            selectWorkload()
+                            WKInterfaceDevice.current().play(.click)
+                        }
+                    } label: {
+                        ZStack {
+                            if let active {
+                                Circle()
+                                    .fill(RadialGradient(stops: [
+                                        .init(color: active.color.opacity(0.42), location: 0),
+                                        .init(color: active.color.opacity(0.337), location: 0.705),
+                                        .init(color: active.color.opacity(0.32), location: 1)
+                                    ], center: .center, startRadius: diameter / 2, endRadius: diameter / 2 + 11))
+                                    .padding(-11)
+                                    .scaleEffect((diameter + 21.5) / (diameter + 22))
+                                Circle()
+                                    .fill(active.color.opacity(0.2))
+                                    .padding(-3)
+                                Circle()
+                                    .fill(Color(hex: active.colorHex).opacity(isLuminanceReduced ? 0.35 : 1))
+                                    .overlay {
+                                        if WorkloadColorStyle.blendsIntoSurface(active.colorHex, onDarkSurface: true) {
+                                            Circle().strokeBorder(.white.opacity(0.4), lineWidth: 1)
+                                        }
+                                    }
+                                VStack(spacing: 4) {
+                                    Text("IN")
+                                        .font(.system(size: inFontSize, weight: .bold, design: .rounded))
+                                    Text(watchTimer(max(0, context.date.timeIntervalSince(active.start))))
+                                        .font(.system(size: timerFontSize, weight: .medium, design: .monospaced))
+                                        .opacity(timerOpacity)
+                                        .contentTransition(.numericText())
+                                }
+                                .foregroundStyle(lightInk ? .white : .black)
+                            } else {
+                                Circle()
+                                    .stroke(Color(hex: "1C1C1D"), lineWidth: 3)
+                                Text("OUT")
+                                    .font(.system(size: outFontSize, weight: legibilityWeight == .bold ? .heavy : .bold, design: .rounded))
+                                    .foregroundStyle(Color(hex: "8D8D93"))
+                            }
+                        }
+                        .frame(width: diameter, height: diameter)
+                        .frame(maxWidth: .infinity)
+                        .contentShape(Circle())
+                    }
+                    .buttonStyle(.plain)
+                    .padding(.top, active == nil ? 11 : 17)
+                    .accessibilityLabel(active == nil ? "Punch in. Choose workload." : "Punch out")
+                    .accessibilityIdentifier("watchPunchButton")
+                    .accessibilityValue(watchReferenceDiagnostics(dynamicTypeSize, legibilityWeight, sizes: ["OUT": Double(outFontSize), "IN": Double(inFontSize), "timer": Double(timerFontSize)], details: active == nil ? [:] : ["timerInkOpacity": String(format: "%.2f", timerOpacity)]))
+                    if let active {
+                        HStack(spacing: 4.5) {
+                            Image(systemName: "clock.fill")
+                                .font(.system(size: startedIconSize))
+                                .offset(x: 0.5)
+                            Text("Started \(watchClock(active.start))")
+                                .font(.system(size: startedFontSize, weight: legibilityWeight == .bold ? .medium : .regular))
+                        }
+                            .foregroundStyle(Color(hex: "8D8D93"))
+                            .lineLimit(1)
+                            .padding(.top, 7.5)
+                            .accessibilityElement(children: .combine)
+                            .accessibilityLabel("\(active.workloadName). Started \(watchClock(active.start))")
+                            .accessibilityIdentifier("watchActiveWorkload")
+                    }
+                    WatchTotalStrip(title: "Today", seconds: total(.day, at: context.date), color: store.settings.tint, layoutHeight: active == nil ? 32 : 35)
+                        .offset(y: active == nil ? 0.5 : -2)
+                        .padding(.top, active == nil ? 0 : 5)
+                    Spacer(minLength: 3)
+                }
+                .padding(.horizontal, 8)
+                .padding(.bottom, 20)
+            }
+        }
+    }
+
+    private func watchTimer(_ seconds: TimeInterval) -> String {
+        let value = max(0, Int(seconds))
+        if value < 3600 { return String(format: "%02d:%02d", value / 60, value % 60) }
+        return TimeFormat.timer(seconds)
+    }
+
+    private func total(_ component: Calendar.Component, at date: Date) -> TimeInterval {
+        let interval = Calendar.current.dateInterval(of: component, for: date) ?? DateInterval(start: date, duration: 0)
+        return TimeMath.total(sessions: store.sessions, in: interval, now: date)
+    }
+}
+
+private struct WatchTotalStrip: View {
+    let title: String
+    let seconds: TimeInterval
+    let color: Color
+    let layoutHeight: CGFloat
+    @Environment(\.legibilityWeight) private var legibilityWeight
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @ScaledMetric(relativeTo: .caption) private var labelFontSize = 12.0
+    @ScaledMetric(relativeTo: .body) private var valueFontSize = 14.0
+    var body: some View {
+        HStack {
+            Text(title)
+                .font(.system(size: labelFontSize, weight: legibilityWeight == .bold ? .medium : .regular))
+                .foregroundStyle(Color(hex: "535356"))
+            Spacer(minLength: 3)
+            Text(TimeFormat.duration(seconds))
+                .font(.system(size: valueFontSize, weight: .medium, design: .monospaced))
+                .foregroundStyle(color)
+                .minimumScaleFactor(0.65)
+                .lineLimit(1)
+                .fixedSize(horizontal: false, vertical: true)
+                .frame(height: 17)
+        }
+        .padding(.horizontal, 12)
+        .padding(.vertical, 6)
+        .background(Color(hex: "121213"), in: RoundedRectangle(cornerRadius: 8))
+        .frame(height: layoutHeight)
+        .accessibilityElement(children: .combine)
+        .accessibilityIdentifier("watchTodayTotal")
+        .accessibilityValue(watchReferenceDiagnostics(dynamicTypeSize, legibilityWeight, sizes: ["label": Double(labelFontSize), "value": Double(valueFontSize)]))
+    }
+}
+
+private struct WatchTotalsView: View {
+    let store: TimeStore
+    @Environment(\.legibilityWeight) private var legibilityWeight
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @ScaledMetric(relativeTo: .body) private var fontSize = 16.0
+
+    var body: some View {
+        TimelineView(.periodic(from: .now, by: 30)) { context in
+            GeometryReader { geometry in
+                VStack(spacing: 5) {
+                    ForEach(Array([(Calendar.Component.day, "Today"), (.weekOfYear, "This Week"), (.month, "This Month")].enumerated()), id: \.offset) { _, item in
+                        HStack(spacing: 3) {
+                            Text(item.1)
+                                .foregroundStyle(Color(hex: "9A9AA1"))
+                            Spacer(minLength: 2)
+                            Text(TimeFormat.duration(total(item.0, at: context.date)))
+                                .foregroundStyle(store.settings.tint)
+                                .fontDesign(.monospaced)
+                                .minimumScaleFactor(0.6)
+                                .lineLimit(1)
+                        }
+                        .font(.system(size: fontSize))
+                        .padding(.leading, 10.5)
+                        .padding(.trailing, 10.5)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(Color(hex: "222223"), in: RoundedRectangle(cornerRadius: 12))
+                        .accessibilityElement(children: .combine)
+                        .accessibilityIdentifier("watchPeriod-\(item.1)")
+                        .accessibilityValue(watchReferenceDiagnostics(dynamicTypeSize, legibilityWeight, sizes: ["body": Double(fontSize)]))
+                    }
+                }
+                .padding(.bottom, 40)
+                .frame(width: geometry.size.width, height: geometry.size.height, alignment: .top)
+            }
+            .ignoresSafeArea(.container, edges: .bottom)
+        }
+    }
+
+    private func total(_ component: Calendar.Component, at date: Date) -> TimeInterval {
+        var calendar = Calendar.current
+        calendar.firstWeekday = store.settings.weekStartsMonday ? 2 : 1
+        let interval = calendar.dateInterval(of: component, for: date) ?? DateInterval(start: date, duration: 0)
+        return TimeMath.total(sessions: store.sessions, in: interval, now: date)
+    }
+}
+
+private struct WatchWorkloadPicker: View {
+    let store: TimeStore
+    @Environment(\.dismiss) private var dismiss
+    @State private var selectedID: UUID?
+
+    private var selected: Workload? {
+        store.workloads.first { $0.id == selectedID } ?? store.workloads.first
+    }
+
+    var body: some View {
+        NavigationStack {
+            VStack(spacing: 2) {
+                Picker("Workload", selection: $selectedID) {
+                    ForEach(store.workloads) { workload in
+                        HStack(spacing: 7) {
+                            WatchWorkloadSwatch(hex: workload.colorHex, diameter: 12)
+                            Text(workload.name).foregroundStyle(watchWorkloadLabelColor(workload.colorHex))
+                        }
+                        .tag(Optional(workload.id))
+                        .accessibilityLabel(workload.name)
+                    }
+                }
+                .pickerStyle(.wheel)
+                .accessibilityIdentifier("watchWorkloadPicker")
+                .accessibilityValue(selected?.name ?? "No workloads")
+                .frame(maxHeight: .infinity)
+                if let selected {
+                    Button {
+                        store.start(workload: selected)
+                        if store.errorMessage == nil {
+                            WKInterfaceDevice.current().play(.start)
+                            dismiss()
+                        }
+                    } label: {
+                        Label("Punch In", systemImage: "circle.fill")
+                            .font(.headline)
+                            .foregroundStyle(WorkloadColorStyle.watchNeedsLightInk(selected.colorHex) ? .white : .black)
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 8)
+                    }
+                    .background(selected.color, in: Capsule())
+                    .overlay {
+                        if WorkloadColorStyle.blendsIntoSurface(selected.colorHex, onDarkSurface: true) {
+                            Capsule().strokeBorder(.white.opacity(0.4), lineWidth: 1)
+                        }
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("watchConfirmPunchIn")
+                } else {
+                    Text("Add a workload on iPhone.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(.horizontal, 8)
+            .padding(.bottom, 5)
+            .navigationTitle("Workload")
+            .onAppear { selectedID = store.workloads.first?.id }
+        }
+    }
+}
+
+private func watchWorkloadLabelColor(_ hex: String) -> Color {
+    WorkloadColorStyle.textNeedsPrimaryInk(hex, onDarkSurface: true) ? .primary : Color(hex: hex)
+}
+
+private struct WatchWorkloadSwatch: View {
+    let hex: String
+    let diameter: CGFloat
+
+    var body: some View {
+        Circle()
+            .fill(Color(hex: hex))
+            .overlay {
+                if WorkloadColorStyle.blendsIntoSurface(hex, onDarkSurface: true) {
+                    Circle().strokeBorder(.white.opacity(0.4), lineWidth: 1)
+                }
+            }
+            .frame(width: diameter, height: diameter)
+    }
+}
+
+private func watchClock(_ date: Date) -> String {
+    let parts = Calendar.current.dateComponents([.hour, .minute], from: date)
+    return String(format: "%02d:%02d", parts.hour ?? 0, parts.minute ?? 0)
+}
+
+private func watchReferenceDiagnostics(_ dynamicTypeSize: DynamicTypeSize, _ legibilityWeight: LegibilityWeight?, sizes: [String: Double], details: [String: String] = [:]) -> String {
+    let arguments = ProcessInfo.processInfo.arguments
+    guard arguments.contains("--ui-testing"), arguments.contains("--reference-appearance") else { return "" }
+    let points = sizes.keys.sorted().map { "\($0)=\(String(format: "%.2f", sizes[$0]!))" }.joined(separator: ",")
+    let extra = details.keys.sorted().map { ";\($0)=\(details[$0]!)" }.joined()
+    return "dynamicTypeSize=\(dynamicTypeSize);legibilityWeight=\(String(describing: legibilityWeight));pointSizes=\(points)\(extra)"
+}
+
+private enum WatchTimerInkStyle {
+    static func opacity(on hex: String, usingLightInk: Bool, isLuminanceReduced: Bool = false) -> Double {
+        guard !isLuminanceReduced else { return 1 }
+        let normalized = hex.trimmingCharacters(in: CharacterSet(charactersIn: "#"))
+        guard normalized.count == 6, let value = UInt32(normalized, radix: 16) else { return 1 }
+        let background = [Double((value >> 16) & 255), Double((value >> 8) & 255), Double(value & 255)].map { $0 / 255 }
+        let ink = usingLightInk ? 1.0 : 0.0
+        let composite = background.map { ink * 0.7 + $0 * 0.3 }
+        let backgroundLuminance = luminance(background)
+        let inkLuminance = luminance(composite)
+        let contrast = (max(backgroundLuminance, inkLuminance) + 0.05) / (min(backgroundLuminance, inkLuminance) + 0.05)
+        return contrast >= 4.5 ? 0.7 : 1
+    }
+
+    private static func luminance(_ channels: [Double]) -> Double {
+        let linear = channels.map { $0 <= 0.04045 ? $0 / 12.92 : pow(($0 + 0.055) / 1.055, 2.4) }
+        return linear[0] * 0.2126 + linear[1] * 0.7152 + linear[2] * 0.0722
+    }
+}

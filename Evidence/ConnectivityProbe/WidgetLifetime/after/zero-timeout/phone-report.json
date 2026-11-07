@@ -1,0 +1,113 @@
+{
+  "converged": true,
+  "finalSnapshot": {
+    "schemaVersion": 1,
+    "sessions": [
+      {
+        "colorHex": "43D10D",
+        "end": 815735356.714305,
+        "id": "E0BA045A-7552-4CC3-9C1D-2816A6E7FB37",
+        "modifiedAt": 815735356.71434,
+        "source": "iPhone",
+        "start": 815735354.636467,
+        "timerBoundaries": [
+          {
+            "id": "E0BA045A-7552-4CC3-9C1D-2816A6E7FB37",
+            "start": 815735354.636467,
+            "timestamp": 815735354.636466
+          }
+        ],
+        "workloadID": "00000000-0000-0000-0000-000000000001",
+        "workloadName": "Work"
+      }
+    ],
+    "settings": {
+      "dailyLimitHours": 8,
+      "focus": "balance",
+      "modifiedAt": -63114076800,
+      "themeHex": "43D10D",
+      "weekStartsMonday": true,
+      "weeklyGoalHours": 40
+    },
+    "workloads": [
+      {
+        "colorHex": "43D10D",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Work"
+      },
+      {
+        "colorHex": "2699F5",
+        "id": "00000000-0000-0000-0000-000000000002",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Study"
+      },
+      {
+        "colorHex": "7955EB",
+        "id": "00000000-0000-0000-0000-000000000003",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Personal"
+      }
+    ]
+  },
+  "finished": false,
+  "initialSnapshot": {
+    "schemaVersion": 1,
+    "sessions": [
+      {
+        "colorHex": "43D10D",
+        "id": "E0BA045A-7552-4CC3-9C1D-2816A6E7FB37",
+        "modifiedAt": 815735354.636466,
+        "source": "iPhone",
+        "start": 815735354.636467,
+        "timerBoundaries": [
+          {
+            "id": "E0BA045A-7552-4CC3-9C1D-2816A6E7FB37",
+            "start": 815735354.636467,
+            "timestamp": 815735354.636466
+          }
+        ],
+        "workloadID": "00000000-0000-0000-0000-000000000001",
+        "workloadName": "Work"
+      }
+    ],
+    "settings": {
+      "dailyLimitHours": 8,
+      "focus": "balance",
+      "modifiedAt": -63114076800,
+      "themeHex": "43D10D",
+      "weekStartsMonday": true,
+      "weeklyGoalHours": 40
+    },
+    "workloads": [
+      {
+        "colorHex": "43D10D",
+        "id": "00000000-0000-0000-0000-000000000001",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Work"
+      },
+      {
+        "colorHex": "2699F5",
+        "id": "00000000-0000-0000-0000-000000000002",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Study"
+      },
+      {
+        "colorHex": "7955EB",
+        "id": "00000000-0000-0000-0000-000000000003",
+        "isArchived": false,
+        "modifiedAt": -63114076800,
+        "name": "Personal"
+      }
+    ]
+  },
+  "mode": "observe",
+  "processID": 44703,
+  "sessionID": "E0BA045A-7552-4CC3-9C1D-2816A6E7FB37",
+  "side": "phone"
+}

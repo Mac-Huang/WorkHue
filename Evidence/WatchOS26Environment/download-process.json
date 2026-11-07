@@ -1,0 +1,12 @@
+{
+  "pid": 88666,
+  "command": [
+    "xcodebuild",
+    "-downloadPlatform",
+    "watchOS",
+    "-buildVersion",
+    "26.5",
+    "-architectureVariant",
+    "arm64"
+  ]
+}

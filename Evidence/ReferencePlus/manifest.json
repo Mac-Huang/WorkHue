@@ -1,0 +1,110 @@
+[
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "A00759ED-790F-4E76-9476-C038E41200C6.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Recorded workloads in day history_0_3A994BEF-E7C9-43CB-A2A8-026547E93011.png",
+        "timestamp" : 1794039788.3
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "150BEA74-9DCC-4D8D-8400-09BFA49A2D13.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Active Study session_0_C720ACE0-D6EA-4F60-9E27-AD3FB7D36BFC.png",
+        "timestamp" : 1794039781.865
+      }
+    ],
+    "testIdentifier" : "PunchinoUITests/testEachSessionKeepsItsSelectedWorkload()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testEachSessionKeepsItsSelectedWorkload"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "0DAF9D5B-FB9C-44E0-8A7D-363A68119C73.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Workload color choices_0_162CF7DF-1B40-4BA6-B5AD-8A30E34644AA.png",
+        "timestamp" : 1794039804.737
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "560D78DF-1301-4F37-92CD-3514E65BA0E7.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Idle Track layout_0_1C090635-6219-4A46-882E-03DCFDF7C402.png",
+        "timestamp" : 1794039801.133
+      }
+    ],
+    "testIdentifier" : "PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession"
+  },
+  {
+    "attachments" : [
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "B26BA0E9-D3E1-41B2-BA79-F763544F32C6.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Statistics W_0_C6EEFCD7-0519-4969-8BA0-C9927331F796.png",
+        "timestamp" : 1794039830.909
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "033D282A-E697-49AE-8F31-66863DC55DC8.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Idle Track_0_E65201F9-D090-46F7-A6F1-4EE78D2A45C8.png",
+        "timestamp" : 1794039826.019
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "5A6B17F5-A10F-4467-B4F2-3ABF2B8A47FB.txt",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings accessibility_0_A793BD78-8A07-4250-9085-1DEDD9F73866.txt",
+        "timestamp" : 1794039820.914
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "DB62F49B-B8F3-466B-9386-4C2A7A73482B.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings goals_0_CBD6D63E-1DB5-4774-ACAF-3FE39182E845.png",
+        "timestamp" : 1794039820.57
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "CE657805-1BDC-41C5-887A-70EF07BA069B.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Settings top_0_BF57C124-6E08-405F-B7FE-F7C45EBA9049.png",
+        "timestamp" : 1794039820.384
+      },
+      {
+        "configurationName" : "Test Scheme Action",
+        "deviceId" : "1373B48D-7ECF-4E80-994F-B9FCD970AD3D",
+        "deviceName" : "Punchino Reference Plus",
+        "exportedFileName" : "50BDF87C-4286-4551-A7B1-F6E91C44078F.png",
+        "isAssociatedWithFailure" : false,
+        "suggestedHumanReadableName" : "Reference Home_0_70994212-6CE6-498A-AB56-97E2A7B8B543.png",
+        "timestamp" : 1794039818.189
+      }
+    ],
+    "testIdentifier" : "PunchinoUITests/testReferenceAppearance()",
+    "testIdentifierURL" : "test://com.apple.xcode/Punchino/PunchinoUITests/PunchinoUITests/testReferenceAppearance"
+  }
+]

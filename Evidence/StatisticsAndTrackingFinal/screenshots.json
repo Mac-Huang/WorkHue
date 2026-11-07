@@ -1,0 +1,122 @@
+[
+  {
+    "file": "statistics-y.png",
+    "title": "Statistics Y",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-6m.png",
+    "title": "Statistics 6M",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-m.png",
+    "title": "Statistics M",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-w.png",
+    "title": "Statistics W",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "statistics-d.png",
+    "title": "Statistics D",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testAllFiveStatisticsRanges()"
+  },
+  {
+    "file": "recorded-workloads-in-day-history.png",
+    "title": "Recorded workloads in day history",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testEachSessionKeepsItsSelectedWorkload()"
+  },
+  {
+    "file": "active-study-session.png",
+    "title": "Active Study session",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testEachSessionKeepsItsSelectedWorkload()"
+  },
+  {
+    "file": "workload-color-choices.png",
+    "title": "Workload color choices",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession()"
+  },
+  {
+    "file": "idle-track-layout.png",
+    "title": "Idle Track layout",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFirstTapRevealsColorsWithoutStartingSession()"
+  },
+  {
+    "file": "focus-observe.png",
+    "title": "Focus observe",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "settings-focus-observe.png",
+    "title": "Settings focus observe",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "focus-momentum.png",
+    "title": "Focus momentum",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "settings-focus-momentum.png",
+    "title": "Settings focus momentum",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "focus-balance.png",
+    "title": "Focus balance",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "settings-focus-balance.png",
+    "title": "Settings focus balance",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testFocusModesChangeStatisticsCards()"
+  },
+  {
+    "file": "empty-day-statistics-focus-observe.png",
+    "title": "Empty Day statistics focus observe",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testStatisticsEmptyAnalysisAndSummary()"
+  },
+  {
+    "file": "empty-day-statistics-focus-balance.png",
+    "title": "Empty Day statistics focus balance",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testStatisticsEmptyAnalysisAndSummary()"
+  },
+  {
+    "file": "empty-day-statistics-accessibility.txt",
+    "title": "Empty Day statistics accessibility",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testStatisticsEmptyAnalysisAndSummary()"
+  },
+  {
+    "file": "empty-day-analysis-outliers-and-summary.png",
+    "title": "Empty Day analysis outliers and summary",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testStatisticsEmptyAnalysisAndSummary()"
+  },
+  {
+    "file": "empty-day-statistics-chart.png",
+    "title": "Empty Day statistics chart",
+    "sourceResult": "TestResults/StatisticsAndTrackingFinal.xcresult",
+    "test": "PunchinoUITests/testStatisticsEmptyAnalysisAndSummary()"
+  }
+]

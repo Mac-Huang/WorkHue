@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "sessions": [
+    {
+      "colorHex": "000000",
+      "end": 815735839.092617,
+      "id": "80D09E2F-669C-43D0-B6AB-66488F4BFA98",
+      "modifiedAt": 815735839.092621,
+      "source": "watch",
+      "start": 815735837.297292,
+      "timerBoundaries": [
+        {
+          "id": "80D09E2F-669C-43D0-B6AB-66488F4BFA98",
+          "start": 815735837.297292,
+          "timestamp": 815735837.297291
+        }
+      ],
+      "workloadID": "00000000-0000-0000-0000-000000000100",
+      "workloadName": "Black"
+    },
+    {
+      "colorHex": "FFFFFF",
+      "end": 815735849.109184,
+      "id": "48ADD7A8-109D-456A-8FE6-EF2184D3CC9E",
+      "modifiedAt": 815735849.109195,
+      "source": "watch",
+      "start": 815735847.307134,
+      "timerBoundaries": [
+        {
+          "id": "48ADD7A8-109D-456A-8FE6-EF2184D3CC9E",
+          "start": 815735847.307134,
+          "timestamp": 815735847.307133
+        }
+      ],
+      "workloadID": "00000000-0000-0000-0000-000000000101",
+      "workloadName": "White"
+    }
+  ],
+  "settings": {
+    "dailyLimitHours": 8,
+    "focus": "balance",
+    "modifiedAt": -63114076800,
+    "themeHex": "43D10D",
+    "weekStartsMonday": true,
+    "weeklyGoalHours": 40
+  },
+  "workloads": [
+    {
+      "colorHex": "000000",
+      "id": "00000000-0000-0000-0000-000000000100",
+      "isArchived": false,
+      "modifiedAt": 815735832.900195,
+      "name": "Black"
+    },
+    {
+      "colorHex": "FFFFFF",
+      "id": "00000000-0000-0000-0000-000000000101",
+      "isArchived": false,
+      "modifiedAt": 815735832.900196,
+      "name": "White"
+    }
+  ]
+}
